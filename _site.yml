@@ -1,8 +1,10 @@
-name: "my-website"
+name: "Eduard Martinez"
+output_dir: "."
+
+# Navegation bar
 navbar:
-  title: "My Website"
   type: inverse
-  left:
+  right:
     - text: "Home"
       icon: fa-home
       href: index.html
@@ -11,6 +13,8 @@ navbar:
       href: about.html
     - text: "More"
       icon: fa-gear
+      
+      # Menu bar
       menu:
         - text: "Heading 1"
         - text: "Page A"
@@ -23,8 +27,13 @@ navbar:
           href: page_c.html
         - text: "Page D"
           href: page_d.html
-  right:
-    - icon: fa-question fa-lg
-      href: https://example.com
-      
-      
+
+# Theme https://bookdown.org/yihui/rmarkdown/html-document.html
+output:
+      html_document:
+                    theme: darkly
+                    mathjax: "http://example.com/MathJax.js"
+                    highlight: tango
+                    css: css/rmarkdown.css
+
+   

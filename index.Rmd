@@ -1,5 +1,14 @@
 ---
 title: "My Website"
+
 ---
 
+ twitter: "@emartigo" 
+  site: "@emartigo"  
 Hello, Website!
+
+  logo:
+    image: images/logo.png
+    href: https://www.rstudio.com
+
+
