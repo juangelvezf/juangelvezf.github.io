@@ -31,7 +31,7 @@ Economics PhD student at the Universidad de los Andes, interested in Crime Econo
 <div class="col-sm-8">
 ## About
 
-I’m an Economics PhD student at Universidad de los Andes. My primary interests are interested in Crime Economics and Education. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
+I’m an Economics PhD student at Universidad de los Andes. My primary interests are Crime Economics, Education and Labor Market. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
 
 You can find my CV <a href="https://eduard-martinez.github.io/pdf/C_Eduard_F_Martinez_G.pdf">here</a>.
 
