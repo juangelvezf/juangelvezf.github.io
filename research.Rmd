@@ -1,5 +1,42 @@
----
-title: "My Website"
----
 
-Hello, Website!
+
+
+# Publications
+
+<h3 style="color:black;"> Economics Schocs and Crimen: Evidence From Colombia  </h3>
+
+
+# Working papers
+
+<!------------- Documento 1 ------------->
+
+<h3 style="color:black;"> Motorcycle restrictions and their effects on crime in Colombia </h3>
+https://eduard-martinez.github.io
+
+
+<p align="justify"> Although motorcycle restrictions have been adopted to reduce crime in more than 25 Colombian cities, no empirical evidence exists to demonstrate their effectiveness. This document evalutes the impact of six of these restrictions. To identify their causal effects, we estimate difference-in-differences models that exploit spatial and temporal variation in their implementation and georeferenced crime data. We find neither large nor lasting effects of these measures on crime. Given the high costs of assuring compliance with these measures and the costs they impose on citizens, local authorities should seek out other public policy alternatives to improve citizen security. </p>
+
+<!------------- Documento 2 ------------->
+
+<h3 style="color:black;"> Payroll taxes, wage rigidities and youth unemployment: Evidence from colombian labor market </h3>
+https://eduard-martinez.github.io
+
+
+<p align="justify"> This paper studies the effect on youth employment of a payroll tax cut for new hires young workers under the age of 28 in Colombia. We exploit differential degrees of exposure to wage rigidities to identify the effect. We measure an individual’s exposure to wage rigidities as the distance, in the city in which the individual lives, from the median salary by educational level with respect to the minimum wage. We have two different treatment groups and use a difference-in-difference model. The effect of reduced payroll taxes is asymmetric for youth who earn below and above the minimum wage. Reducing payroll taxes increased youth labor participation, rather than reducing informality. </p>
+
+<!------------- Documento 3 ------------->
+
+<h3 style="color:black;"> School Education for Inclusion and Social Transformation in the Colombian Caribbean  </h3>
+https://www.banrep.gov.co/es/publicaciones/documento-de-trabajo-economia-regional-y-urbana-263
+
+<p align="justify"> The Caribbean Region of Colombia is particularly behind in terms of school coverage and quality. This paper proposes a set of policies that provide a big push to the public education system and allow closing the gap by 2030. Policies are organized into four categories: Preschool education, full-day schooling, teacher training and institutional capacity. The total cost of the intervention is estimated at 6,274 million dollars over 12 years, of which 2,114 correspond to investments and 4,160 to the additional recurrent expenditures of the education system. </p>
+
+<!------------- Documento 4 ------------->
+
+<h3 style="color:black;"> Economics Schocs and Crimen: Evidence From Colombia  </h3>
+
+
+# Other Publications
+
+<h3 style="color:black;"> Economics Schocs and Crimen: Evidence From Colombia  </h3>
+

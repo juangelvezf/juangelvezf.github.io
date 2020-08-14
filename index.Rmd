@@ -10,7 +10,7 @@
 <img src="./images/profile2.png" class="center" alt="drawing" width="250" height="250"/>
 
 #### Eduard F. Martínez-González
-Economics PhD student at Universidad de los Andes, interested in Crime Economics and Education.
+Economics PhD student at the Universidad de los Andes, interested in Crime Economics and Education.
 
 <!-- Correo -->
 <a href="ef.martinezg@uniandes.edu.co" style="color:black;"> <img alt="Qries" src="./images/correo.png" width=30" height="30">  ef.martinezg@uniandes.edu.co</a>
@@ -31,8 +31,9 @@ Economics PhD student at Universidad de los Andes, interested in Crime Economics
 <div class="col-sm-8">
 ## About
 
+I’m an Economics PhD student at Universidad de los Andes. My primary interests are interested in Crime Economics and Education. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
 
-You can find my CV <a href="ef.martinezg@uniandes.edu.co">here</a>.
+You can find my CV <a href="https://eduard-martinez.github.io/pdf/C_Eduard_F_Martinez_G.pdf">here</a>.
 
 </div> 
 
