@@ -3,16 +3,19 @@ output_dir: "."
 
 # Navegation bar
 navbar:
+  title: "Eduard F. Martínez-González"  
   type: inverse
   right:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-info
-      href: about.html
-    - text: "More"
-      icon: fa-gear
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      #icon: fa-info
+      href: https://eduard-martinez.github.io/pdf/C_Eduard_F_Martinez_G.pdf
+    - text: "Teaching"
+      #icon: fa-gear
       
       # Menu bar
       menu:
@@ -31,7 +34,7 @@ navbar:
 # Theme https://bookdown.org/yihui/rmarkdown/html-document.html
 output:
       html_document:
-                    theme: darkly
+                    theme: cerulean
                     mathjax: "http://example.com/MathJax.js"
                     highlight: tango
                     css: css/rmarkdown.css
