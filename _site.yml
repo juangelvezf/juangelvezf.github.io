@@ -38,5 +38,4 @@ output:
                     #mathjax: "http://example.com/MathJax.js"
                     highlight: tango
                     #css: css/rmarkdown.css
-
-   
+# Correr esto en la consola despues de cada cambio rmarkdown::render_site
