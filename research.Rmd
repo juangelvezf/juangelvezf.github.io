@@ -45,10 +45,10 @@ pagetitle : Eduard F. Martínez-González
 #### Eduard F. Martínez-González
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width=30" height="30"> ef.martinezg@uniandes.edu.co </img></p>
+<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> ef.martinezg@uniandes.edu.co </img></p>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width=30" height="30"> edfemagonza@gmail.com </img></p>
+<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> edfemagonza@gmail.com </img></p>
 
 <!-- Tel -->
 <p style="color:black;font-size:12px;"><img alt="Qries" src="./images/tel.png" width=20" height="20"> (+571) 3394949 Ext: 2430</img></p>
