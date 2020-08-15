@@ -1,4 +1,6 @@
-
+---
+pagetitle : Eduard F. Martínez-González
+---
 
 
 # Publications

@@ -1,9 +1,16 @@
-<p>  </p>
-<p>  </p>
-<p>  </p>
+---
+pagetitle : Eduard F. Martínez-González
+---
+
 <p>  </p>
 
-<!------------- Panel de la derecha ------------->
+<p>  </p>
+
+<p>  </p>
+
+<p>  </p>
+
+<!------------- Panel de la izquierda ------------->
 <div class="col-sm-4">
 
 <!-- Foto completa -->
@@ -29,8 +36,7 @@ Economics PhD student at Universidad de los Andes, interested in Crime Economics
 
 </div>
 
-
-<!------------- Panel de la izquierda ------------->
+<!------------- Panel de la derecha ------------->
 <div class="col-sm-8">
 <p>  </p>
 

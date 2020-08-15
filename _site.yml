@@ -1,6 +1,8 @@
+title: "Eduard F. Martínez-González"  
 name: "Eduard Martinez"
 output_dir: "."
 
+ 
 # Navegation bar
 navbar:
   title: "Eduard F. Martínez-González"  
@@ -34,7 +36,7 @@ navbar:
 output:
       html_document:
                     theme: cerulean
-                    #mathjax: "http://example.com/MathJax.js"
+                    mathjax: "http://example.com/MathJax.js"
                     highlight: tango
-                    #css: css/rmarkdown.css
-# Correr esto en la consola despues de cada cambio rmarkdown::render_site
+                    css: css/style.css
+# Correr esto en la consola despues de cada cambio rmarkdown::render_site()
