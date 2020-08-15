@@ -1,3 +1,13 @@
+a[href^="mailto"] { color: black; }
+.mail a {
+color: black;
+}
+.mail a:hover {
+color: black;
+}
+.sidebar_content .mail a:hover {
+color: black; 
+}
 blockquote {
   font-style: italic
 }
