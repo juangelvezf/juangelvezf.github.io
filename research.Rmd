@@ -40,3 +40,6 @@ pagetitle : Eduard F. Martínez-González
 
 <p align="justify"> **Abstrac:** The Caribbean Region of Colombia is particularly behind in terms of school coverage and quality. This paper proposes a set of policies that provide a big push to the public education system and allow closing the gap by 2030. Policies are organized into four categories: Preschool education, full-day schooling, teacher training and institutional capacity. The total cost of the intervention is estimated at 6,274 million dollars over 12 years, of which 2,114 correspond to investments and 4,160 to the additional recurrent expenditures of the education system. </p> --->
 
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<br>  </br> <!--- Agrega lineas en blanco --->
