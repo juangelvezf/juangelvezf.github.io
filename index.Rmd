@@ -2,13 +2,7 @@
 pagetitle : Eduard F. Martínez-González
 ---
 
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
+<br>  </br> <!--- Agrega lineas en blanco --->
 
 <!------------- Panel de la izquierda ------------->
 <div class="col-sm-4">
@@ -38,13 +32,8 @@ Economics PhD student at Universidad de los Andes, interested in Crime Economics
 
 <!------------- Panel de la derecha ------------->
 <div class="col-sm-8">
-<p>  </p>
 
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
+<br>  </br> <!--- Agrega lineas en blanco --->
 
 ## About
 
@@ -52,13 +41,7 @@ I’m an Economics PhD student at Universidad de los Andes. My primary interests
 
 You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">here</a>.
 
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
+<br>  </br> <!--- Agrega lineas en blanco --->
 
 ## Experience
 
@@ -66,13 +49,7 @@ I’m an Economics PhD student at Universidad de los Andes. My primary interests
 
 You can find my CV <a href="https://eduard-martinez.github.io/pdf/C_Eduard_F_Martinez_G.pdf">here</a>.
 
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
-
-<p>  </p>
+<br>  </br> <!--- Agrega lineas en blanco --->
 
 ## Skills
 
