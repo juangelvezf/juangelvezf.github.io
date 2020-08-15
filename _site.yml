@@ -14,23 +14,26 @@ navbar:
     - text: "Research"
       href: research.html
     - text: "CV"
-      #icon: fa-info
       href: https://eduard-martinez.github.io/pdf/C_Eduard_F_Martinez_G.pdf
-
     - text: "Teaching"
+      href: teaching.html
+    - text: "Databases"
+      href: databases.html
+
+    - text: "Blog"
       # Menu bar
       menu:
         - text: "Heading 1"
         - text: "Page A"
-          href: page_a.html
+          href: https://eduard-martinez.github.io/blog/page_a.html
         - text: "Page B"
-          href: page_b.html
+          href: https://eduard-martinez.github.io/blog/page_b.html
         - text: "---------"
         - text: "Heading 2"
         - text: "Page C"
-          href: page_c.html
+          href: https://eduard-martinez.github.io/blog/page_c.html
         - text: "Page D"
-          href: page_d.html
+          href: https://eduard-martinez.github.io/blog/page_d.html
 
 # Theme https://bookdown.org/yihui/rmarkdown/html-document.html
 output:

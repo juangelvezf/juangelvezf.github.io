@@ -2,12 +2,6 @@
 pagetitle : Eduard F. Martínez-González
 ---
 
-
-# Publications
-
-<h3 style="color:black;"> Economics Schocs and Crimen: Evidence From Colombia  </h3>
-
-
 # Working papers
 
 <!------------- Documento 1 ------------->
