@@ -1,5 +1,3 @@
 ---
-title: "My Website"
+pagetitle : Eduard F. Martínez-González
 ---
-
-Hello, Website!

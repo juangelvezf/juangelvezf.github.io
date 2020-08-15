@@ -40,6 +40,6 @@ output:
       html_document:
                     theme: cerulean
                     mathjax: "http://example.com/MathJax.js"
-                    highlight: tango
+                    highlight: haddock
                     css: css/style.css
 # Correr esto en la consola despues de cada cambio rmarkdown::render_site()

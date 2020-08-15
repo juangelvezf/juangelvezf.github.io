@@ -15,7 +15,8 @@ html, body, .footerPushDown {
 
 p {
   line-height: 1.7em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  
 }
 
 .band.full {
@@ -887,3 +888,12 @@ iframe.scale65 {
   padding-right: 5px;
   padding-bottom: 5px;
 }
+
+
+.imageContainer {
+       width:200px; 
+       height:200px; 
+       background-image: url(locationoftheimage);
+ }
+ 
+ 
