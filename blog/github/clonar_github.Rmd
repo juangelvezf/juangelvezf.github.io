@@ -131,8 +131,8 @@ setwd("~/Downloads")
 
 ```{r}
 # Descargar el repositorio
-#download.file(url = "https://github.com/taller-R/Clase_1/archive/master.zip", 
-#              destfile = "clase_1.zip")
+download.file(url = "https://github.com/taller-R/Clase_1/archive/master.zip", 
+              destfile = "clase_1.zip")
 ```
 
 <p align="justify" style="font-size:18px;"> Después de correr estas lineas, se genera en nuestro directorio de trabajo un archivo llamdo "clase_1.zip" en formato **.zip** con el contenido del repositorio. </p>  
@@ -154,7 +154,7 @@ unzip(zipfile = "clase_1.zip")
 
 ```{r}
 # Cambiar el directorio de trabajo
-#setwd("~/Downloads/clase_1-master")
+setwd("~/Downloads/clase_1-master")
 
 # Inspeccionar archivos en el directorio 
 list.files()
