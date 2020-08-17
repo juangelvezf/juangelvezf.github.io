@@ -25,7 +25,7 @@ navbar:
       menu:
         - text: "Clases"
         - text: "Three Ways to Clone a GitHub Repository (In Spanish)"
-          href: blog/github/clonar_github.Rdm
+          href: blog/github/clonar_github.html
         #- text: "Page B"
         #  href: https://eduard-martinez.github.io/blog/page_b.html
        # - text: "---------"
