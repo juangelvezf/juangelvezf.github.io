@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Date: 16-08-2020
 
 # Vamos a establecer el directorio de trabajo
-#setwd("~/Downloads")
+setwd("~/Downloads")
 ```
 
 <p align="justify" style="font-size:18px;"> Ahora vamos al repositorio en GitHub y hacemos clic en <img alt="Qries" src="./graphs/boton_code.png" width=60" height="25"></img> y después hacemos clic derecho sobre <img alt="Qries" src="./graphs/download_boton.png" width=100" height="35"></img> para que se despliegue el siguiente menu:</p>  
@@ -48,8 +48,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 # Descargar el repositorio
-#download.file(url = "https://github.com/taller-R/Clase_1/archive/master.zip", 
-#              destfile = "clase_1.zip")
+download.file(url = "https://github.com/taller-R/Clase_1/archive/master.zip", 
+              destfile = "clase_1.zip")
 ```
 
 <p align="justify" style="font-size:18px;"> Ahora debemos tener en un nuestro directorio de trabajo, un archivo llamdo "clase_1.zip" en formato **.zip** son el contenido del repositorio. </p>  
@@ -60,7 +60,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 # Descomprimir el archivo
-#unzip(zipfile = "clase_1.zip")
+unzip(zipfile = "clase_1.zip")
 ```
 
 <p align="justify" style="font-size:18px;"> Ahora debemos tener en un nuestro directorio de trabajo, una carpeta llamda "clase_1-master" con el contenido del repositorio. </p>  
@@ -71,7 +71,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 # Cambiar el directorio de trabajo
-#setwd("~/Downloads/clase_1-master")
+setwd("~/Downloads/clase_1-master")
 
 # Inspeccionar archivos en el directorio 
 list.files()
@@ -86,39 +86,70 @@ list.files()
 
 <img align='center' alt="Qries" src="./graphs/download_git.png" width=300" height="200"></img>
 
-<!--- 3. Subtirulo --->
+<!--- 3.1.1 Subtirulo --->
 <h3 style="color:red;"> 3.1.1 Instalación de Git en Windows. </h3>
 
 <p align="justify" style="font-size:18px;"> Si usted tiene un Windows solo debe descargar el instalador de [git bash](https://git-scm.com/download/win) (Git for Windows Setup de 32-bit o 64-bit) e instalarlo. </p>
 
 <img align='center' alt="Qries" src="./graphs/git_windows.png" width=300" height="150"></img>
 
-<!--- 3. Subtirulo --->
+<!--- 3.1.2 Subtirulo --->
 <h3 style="color:red;"> 3.1.2 Instalación de Git en Mac. </h3>
 
 <p align="justify" style="font-size:18px;"> Si usted tiene un Mac, primero debe ir a la terminal de su equipo (puede hacerlo desde Rstudio) e instalar [Homebrew](https://brew.sh/index_es). "*Homebrew* instala todo aquello que necesitas que Apple no instala de serie". Para instalarlo, debes copiar este codígo ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"``` y pegarlo en la terminal.</p>
 
-<img align='center' alt="Qries" src="./graphs/homebrew.png" width=600" height="150"></img>
+<img align='center' alt="Qries" src="./graphs/homebrew.png" width=700" height="180"></img>
 
 <p align="justify" style="font-size:18px;"> Ahora puede instalar Git copiando y pengando este comnado en la terminal ```brew install git```.</p>
 
-<img align='center' alt="Qries" src="./graphs/install_git.png" width=600" height="250"></img>
+<img align='center' alt="Qries" src="./graphs/install_git.png" width=700" height="300"></img>
 
-<!--- 3. Subtirulo --->
+<!--- 3.2 Subtirulo --->
 <h3 style="color:red;"> 3.2 Configuración inicial de Git. </h3>
 
-<p align="justify" style="font-size:18px;"> Ahora vamos a configurar nuestra cuenta de GitHub desde la terminal. Este proceso solo se realiza una vez. Primero vamos a la consol e inscribimos la ssiguiente linea de código: .</p>
+<p align="justify" style="font-size:18px;"> Ahora vamos a configurar nuestra cuenta de GitHub desde la terminal. Este proceso solo se debe realizar una vez, ya que la información queda guardada en la configuración de nuestro equipo. Primero vamos a la terminal e inscribimos la siguiente linea de código: ```git config --global user.name "Aqui escribes tu usuario de GitHub"```. Puedes verificar que lo hiciste bien escribiendo ```git config user.name``` nuevamente.</p>
 
+<img align='center' alt="Qries" src="./graphs/user.png" width=700" height="180"></img>
 
+<p align="justify" style="font-size:18px;"> Ahora debes escribir la siguiente linea de código: ```git config --global user.email "Aqui escribes el correo que usas en GitHub"``` luego escribes ```git config user.email``` para verificar que lo hiciste bien.</p>
 
+<img align='center' alt="Qries" src="./graphs/email.png" width=700" height="180"></img>
 
+<p align="justify" style="font-size:18px;"> Finalmente debes escribir la siguiente linea de código: ```git config --global user.password "Aqui escribes tu contraseña"```. Con esto quedó configurado nuestra cuenta de git en nuestro equipo.</p>
 
+<!--- 3.3 Subtirulo --->
+<h3 style="color:red;"> 3.3 Clonar el repositorio. </h3>
 
+<p align="justify" style="font-size:18px;"> Ya podemos ir al repositorio de GitHub. Para poder hacer una copia de un repositorio de GitHub, primero debemos hacer una bifurcaci'on del repositorio original. Para ello, debemos ir al repositorio que nos interesa clonar y hacer clic en <img alt="Qries" src="./graphs/fork.png" width=70" height="30"></img>. Esto debe crear un nuevo brazo del repositorio así:</p>
 
+<img align='center' alt="Qries" src="./graphs/branch.png" width=300" height="180"></img>
 
+<p align="justify" style="font-size:18px;"> Ahora debemos ir al repositorio que clonamos y hacemos clic en <img alt="Qries" src="./graphs/boton_code.png" width=60" height="25"></img> y después hacemos clic sobre <img alt="Qries" src="./graphs/boton_clone.png" width=50" height="30"></img> para copiar la url del repositorio. </p>
 
+<img align='center' alt="Qries" src="./graphs/url_clone.png" width=300" height="300"></img>
 
+<!--- 3.4 Subtirulo --->
+<h3 style="color:red;"> 3.4 Crear una versión de control en R. </h3>
 
+<p align="justify" style="font-size:18px;"> Ahora vamos a Rstudio y creamos un proyecto de versi'on de control. Para ello vamos a la ventana de Rstudio y hacemos clic en <img alt="Qries" src="./graphs/b_1.png" width=35" height="25"></img> para que se despliegue el siguente menu: </p>
 
+<img align='center' alt="Qries" src="./graphs/p_1.png" width=300" height="300"></img>
+
+<p align="justify" style="font-size:18px;"> posteriormente hacemos clic en **Version Control**  para que se despliegue el siguente menu: </p>
+
+<img align='center' alt="Qries" src="./graphs/p_2.png" width=300" height="250"></img>
+
+<p align="justify" style="font-size:18px;"> ahora seleccionamos la opci'on **Git**  para que se despliegue el siguente menu: </p>
+
+<img align='center' alt="Qries" src="./graphs/p_3.png" width=350" height="250"></img>
+
+<p align="justify" style="font-size:18px;"> en la opci'on **Repository URL:** vamos a pegar la URL del repositorio que copiamos en el paso anterior y en **Project directory name:** vamos a escribir el nombre que queremos ponerle a la carpeta que va a contener el repositorio.Finalmente, en **Create project as subdirectory of:** vamos a seleccionar la ubicaci'on de la carpeta en nuestro equipo. Despues de esto, en la parte superior de la "memoria activa" de Rstudio se debe observar un incono con el nombre del proyecto <img alt="Qries" src="./graphs/b_4.png" width=70" height="30"></img>. De igual forma, Rstudio fija como directorio de trabajo, la carpeta que contiene el proyecto que acabamos de crear. Usted deber'ia observar el contenido de la carpeta así:</p>
+
+<img align='center' alt="Qries" src="./graphs/p_4.png" width=350" height="250"></img>
+
+<!--- 3.5 Subtirulo --->
+<h3 style="color:red;"> 3.5 Guardar los cambios en nuestro repositorio. </h3>
+
+<p align="justify" style="font-size:18px;"> Finalmente, podemos guardar los cambios en el repositorio que clonamos a nuestra cuenta de GitHub, para ello debemos escribir las siguientes lineas de c'odigo sobre la terminal de R. Para subir los cambios que hemos realizado, primero debemos escribir ```git add -A``` para marcar todos los archivos que queremos subir a GitHub. Despu'es debemos escribir ```git commit -m "Escribir comentario"```, en **Escribir comentarios** debe escribir el comentario que usted quiere asignarle a los cambios que realizó. Finalmente, para subir los cambios, usted debe escribir ```git push``` y listo, ya puede ir a revisar los cambios realizados al repositorio en la p'agina de GitHub.</p>
 
 </div>

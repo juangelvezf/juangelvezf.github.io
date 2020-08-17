@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Eduard Martinez" />
+
+
+<title>Como descargar un repositorio de GitHub desde R</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; } /* Alert */
+code span.an { color: #008000; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #0000ff; } /* ControlFlow */
+code span.ch { color: #008080; } /* Char */
+code span.cn { } /* Constant */
+code span.co { color: #008000; } /* Comment */
+code span.cv { color: #008000; } /* CommentVar */
+code span.do { color: #008000; } /* Documentation */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.im { } /* Import */
+code span.in { color: #008000; } /* Information */
+code span.kw { color: #0000ff; } /* Keyword */
+code span.op { } /* Operator */
+code span.ot { color: #ff4000; } /* Other */
+code span.pp { color: #ff4000; } /* Preprocessor */
+code span.sc { color: #008080; } /* SpecialChar */
+code span.ss { color: #008080; } /* SpecialString */
+code span.st { color: #008080; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #008080; } /* VerbatimString */
+code span.wa { color: #008000; font-weight: bold; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Eduard F. Martínez-González</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">CV</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="databases.html">Databases</a>
+</li>
+<li>
+  <a href="clonar_github.html">Clonar</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Blog
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Clases</li>
+    <li>
+      <a href="https://eduard-martinez.github.io/blog/github/clonar_github.html">Clonar un repositorio de GitHub</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<br> </br>
+<div class="col-sm-10">
+
+
+
+<!--- Tirulo --->
+<h1 style="color:black;">
+Tres caminos para clonar/descargar un repositorio de GitHub
+</h1>
+<p align="justify" style="font-size:18px;">
+Para replicar las clases del curso “Taller de R: Estadística y programación” (ver repositorio del curso en GitHub <a href="https://github.com/taller-R">aquí</a>) o cualquier otro repositorio libre en GitHub, usted puede seguir cualquiera de estos tres caminos. Sin embargo, en cualquiera de los tres casos, es necesario que usted se registre y cree una cuenta en <a href="https://github.com/">GitHub</a> previamente.
+</p>
+<!--- 1. Subtirulo --->
+<h2 style="color:red;">
+<ol style="list-style-type: decimal">
+<li>Descargar el respositorio manualmente.
+</h2></li>
+</ol>
+<p align="justify" style="font-size:18px;">
+La forma más sencilla de descargar un repositorio de GitHub para replicar la clase es descargar manualmente la carperta completa del repositorio. Para ello, usted debe ir al repositorio y hacer clic en <img alt="Qries" src="graphs/boton_code.png" width=60" height="25"></img> y después hacer clic en <img alt="Qries" src="graphs/download_boton.png" width=100" height="35"></img>.
+</p>
+<img src="graphs/download_zip.png" />
+<p align="justify" style="font-size:18px;">
+Al hacer esto usted obtiene un archivo de extención <strong>.zip</strong> que debe descomprimir. Desde este momento usted puede usar todos los archivos del repositorio. Para propositos de la clase, es importante que usted lea los archivos <em>README.html</em> y el otro archivo <em>.html</em> que está en la carpeta <strong>help</strong>.
+</p>
+<!--- 2. Subtirulo --->
+<h2 style="color:red;">
+<ol start="2" style="list-style-type: decimal">
+<li>Usando la URL del repositorio.
+</h2></li>
+</ol>
+<p align="justify" style="font-size:18px;">
+Podemos descargar el repositorio usando la <em>URL</em> del archivo <strong>.zip</strong>. Para ello, primero vamos a ir a la consola de Rstudio y generamos un script y pegamos directorio de trabajo en el que deseamos descargar la carpeta.
+</p>
+<p><img align='center' alt="Qries" src="graphs/setwd.png" width=300" height="300"></img></p>
+<p align="justify" style="font-size:18px;">
+Y copiamos el código que se genera en la consola <code>setwd("~/Downloads")</code> y lo pegamos en el script.
+</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># By: Eduard Martinez</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="co"># Date: 16-08-2020</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># Vamos a establecer el directorio de trabajo</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">setwd</span>(<span class="st">&quot;~/Downloads&quot;</span>)</span></code></pre></div>
+<p align="justify" style="font-size:18px;">
+Ahora vamos al repositorio en GitHub y hacemos clic en <img alt="Qries" src="graphs/boton_code.png" width=60" height="25"></img> y después hacemos clic derecho sobre <img alt="Qries" src="graphs/download_boton.png" width=100" height="35"></img> para que se despliegue el siguiente menu:
+</p>
+<p><img align='center' alt="Qries" src="graphs/menu.png" width=300" height="300"></img></p>
+<p align="justify" style="font-size:18px;">
+Ahora, debe hacer clic sobre <img alt="Qries" src="graphs/enlace.png" width=100" height="25"></img>. Esto copiará la <em>URL</em> que contiene el archivo <strong>.zip</strong> del repositorio. Ahora vamos a usar la función <code>download.file</code> del paquete <code>utils</code> (este paquete viene por default en la instalación de R, así que no deberia tener problemas). Hacemos paste de la <em>URL</em> en el argumento <code>url</code> y en el argumento <code>destfile</code> escribimos el nombre que le queremos asignar a nuestra carpeta.
+</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Descargar el repositorio</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">download.file</span>(<span class="dt">url =</span> <span class="st">&quot;https://github.com/taller-R/Clase_1/archive/master.zip&quot;</span>, </span>
+<span id="cb2-3"><a href="#cb2-3"></a>              <span class="dt">destfile =</span> <span class="st">&quot;clase_1.zip&quot;</span>)</span></code></pre></div>
+<p align="justify" style="font-size:18px;">
+Ahora debemos tener en un nuestro directorio de trabajo, un archivo llamdo “clase_1.zip” en formato <strong>.zip</strong> son el contenido del repositorio.
+</p>
+<p><img align='center' alt="Qries" src="graphs/file_zip.png" width=300" height="200"></img></p>
+<p align="justify" style="font-size:18px;">
+Ahora vamos a descomprimir este archivo, para ello vamos a usar la función <code>unzip</code> del paquete <code>utils</code>.
+</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Descomprimir el archivo</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="kw">unzip</span>(<span class="dt">zipfile =</span> <span class="st">&quot;clase_1.zip&quot;</span>)</span></code></pre></div>
+<p align="justify" style="font-size:18px;">
+Ahora debemos tener en un nuestro directorio de trabajo, una carpeta llamda “clase_1-master” con el contenido del repositorio.
+</p>
+<p><img align='center' alt="Qries" src="graphs/unzip.png" width=300" height="200"></img></p>
+<p align="justify" style="font-size:18px;">
+Fijamos nuestro nuevo directorio de trabajo hasta la carpeta que descomprimimos <code>setwd("~/Downloads/clase_1-master")</code> e inspeccionamos los archivos que contiene <code>list.files()</code>
+</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Cambiar el directorio de trabajo</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="kw">setwd</span>(<span class="st">&quot;~/Downloads/clase_1-master&quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># Inspeccionar archivos en el directorio </span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="kw">list.files</span>()</span></code></pre></div>
+<pre><code>## [1] &quot;Clase 1.Rproj&quot; &quot;codes&quot;         &quot;data&quot;          &quot;help&quot;         
+## [5] &quot;README.html&quot;   &quot;README.md&quot;     &quot;task&quot;</code></pre>
+<p align="justify" style="font-size:18px;">
+Listo ya puedes ir a la carpeta <strong>codes</strong> y a la carpeta <strong>help</strong> para que abras el archivo <strong>Clase 1.R</strong> y el archivo <strong>Clase 1.html</strong>. A replicar la clase!.
+</p>
+<!--- 3. Subtirulo --->
+<h2 style="color:red;">
+<ol start="3" style="list-style-type: decimal">
+<li>Crear un proyecto de versión de control.
+</h2></li>
+</ol>
+<p align="justify" style="font-size:18px;">
+Otra forma de replicar un repositorio en GitHub, es crear un proyecto de versión de control en R. Para ello, primero tenemos que istalar <a href="https://git-scm.com">git</a>, un sistema de control de versiones. Primero tenemos que elegir el instalador que sea compatible con el sistema operativo de nuestro computador.
+</p>
+<p><img align='center' alt="Qries" src="graphs/download_git.png" width=300" height="200"></img></p>
+<!--- 3.1.1 Subtirulo --->
+<h3 style="color:red;">
+3.1.1 Instalación de Git en Windows.
+</h3>
+<p align="justify" style="font-size:18px;">
+Si usted tiene un Windows solo debe descargar el instalador de <a href="https://git-scm.com/download/win">git bash</a> (Git for Windows Setup de 32-bit o 64-bit) e instalarlo.
+</p>
+<p><img align='center' alt="Qries" src="graphs/git_windows.png" width=300" height="150"></img></p>
+<!--- 3.1.2 Subtirulo --->
+<h3 style="color:red;">
+3.1.2 Instalación de Git en Mac.
+</h3>
+<p align="justify" style="font-size:18px;">
+Si usted tiene un Mac, primero debe ir a la terminal de su equipo (puede hacerlo desde Rstudio) e instalar <a href="https://brew.sh/index_es">Homebrew</a>. “<em>Homebrew</em> instala todo aquello que necesitas que Apple no instala de serie”. Para instalarlo, debes copiar este codígo <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"</code> y pegarlo en la terminal.
+</p>
+<p><img align='center' alt="Qries" src="graphs/homebrew.png" width=700" height="180"></img></p>
+<p align="justify" style="font-size:18px;">
+Ahora puede instalar Git copiando y pengando este comnado en la terminal <code>brew install git</code>.
+</p>
+<p><img align='center' alt="Qries" src="graphs/install_git.png" width=700" height="300"></img></p>
+<!--- 3.2 Subtirulo --->
+<h3 style="color:red;">
+3.2 Configuración inicial de Git.
+</h3>
+<p align="justify" style="font-size:18px;">
+Ahora vamos a configurar nuestra cuenta de GitHub desde la terminal. Este proceso solo se debe realizar una vez, ya que la información queda guardada en la configuración de nuestro equipo. Primero vamos a la terminal e inscribimos la siguiente linea de código: <code>git config --global user.name "Aqui escribes tu usuario de GitHub"</code>. Puedes verificar que lo hiciste bien escribiendo <code>git config user.name</code> nuevamente.
+</p>
+<p><img align='center' alt="Qries" src="graphs/user.png" width=700" height="180"></img></p>
+<p align="justify" style="font-size:18px;">
+Ahora debes escribir la siguiente linea de código: <code>git config --global user.email "Aqui escribes el correo que usas en GitHub"</code> luego escribes <code>git config user.email</code> para verificar que lo hiciste bien.
+</p>
+<p><img align='center' alt="Qries" src="graphs/email.png" width=700" height="180"></img></p>
+<p align="justify" style="font-size:18px;">
+Finalmente debes escribir la siguiente linea de código: <code>git config --global user.password "Aqui escribes tu contraseña"</code>. Con esto quedó configurado nuestra cuenta de git en nuestro equipo.
+</p>
+<!--- 3.3 Subtirulo --->
+<h3 style="color:red;">
+3.3 Clonar el repositorio.
+</h3>
+<p align="justify" style="font-size:18px;">
+Ya podemos ir al repositorio de GitHub. Para poder hacer una copia de un repositorio de GitHub, primero debemos hacer una bifurcaci’on del repositorio original. Para ello, debemos ir al repositorio que nos interesa clonar y hacer clic en <img alt="Qries" src="graphs/fork.png" width=70" height="30"></img>. Esto debe crear un nuevo brazo del repositorio así:
+</p>
+<p><img align='center' alt="Qries" src="graphs/branch.png" width=300" height="180"></img></p>
+<p align="justify" style="font-size:18px;">
+Ahora debemos ir al repositorio que clonamos y hacemos clic en <img alt="Qries" src="graphs/boton_code.png" width=60" height="25"></img> y después hacemos clic sobre <img alt="Qries" src="graphs/boton_clone.png" width=50" height="30"></img> para copiar la url del repositorio.
+</p>
+<p><img align='center' alt="Qries" src="graphs/url_clone.png" width=300" height="300"></img></p>
+<!--- 3.4 Subtirulo --->
+<h3 style="color:red;">
+3.4 Crear una versión de control en R.
+</h3>
+<p align="justify" style="font-size:18px;">
+Ahora vamos a Rstudio y creamos un proyecto de versi’on de control. Para ello vamos a la ventana de Rstudio y hacemos clic en <img alt="Qries" src="graphs/b_1.png" width=35" height="25"></img> para que se despliegue el siguente menu:
+</p>
+<p><img align='center' alt="Qries" src="graphs/p_1.png" width=300" height="300"></img></p>
+<p align="justify" style="font-size:18px;">
+posteriormente hacemos clic en <strong>Version Control</strong> para que se despliegue el siguente menu:
+</p>
+<p><img align='center' alt="Qries" src="graphs/p_2.png" width=300" height="250"></img></p>
+<p align="justify" style="font-size:18px;">
+ahora seleccionamos la opci’on <strong>Git</strong> para que se despliegue el siguente menu:
+</p>
+<p><img align='center' alt="Qries" src="graphs/p_3.png" width=350" height="250"></img></p>
+<p align="justify" style="font-size:18px;">
+en la opci’on <strong>Repository URL:</strong> vamos a pegar la URL del repositorio que copiamos en el paso anterior y en <strong>Project directory name:</strong> vamos a escribir el nombre que queremos ponerle a la carpeta que va a contener el repositorio.Finalmente, en <strong>Create project as subdirectory of:</strong> vamos a seleccionar la ubicaci’on de la carpeta en nuestro equipo. Despues de esto, en la parte superior de la “memoria activa” de Rstudio se debe observar un incono con el nombre del proyecto <img alt="Qries" src="graphs/b_4.png" width=70" height="30"></img>. De igual forma, Rstudio fija como directorio de trabajo, la carpeta que contiene el proyecto que acabamos de crear. Usted deber’ia observar el contenido de la carpeta así:
+</p>
+<p><img align='center' alt="Qries" src="graphs/p_4.png" width=350" height="250"></img></p>
+<!--- 3.5 Subtirulo --->
+<h3 style="color:red;">
+3.5 Guardar los cambios en nuestro repositorio.
+</h3>
+<p align="justify" style="font-size:18px;">
+Finalmente, podemos guardar los cambios en el repositorio que clonamos a nuestra cuenta de GitHub, para ello debemos escribir las siguientes lineas de c’odigo sobre la terminal de R. Para subir los cambios que hemos realizado, primero debemos escribir <code>git add -A</code> para marcar todos los archivos que queremos subir a GitHub. Despu’es debemos escribir <code>git commit -m "Escribir comentario"</code>, en <strong>Escribir comentarios</strong> debe escribir el comentario que usted quiere asignarle a los cambios que realizó. Finalmente, para subir los cambios, usted debe escribir <code>git push</code> y listo, ya puede ir a revisar los cambios realizados al repositorio en la p’agina de GitHub.
+</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "http://example.com/MathJax.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

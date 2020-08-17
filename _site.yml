@@ -23,17 +23,17 @@ navbar:
     - text: "Blog"
       # Menu bar
       menu:
-        - text: "Heading 1"
-        - text: "Page A"
-          href: https://eduard-martinez.github.io/blog/page_a.html
-        - text: "Page B"
-          href: https://eduard-martinez.github.io/blog/page_b.html
-        - text: "---------"
-        - text: "Heading 2"
-        - text: "Page C"
-          href: https://eduard-martinez.github.io/blog/page_c.html
-        - text: "Page D"
-          href: https://eduard-martinez.github.io/blog/page_d.html
+        - text: "Clases"
+        - text: "Clonar un repositorio de GitHub"
+          href: https://eduard-martinez.github.io/blog/github/clonar_github.html
+        #- text: "Page B"
+        #  href: https://eduard-martinez.github.io/blog/page_b.html
+       # - text: "---------"
+      #  - text: "Heading 2"
+     #   - text: "Page C"
+      #    href: https://eduard-martinez.github.io/blog/page_c.html
+     #   - text: "Page D"
+     #     href: https://eduard-martinez.github.io/blog/page_d.html
 
 # Theme https://bookdown.org/yihui/rmarkdown/html-document.html
 output:
