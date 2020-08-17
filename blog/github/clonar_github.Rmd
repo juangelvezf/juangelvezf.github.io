@@ -1,6 +1,7 @@
 ---
 pagetitle : Eduard F. Martínez-González
 ---
+
 <br> </br>
 <div class="col-sm-10">
 
