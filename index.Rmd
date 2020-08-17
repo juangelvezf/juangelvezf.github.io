@@ -1,5 +1,5 @@
 ---
-pagetitle : Eduard F. Martínez-González
+pagetitle : Home - Eduard F. Martínez-González
 ---
 
 <br>  </br> <!--- Agrega lineas en blanco --->

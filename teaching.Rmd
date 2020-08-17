@@ -1,3 +1,9 @@
 ---
-pagetitle : Eduard F. Martínez-González
+pagetitle : Teaching - Eduard F. Martínez-González
 ---
+
+<br> </br>
+
+## R Course
+
+You can see my R course at GitHub [here](https://github.com/taller-R).

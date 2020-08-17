@@ -1,3 +1,7 @@
+---
+pagetitle: Blog- Eduard F. Martínez-González
+---
+
 <!--- Inicio Emcabezado --->
 <html>
 <head>
