@@ -24,7 +24,7 @@ navbar:
       # Menu bar
       menu:
         - text: "Clases"
-        - text: "Clonar un repositorio de GitHub"
+        - text: "Three Ways to Clone a GitHub Repository (In Spanish)"
           href: https://eduard-martinez.github.io/blog/github/clonar_github.html
         #- text: "Page B"
         #  href: https://eduard-martinez.github.io/blog/page_b.html

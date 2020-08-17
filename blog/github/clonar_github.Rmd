@@ -1,7 +1,5 @@
 ---
-pagetitle: "Como descargar un repositorio de GitHub desde R"
-author: "Eduard Martinez"
-date: "8/16/2020"
+pagetitle : Eduard F. Martínez-González
 ---
 <br> </br>
 <div class="col-sm-10">
