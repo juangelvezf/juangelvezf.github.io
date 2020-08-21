@@ -2,4 +2,8 @@
 pagetitle : Databases - Eduard F. Martínez-González
 ---
 
-Coming soon here more content
+<br>  </br>
+
+<br>  </br>
+
+<img src="./images/myway.gif" class="center" alt="drawing" width="350" height="350"/>
