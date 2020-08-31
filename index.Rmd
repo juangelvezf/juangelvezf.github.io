@@ -48,15 +48,15 @@ You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Mart
 
 * #### Teaching
 
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar, Universidad de los Andes. June 2019 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar, Universidad de los Andes, Colombia. 2019 - Currently. </p>
 
 * #### Research
 
-  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes. June 2019 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes, Colombia. 2019 - Currently. </p>
 
-  + <p><strong style="color:black;font-size:16px;"> Research Analyst: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED) - Universidad de los Andes. Jan 2018 - June 2019. </p>
+  + <p><strong style="color:black;font-size:16px;"> Research Analyst: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED) - Universidad de los Andes, Colombia. 2018 - 2019. </p>
 
-  + <p><strong style="color:black;font-size:16px;"> Research Assistant: </strong>  Centro de Estudios Económicos Regionales (CEER) - Central Bank of Colombia. June 2016 - July 2017. </p>
+  + <p><strong style="color:black;font-size:16px;"> Research Assistant: </strong>  Centro de Estudios Económicos Regionales (CEER) - Central Bank of Colombia. 2016 - 2017. </p>
 
 ## Skills
 

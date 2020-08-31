@@ -25,7 +25,7 @@ pagetitle : Research - Eduard F. Martínez-González
 
 <!--- Documento 4 --->
 
-* <strong style="color:black;font-size:22px;"> Economics Shocks and Crime: Evidenmce From Colombia </strong> [[PDF]](https://eduard-martinez.github.io/research/jmp/economics_shocks.pdf) 
+* <strong style="color:black;font-size:22px;"> Economics Shocks and Crime: Evidence From Colombia </strong> [[PDF]](https://eduard-martinez.github.io/research/jmp/economics_shocks.pdf) 
 
 <p align="justify"> **Abstrac:** This paper studies the effect of a negative economic shock on crime. I collect criminal records for 165,000 users of an informal financial sector firm that was closed in Colombia at the end of 2008. I exploit the exogenous variation produced by the intervention in users who had deposits with an expiration date in the days close to the firm's closing date. The results suggest an increase in the number of legal proceedings for those suffering the negative economic shock, but this effect is concentrated only in those on the right-hand side of the distribution of unrecovered investments. </p>
 
