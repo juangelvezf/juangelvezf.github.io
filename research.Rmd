@@ -11,13 +11,19 @@ pagetitle : Research - Eduard F. Martínez-González
 <!------------- Panel de la izquierda ------------->
 <div class="col-sm-9">
 
-<!--- Documento 4 --->
+<!--- Documento 1 --->
 
 * <strong style="color:black;font-size:22px;"> Motorcycle restrictions and their effects on crime in Colombia </strong> [[PDF]](https://eduard-martinez.github.io/research/motorcycle_restrictions/motorcycle_restrictions.pdf) [[SSNR]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3659686) (with [Michael Weintraub](http://michael-weintraub.squarespace.com) and [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76))
 
  <p align="justify"> **Abstrac:** Although motorcycle restrictions have been adopted to reduce crime in more than 25 Colombian cities, no empirical evidence exists to demonstrate their effectiveness. This document evalutes the impact of six of these restrictions. To identify their causal effects, we estimate difference-in-differences models that exploit spatial and temporal variation in their implementation and georeferenced crime data. We find neither large nor lasting effects of these measures on crime. Given the high costs of assuring compliance with these measures and the costs they impose on citizens, local authorities should seek out other public policy alternatives to improve citizen security. </p>
 
-<!--- Documento 4 --->
+<!--- Documento 2 --->
+
+* <strong style="color:black;font-size:22px;">Coca, Glyphosate and the balloon effect.</strong> (with [Hernando Zuleta](https://economia.uniandes.edu.co/profesores/hernando-zuleta) and [María del Pilar Lopez](https://sites.google.com/site/marialopezuribe00/))
+
+<p align="justify"> **Abstrac:** For many years the Colombian government has undertaken different policy measures to eliminate or at least reduce coca production in the country. However, these efforts have not been reflected in a significant drop in coca crops. We argue that one of the main reasons for this apparent failure is the so-called balloon effect, namely, the response of coca growers to eradication is to re-plant in relatively close areas. In this work, we exploit a unique database and demonstrate the existence of the balloon effect within municipalities. According to our estimates, on average the new coca seeds in a municipality represent *** percent of the crops eradicated in the previous year. Our results invite us to rethink supply containment policies and to explore other options that affect the incentives of coca growers. </p>
+
+<!--- Documento 3 --->
 
 * <strong style="color:black;font-size:22px;">Payroll taxes, wage rigidities and youth unemployment: Evidence from colombian labor market</strong> [[PDF]](https://eduard-martinez.github.io/research/youth_unemployment/youth_unemployment.pdf) (with [Danilo Aristizabal](http://danilo-aristizabal.github.io))
 
@@ -29,7 +35,7 @@ pagetitle : Research - Eduard F. Martínez-González
 
 <p align="justify"> **Abstrac:** This paper studies the effect of a negative economic shock on crime. I collect criminal records for 165,000 users of an informal financial sector firm that was closed in Colombia at the end of 2008. I exploit the exogenous variation produced by the intervention in users who had deposits with an expiration date in the days close to the firm's closing date. The results suggest an increase in the number of legal proceedings for those suffering the negative economic shock, but this effect is concentrated only in those on the right-hand side of the distribution of unrecovered investments. </p>
 
-<!--- Documento 4 --->
+<!--- Documento 5 --->
 
 * <strong style="color:black;font-size:22px;">School Education for Inclusion and Social Transformation in the Colombian Caribbean</strong> [[PDF]](https://eduard-martinez.github.io/research/caribbean_education/caribbean_education.pdf) [[DTSER-BANREP]](https://www.banrep.gov.co/es/publicaciones/documento-de-trabajo-economia-regional-y-urbana-263) (with [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76))
 
