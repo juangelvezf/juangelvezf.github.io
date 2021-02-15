@@ -52,7 +52,9 @@ You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Mart
 
 * #### Research
 
-  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes, Colombia. 2019 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;">Big Data Analyst: </strong>  Truth Commission, Colombia. 2021 - currently. </p>
+  
+  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes, Colombia. 2019 - 2020. </p>
 
   + <p><strong style="color:black;font-size:16px;"> Research Analyst: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED) - Universidad de los Andes, Colombia. 2018 - 2019. </p>
 
