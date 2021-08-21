@@ -50,7 +50,9 @@ You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Mart
 
   + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar (in Spanish), Universidad de los Andes, Colombia. 2019 - Currently. </p>
   
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Geostatistical Methods in R (in Spanish), Universidad Piloto de Colombia, Colombia. 2021 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Geoestadística aplicada en R, Universidad Piloto de Colombia, Colombia. 2021 - Currently. </p>
+  
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Big Data y Machine  (in Spanish), Universidad Piloto de Colombia, Colombia. 2021 - Currently. </p>
 
 * #### Research
   + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong> Centro de Investigaciones Económicas y Financieras (CIEF), Universidad EAFIT, Colombia. 2021 - currently </p>

@@ -24,10 +24,12 @@ navbar:
       # Menu bar
       menu:
         - text: "Clases"
-        - text: "Three Ways to Clone a GitHub Repository (In Spanish)"
+        - text: "Configurar Git y clonar un repositorio"
           href: blog/github/clonar_github.html
-        - text: "Introduction to R and Rstudio (In Spanish)"
+        - text: "Introducción a R y Rstudio"
           href: https://eduard-martinez.gitlab.io/bd-intro-r/#/
+        - text: "Introducción a Gis en R"
+          href: https://eduard-martinez.gitlab.io/intro-gis-r/#/
         #- text: "Page B"
         #  href: https://eduard-martinez.github.io/blog/page_b.html
        # - text: "---------"
