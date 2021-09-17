@@ -48,13 +48,14 @@ You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Mart
 
 * #### Teaching
 
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar (in Spanish), Universidad de los Andes, Colombia. 2019 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar (in Spanish), Universidad de los Andes, Colombia. 2019 - Currently. ([Available here](https://github.com/taller-R))</p>
   
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Geoestadística aplicada en R, Universidad Piloto de Colombia, Colombia. 2021 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Curso de Geoestadística, Universidad Piloto de Colombia, Colombia. 2021 - Currently. </p>
   
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Big Data y Machine  (in Spanish), Universidad Piloto de Colombia, Colombia. 2021 - Currently. </p>
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Big Data and Machine Learning en el Mercado Inmobiliario (in Spanish), Universidad de los Andes, Colombia. 2021. ([Available here](https://ignaciomsarmiento.github.io/teaching/BDML)) </p>
 
 * #### Research
+
   + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong> Centro de Investigaciones Económicas y Financieras (CIEF), Universidad EAFIT, Colombia. 2021 - currently </p>
     
   + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes, Colombia. 2019 - 2020. </p>
