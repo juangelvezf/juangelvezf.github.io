@@ -1,0 +1,168 @@
+---
+pagetitle: Blog- Eduard F. Martínez-González
+---
+
+<!--- Inicio Emcabezado --->
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<title>Eduard F. Martínez-González</title>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container-fluid main-container">
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="https://eduard-martinez.github.io/index.html">Eduard F. Martínez-González</a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="https://eduard-martinez.github.io/index.html">
+<span class="fa fa-home"></span>
+Home
+</a>
+</li>
+<li>
+<a href="https://eduard-martinez.github.io/research.html">Research</a>
+</li>
+<li>
+<a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">CV</a>
+</li>
+<li>
+<a href="https://eduard-martinez.github.io/teaching.html">Teaching</a>
+</li>
+<li>
+<a href="https://eduard-martinez.github.io/databases.html">Databases</a>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+Blog
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown-header">Clases</li>
+<li>
+<a href="https://eduard-martinez.github.io/blog/github/clonar_github.html">Three Ways to Clone a GitHub Repository (In Spanish)</a>
+</li>
+</ul>
+</li>
+</ul>
+</div><!--/.nav-collapse -->
+</div><!--/.container -->
+</div><!--/.navbar -->
+<div class="fluid-row" id="header">
+<!--- Fin Emcabezado --->
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------- El codigo inicia aca --------------------------------->
+
+<br> </br>
+
+<!------------- Panel de la izquierda ------------->
+<div class="col-sm-9">
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--- Tirulo --->
+<h1 style="color:black;">Tres caminos para clonar/descargar un repositorio de GitHub </h1>
+
+
+
+</div>
+
+<!------------- Panel de la derecha ------------->
+<div class="col-sm-3">
+
+#### Eduard F. Martínez-González
+
+<!-- Link -->
+ <a href="https://eduard-martinez.github.io" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/link.png" width=20" height="20"> eduard-martinez.github.io </a> 
+
+<!-- Twitter -->
+ <a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/twitter.jpg" width=20" height="20">  @emartigo</a> 
+
+<!-- GitHub -->
+<a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/github.png" width=20" height="20">  eduard-martinez</a>
+</div>
+<!------------- Panel de la derecha ------------->
+
+
+
+<!--------------------------------- El codigo finaliza aca --------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script>
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+$('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+bootstrapStylePandocTables();
+});
+</script>
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+window.buildTabsets("TOC");
+});
+$(document).ready(function () {
+$('.tabset-dropdown > .nav-tabs > li').click(function () {
+$(this).parent().toggleClass('nav-tabs-open')
+});
+});
+</script>
+<!-- code folding -->
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src  = "http://example.com/MathJax.js";
+document.getElementsByTagName("head")[0].appendChild(script);
+})();
+</script>
+</body>
+</html>
