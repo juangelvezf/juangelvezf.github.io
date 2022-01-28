@@ -1,5 +1,5 @@
 ---
-pagetitle: Blog- Eduard F. Martínez-González
+pagetitle: Taller de R, ECON-1302
 ---
 
 <!--- Inicio Emcabezado --->
@@ -30,56 +30,28 @@ pagetitle: Blog- Eduard F. Martínez-González
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
+
 <a class="navbar-brand" href="https://eduard-martinez.github.io/index.html">Eduard F. Martínez-González</a>
-</div>
-<div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav">
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-<a href="https://eduard-martinez.github.io/index.html">
-<span class="fa fa-home"></span>
-Home
-</a>
-</li>
-<li>
-<a href="https://eduard-martinez.github.io/research.html">Research</a>
-</li>
-<li>
-<a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">CV</a>
-</li>
-<li>
-<a href="https://eduard-martinez.github.io/teaching.html">Teaching</a>
-</li>
-<li>
-<a href="https://eduard-martinez.github.io/databases.html">Databases</a>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-Blog
-<span class="caret"></span>
-</a>
-<ul class="dropdown-menu" role="menu">
-<li class="dropdown-header">Clases</li>
-<li>
-<a href="https://eduard-martinez.github.io/blog/github/clonar_github.html">Three Ways to Clone a GitHub Repository (In Spanish)</a>
-</li>
-</ul>
-</li>
-</ul>
+</div> <div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav"> </ul> <ul class="nav navbar-nav navbar-right">
+
+<li><a href="https://eduard-martinez.github.io/index.html"><span class="fa fa-home"></span>Home</a></li>
+
+<li><a href="https://eduard-martinez.github.io/research.html">Research</a></li>
+
+<li><a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">CV</a></li>
+
+<li><a href="https://eduard-martinez.github.io/teaching.html">Teaching</a></li>
+
+<li><a href="https://eduard-martinez.github.io/blog.html">Blog</a></li>
+
+<li><a href="https://eduard-martinez.github.io/databases.html">Databases</a></li>
+
 </div><!--/.nav-collapse -->
 </div><!--/.container -->
 </div><!--/.navbar -->
 <div class="fluid-row" id="header">
 <!--- Fin Emcabezado --->
-
-
-
-
-
-
-
-
 
 
 <!--------------------------------- El codigo inicia aca --------------------------------->
@@ -94,7 +66,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!--- Tirulo --->
-<h1 style="color:black;">Tres caminos para clonar/descargar un repositorio de GitHub </h1>
+<h1 style="color:black;">Taller de Excel, ECON-1302 </h1>
+
+
+#### Clase 1
+
+Ver presentación [aquí](https://lectures-excel.gitlab.io/202201/lecture-1)
 
 
 
@@ -104,36 +81,30 @@ knitr::opts_chunk$set(echo = TRUE)
 <div class="col-sm-3">
 
 #### Eduard F. Martínez-González
+ 
+<!-- Correo -->
+<p style="color:black;font-size:12px;"><img alt="Qries" src="images/correo.png" width=20" height="20"> ef.martinezg@uniandes.edu.co </img></p>
 
 <!-- Correo -->
-<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> ef.martinezg@uniandes.edu.co </img></p>
-
-<!-- Correo -->
-<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> edfemagonza@gmail.com </img></p>
+<p style="color:black;font-size:12px;"><img alt="Qries" src="images/correo.png" width=20" height="20"> edfemagonza@gmail.com </img></p>
 
 <!-- Tel -->
-<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/tel.png" width=20" height="20"> (+571) 3394949 Ext: 2430</img></p>
+<p style="color:black;font-size:12px;"><img alt="Qries" src="images/tel.png" width=20" height="20"> (+571) 3394949 Ext: 2430</img></p>
 
 <!-- Twitter -->
- <a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/twitter.jpg" width=20" height="20">  @emartigo</a> 
+ <a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img alt="Qries" src="images/twitter.jpg" width=20" height="20">  @emartigo</a> 
 
 <!-- GitHub -->
-<a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/github.png" width=20" height="20">  eduard-martinez</a>
+<a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="images/github.png" width=20" height="20">  eduard-martinez</a>
+
 </div>
 <!------------- Panel de la derecha ------------->
 
 
 
+
+
 <!--------------------------------- El codigo finaliza aca --------------------------------->
-
-
-
-
-
-
-
-
-
 
 
 

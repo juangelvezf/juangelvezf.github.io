@@ -1,0 +1,62 @@
+---
+pagetitle : Research - Eduard F. Martínez-González
+---
+
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<p>  </p> <!--- Agrega una linea en blanco --->
+
+<!------------- Panel de la izquierda ------------->
+<div class="col-sm-9">
+
+<!--- Taller de R  --->
+## Taller de R: Estadística y programación
+
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<p>  </p> <!--- Agrega una linea en blanco --->
+
+<!--- Taller de Excel --->
+## Taller de Excel
+
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<p>  </p> <!--- Agrega una linea en blanco --->
+
+<!--- Big Data y Machine Learning en el mercado inmobiliario --->
+## Big Data y Machine Learning en el mercado inmobiliario
+
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<p>  </p> <!--- Agrega una linea en blanco --->
+
+</div>
+<!------------- Panel de la izquierda ------------->
+
+
+<!------------- Panel de la derecha ------------->
+<div class="col-sm-3">
+
+#### Eduard F. Martínez-González
+ 
+<!-- Correo -->
+<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> ef.martinezg@uniandes.edu.co </img></p>
+
+<!-- Correo -->
+<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> edfemagonza@gmail.com </img></p>
+
+<!-- Tel -->
+<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/tel.png" width=20" height="20"> (+571) 3394949 Ext: 2430</img></p>
+
+<!-- Twitter -->
+ <a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/twitter.jpg" width=20" height="20">  @emartigo</a> 
+
+<!-- GitHub -->
+<a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/github.png" width=20" height="20">  eduard-martinez</a>
+
+</div>
+<!------------- Panel de la derecha ------------->
+
+
+
+<br>  </br> <!--- Agrega lineas en blanco --->

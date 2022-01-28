@@ -17,23 +17,19 @@ navbar:
       href: https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf
 
     - text: "Teaching"
-      # Menu bar
-      menu:
-        - text: "Taller de R"
-          href: https://github.com/taller-R/taller_cief_202102
-        - text: "Taller de Excel"
-          href: teaching/excel/2022-01/syllabus.html
+      href: teaching.html
 
     - text: "Blog"
+      href: blog.html
       # Menu bar
-      menu:
-        - text: "Clases"
-        - text: "Configurar Git y clonar un repositorio"
-          href: blog/github/clonar_github.html
-        - text: "Introducción a R y Rstudio"
-          href: https://eduard-martinez.gitlab.io/bd-intro-r/#/
-        - text: "Introducción a Gis en R"
-          href: https://eduard-martinez.gitlab.io/intro-gis-r/#/
+      #menu:
+      #  - text: "Clases"
+      #  - text: "Configurar Git y clonar un repositorio"
+      #  - text: "Introducción a R y Rstudio"
+      #    href: blog/github/clonar_github.html
+      #    href: https://eduard-martinez.gitlab.io/bd-intro-r/#/
+      #  - text: "Introducción a Gis en R"
+      #    href: https://eduard-martinez.gitlab.io/intro-gis-r/#/
     
     - text: "Databases"
       href: databases.html
