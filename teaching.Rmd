@@ -9,29 +9,37 @@ pagetitle : Research - Eduard F. Martínez-González
 <!------------- Panel de la izquierda ------------->
 <div class="col-sm-9">
 
-<!--- Taller de R  --->
-## Taller de R: Estadística y programación
+## Teaching
 
-<br>  </br> <!--- Agrega lineas en blanco --->
+#### Universidad de los Andes, Colombia
 
-<p>  </p> <!--- Agrega una linea en blanco --->
+* **Statistical & R Programming Workshop Seminar - Econ 1302** <br>
+  Department of Economics <br>
+  [Spring 2022 website](https://github.com/taller-R/taller_r_202201)
 
-<!--- Taller de Excel --->
-## Taller de Excel
+* **Taller de Excel - Econ 1300** <br>
+  Department of Economics <br>
+  [Spring 2022 website](https://eduard-martinez.github.io/teaching/excel/202201/syllabus.html)
+  
+## Workshops
 
-<br>  </br> <!--- Agrega lineas en blanco --->
+* **Big Data and Machine Learning en el Mercado Inmobiliario** <br>
+  Big Data and Machine Learning for Real Estate  <br>
+  University of Los Andes, Colombia, 2021 <br>
+  [Website](https://ignaciomsarmiento.github.io/teaching/BDML)
 
-<p>  </p> <!--- Agrega una linea en blanco --->
+* **R for Applied Research in Economic** <br>
+  Universidad EAFIT, Colombia, 2021 <br>
+  [[Recordings]](https://www.youtube.com/channel/UCLqqb0eZ1razOkTDusAVEnA) [[Website]](https://github.com/taller-R/taller_cief_202102)
+  
+* **Geostatistics** <br>
+  Universidad Piloto de Colombia, Colombia, 2021 <br>
 
-<!--- Big Data y Machine Learning en el mercado inmobiliario --->
-## Big Data y Machine Learning en el mercado inmobiliario
 
-<br>  </br> <!--- Agrega lineas en blanco --->
-
-<p>  </p> <!--- Agrega una linea en blanco --->
-
+  
 </div>
 <!------------- Panel de la izquierda ------------->
+
 
 
 <!------------- Panel de la derecha ------------->

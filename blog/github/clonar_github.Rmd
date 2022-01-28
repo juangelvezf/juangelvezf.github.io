@@ -1,5 +1,5 @@
 ---
-pagetitle: Blog Eduard-Martinez
+pagetitle: Blog - Eduard Martinez
 ---
 
 <!--- Inicio Emcabezado --->
