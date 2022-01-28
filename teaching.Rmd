@@ -19,7 +19,7 @@ pagetitle : Research - Eduard F. Martínez-González
 
 * **Taller de Excel - Econ 1300** <br>
   Department of Economics <br>
-  [Spring 2022 website](https://eduard-martinez.github.io/teaching/excel/2022-01/econ1300_website.html)
+  [Spring 2022 website](https://eduard-martinez.github.io/teaching/excel/2022-01/website.html)
   
 ## Workshops
 
