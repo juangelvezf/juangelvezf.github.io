@@ -15,7 +15,7 @@ pagetitle : Research - Eduard F. Martínez-González
 
 * **Statistical & R Programming Workshop Seminar - Econ 1302** <br>
   Department of Economics <br>
-  [Spring 2022 website](https://github.com/taller-R/taller_r_202201)
+  [Spring 2022 website](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/website.html)
 
 * **Taller de Excel - Econ 1300** <br>
   Department of Economics <br>
