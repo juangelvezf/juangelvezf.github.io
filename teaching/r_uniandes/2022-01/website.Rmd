@@ -1,5 +1,5 @@
 ---
-pagetitle: Taller de Excel, ECON-1300
+pagetitle: Taller de R, ECON-1302
 ---
 
 <!--- Inicio Emcabezado --->
@@ -66,115 +66,42 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!--- Tirulo --->
-<h1 style="color:black;">Taller de Excel, ECON-1300 </h1>
+<h1 style="color:black;">Taller de R, ECON-1302 </h1>
 
-`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/excel/2022-01/syllabus.pdf)
+### Acerca de este curso
 
-`r fontawesome::fa('calendar-alt')` **Clases:** Miércoles 6:30 – 07:45, Salón ML-505
+`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/syllabus.pdf)
 
-`r fontawesome::fa('clock')` **Horario de atención:** Lunes 11:00 – 12:00, Oficina W-722
+`r fontawesome::fa('github')` **Repositorio del curso** [clik aquí](https://github.com/taller-R/taller_r_202201)
 
-## Lectures
+`r fontawesome::fa('calendar-alt')` **Clases:** Lunes 17:00 – 18:15, Salón B-404
 
-##### Clase 1: Introducción a Excel  <a href="https://lectures-excel.gitlab.io/202201/lecture-1" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
-* **[1.]** Prólogo
-* **[2.]** Syllabus
-* **[3.]** ¿Excel?
-* **[4.]** Interfaz de Excel
+`r fontawesome::fa('clock')` **Horario de atención:** Lunes 10:00 – 11:00, Oficina W-722
 
-##### Clase 2: Introducción a la interfaz de Excel
+### Instalar softwares y registrarse
 
-* **[1.]** Libros y Hojas. 
-* **[2.]** Filas y Columnas.
-* **[3.]** Celdas, Rangos y Tablas.
-* **[4.]** Atajos
+**[1] Descargar [R](https://cran.r-project.org/)**
 
-##### Clase 3: Importar datos, libros e interfaz de Excel 
+**[2.] Descargar [RStudio](https://www.rstudio.com/products/rstudio/download/preview/)**
 
-* **[1.]** Importar datos.
-* **[2.]** Proteger libros y celdas en Excel
-* **[3.]** Listas desplegables.
-* **[4.]** Referencias relativas y absolutas.
+RStudio es un entorno de desarrollo integrado (IDE) para el lenguaje de programación R. Esta IDE brinda una interfaz más amigable con el usuario facilitando el aprendizaje.
 
-##### Clase 4: Introducción a Funciones y Operadores 
+**[3.] Descargar [Git](https://git-scm.com/downloads)**
 
-* **[1.]** Operadores.
-* **[2.]** Formulas y Funciones. 
-* **[3.]** Función de fecha y hora.
+Git es un sistema de control de versiones sobre el que está soportada la plataforma de [GitHub](https://github.com) (una plataforma de desarrollo colaborativo).
+  
+**[4.] Instalar R, RStudio y Git**
 
-##### Clase 5: Funciones Lógicas 
+Puede ir a este [enlace](https://lectures-blog.gitlab.io/R-initial-setup/#/antes-de-iniciar-el-curso) y seguir las instrucciones de instalación para el sistemas operativo de su equipo.
 
-* **[1.]** Funciones SI(), Y() y O()
-* **[2.]** Anidar funciones
-* **[3.]** Funciones SI.CONJUNTO() y XO()
-* **[4.]** Funciones SI.ERROR() y SI.ND()
+**[5.] Crear una cuenta en [GitHub](https://github.com)**
 
+Puede registrarse como estudiante/educador para obtener [beneficios](https://education.github.com/benefits) adicionales.
 
-##### Clase 6: Combinación de Funciones 
+### Lectures Slides
 
-* **[1.]** SUMAR.SI()
-* **[2.]** SUMAR.SI.CONJUNTO()
-* **[3.]** CONTAR.SI()
-* **[4.]** CONTAR.SI.CONJUNTO()
+* **[Lecture 1](https://lectures-r.gitlab.io/202201/lecture-1)** 
 
-##### Clase 7: BUSCARV y BUSCARH 
-
-* **[1.]** BUSCARV()
-* **[2.]** BUSCARV() + opciones
-* **[3.]** BUSCARV() + SI()
-* **[4.]** BUSCARV() + BUSCARH()
-
-##### Clase 8: Aplicar Filtros 
-
-* **[1.]** Filtros básicos
-* **[2.]** Filtros condicionales
-* **[3.]** Filtros avanzados
-
-##### Clase 9: Estadísticas Descriptivas 
-
-* **[1.]** Medidas de tendencia central
-* **[2.]** Medidas de dispersión
-* **[3.]** Medidas de posición
-
-##### Clase 10: Visualización de Datos 
-
-* **[1.]** Gráfico de columna y/o barras
-* **[2.]** Gráfico circular
-* **[3.]** Gráfico de dispersión
-* **[4.]** Gráfico de línea y/o área
-
-##### Clase 11: Tablas Dinámicas 
-
-* **[1.]** Generar tablas dinámicas 
-* **[2.]** Personalizar tablas dinámicas
-* **[3.]** Configurar campos de valor
-* **[4.]** Formato condicional y filtros
-* **[5.]** Gráficos dinámicos
-* **[6.]** Campos, elementos y conjuntos
-
-##### Clase 12: Correlación y Análisis de Regresión 
-
-* **[1.]** Configuración inicial
-* **[2.]** Correlación
-* **[3.]** Análisis de correlación
-
-##### Clase 13: Funciones de Bases de Datos 
-
-* **[1.]** BDSUMA() y BDCONTAR()
-* **[2.]** BDPROMEDIO(), BDMIN()  y BDMAX()
-* **[3.]** BD... + Listas desplegables
-
-##### Clase 14: Dashboards 
-
-* **[1.]** Dashboards
-
-##### Clase 15: Introducción a Macros 
-
-* **[1]** ¿Qué son las Macros?
-* **[2]** Advertencia de Seguridad
-* **[3]** ¿Cómo crear Macros?
-* **[4]** Filtros con Macros
-* **[5]** Gráficos con Macros
 
 
 </div>
