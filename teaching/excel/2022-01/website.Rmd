@@ -70,7 +70,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/excel/2022-01/syllabus.pdf)
 
-`r fontawesome::fa('calendar-alt')` **Clases:** Miércoles 6:30 – 07:45, Salón ML-505
+`r fontawesome::fa('calendar-alt')` **Clases:** Miércoles 6:30 – 07:45, Salón ML-207
 
 `r fontawesome::fa('clock')` **Horario de atención:** Lunes 11:00 – 12:00, Oficina W-722
 
