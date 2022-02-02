@@ -87,7 +87,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[1.]** Libros y Hojas. 
 * **[2.]** Filas y Columnas.
 * **[3.]** Celdas, Rangos y Tablas.
-* **[4.]** Atajos
+* **[4.]** [Atajos de teclado](https://lectures-excel.gitlab.io/202201/shortcut)
 
 ##### Clase 3: Importar datos, libros e interfaz de Excel 
 
