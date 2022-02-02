@@ -76,13 +76,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Lectures
 
-##### Clase 1: Introducción a Excel  <a href="https://lectures-excel.gitlab.io/202201/lecture-1" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
+##### Clase 1: Introducción a Taller de Excel  <a href="https://lectures-excel.gitlab.io/202201/lecture-1" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
 * **[1.]** Prólogo
 * **[2.]** Syllabus
 * **[3.]** ¿Excel?
 * **[4.]** Interfaz de Excel
 
-##### Clase 2: Introducción a la interfaz de Excel
+##### Clase 2: Introducción a la interfaz de Excel <a href="https://lectures-excel.gitlab.io/202201/lecture-2" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
 
 * **[1.]** Libros y Hojas. 
 * **[2.]** Filas y Columnas.
