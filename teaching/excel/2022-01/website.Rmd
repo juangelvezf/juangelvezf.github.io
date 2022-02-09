@@ -84,22 +84,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##### Clase 2: Introducción a la interfaz de Excel <a href="https://lectures-excel.gitlab.io/202201/lecture-2" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
 
-* **[1.]** Libros y Hojas. 
-* **[2.]** Filas y Columnas.
-* **[3.]** Celdas, Rangos y Tablas.
+* **[1.]** Libros, hojas, filas y columnas.
+* **[2.]** Celdas, rangos y tablas.
+* **[3.]** Proteger libros y celdas en Excel
 * **[4.]** [Atajos de teclado](https://lectures-excel.gitlab.io/202201/shortcut)
 
-##### Clase 3: Importar datos, libros e interfaz de Excel <a href="https://lectures-excel.gitlab.io/202201/lecture-3" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Em7eTE-9ayVEkoXBq4bnDykBAaNiKjOazZbTqBcRyRzPEg?e=RDe2qh" style="color:blue;font-size:13px;"> [Task 3] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Emd7VAlJ8bFGq0mApoFyeXABuaHj_l4dwqvh9sfUJ2qM5w?e=fOCQNv" style="color:blue;font-size:13px;"> [Datos] </a> 
+##### Clase 3: Importar datos y operadores <a href="https://lectures-excel.gitlab.io/202201/lecture-3" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Em7eTE-9ayVEkoXBq4bnDykBAaNiKjOazZbTqBcRyRzPEg?e=RDe2qh" style="color:blue;font-size:13px;"> [Task 3] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Emd7VAlJ8bFGq0mApoFyeXABuaHj_l4dwqvh9sfUJ2qM5w?e=fOCQNv" style="color:blue;font-size:13px;"> [Datos] </a> 
 
-* **[1.]** Importar datos.
-* **[2.]** Proteger libros y celdas en Excel
-* **[3.]** Listas desplegables.
-* **[4.]** Referencias relativas y absolutas.
+* **[1.]** Leer archivos desde diferentes formatos
+* **[2.]** Operadores
+* **[3.]** Referencias relativas y absolutas
 
-##### Clase 4: Introducción a Funciones y Operadores 
+##### Clase 4: Introducción a funciones
 
-* **[1.]** Operadores.
-* **[2.]** Formulas y Funciones. 
+* **[1.]** Formulas y funciones.
+* **[2.]** Listas desplegables
 * **[3.]** Función de fecha y hora.
 
 ##### Clase 5: Funciones Lógicas 
