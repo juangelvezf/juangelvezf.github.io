@@ -89,13 +89,13 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[3.]** Proteger libros y celdas en Excel
 * **[4.]** [Atajos de teclado](https://lectures-excel.gitlab.io/202201/shortcut)
 
-##### Clase 3: Importar datos y operadores <a href="https://lectures-excel.gitlab.io/202201/lecture-3" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Em7eTE-9ayVEkoXBq4bnDykBAaNiKjOazZbTqBcRyRzPEg?e=RDe2qh" style="color:blue;font-size:13px;"> [Subir task clase 3] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Emd7VAlJ8bFGq0mApoFyeXABuaHj_l4dwqvh9sfUJ2qM5w?e=fOCQNv" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 3: Importar datos y operadores <a href="https://lectures-excel.gitlab.io/202201/lecture-3" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Em7eTE-9ayVEkoXBq4bnDykBAaNiKjOazZbTqBcRyRzPEg?e=RDe2qh-task" style="color:blue;font-size:13px;"> [Subir task clase 3] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Emd7VAlJ8bFGq0mApoFyeXABuaHj_l4dwqvh9sfUJ2qM5w?e=fOCQNv" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Leer archivos desde diferentes formatos
 * **[2.]** Operadores
 * **[3.]** Referencias relativas y absolutas
 
-##### Clase 4: Introducción a funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-4" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EmUi-1qwOiZIn3CM8jmYoDABCWWgIfJZyPxbLVO-DH4ppw?e=jzYU85" style="color:blue;font-size:13px;"> [Subir task clase 4] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhDjDo6LVfVAjGSZrSY9oboB-QpluKAmelNTVYpYT6U-9w?e=Og1afn" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 4: Introducción a funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-4" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EmUi-1qwOiZIn3CM8jmYoDABCWWgIfJZyPxbLVO-DH4ppw?e=jzYU85-task" style="color:blue;font-size:13px;"> [Subir task clase 4] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhDjDo6LVfVAjGSZrSY9oboB-QpluKAmelNTVYpYT6U-9w?e=Og1afn" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Formulas y funciones
 * **[2.]** Listas desplegables
