@@ -74,6 +74,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r fontawesome::fa('clock')` **Horario de atención:** Lunes 11:00 – 12:00, Oficina W-722
 
+`r fontawesome::fa('table')` **Notas de task:** <a href="https://uniandes-my.sharepoint.com/:x:/g/personal/ef_martinezg_uniandes_edu_co/EaXmt_YplKxLqKSFM2L8WHwBhhzqLIBCug7bxeSF9wLrAQ?e=xZeLzy" style="color:blue;font-size:13px;"> [Ver aquí] </a> 
+
 ## Lectures
 
 ##### Clase 1: Introducción a Taller de Excel  <a href="https://lectures-excel.gitlab.io/202201/lecture-1" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
