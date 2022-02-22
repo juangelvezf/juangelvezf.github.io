@@ -106,8 +106,7 @@ Puede registrarse como estudiante/educador para obtener [beneficios](https://edu
 
 * **[Lecture 3](https://lectures-r.gitlab.io/202201/lecture-3)** - **[task](https://lectures-r.gitlab.io/task_202202/task-clase-03/)**
 
-
-
+* **[Lecture 4](https://lectures-r.gitlab.io/202201/lecture-4)** - **[task](https://lectures-r.gitlab.io/task_202202/task-clase-04/)**
 
 
 </div>
