@@ -103,7 +103,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[2.]** Listas desplegables
 * **[3.]** Función de texto
 
-##### Clase 5: Funciones Lógicas <a href="https://lectures-excel.gitlab.io/202201/lecture-5" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EqKjcYcEBT1CnDThBh-5i7UB-_SQmM-JTWUMhIuRJYlhig?e=7Pbk0D" style="color:blue;font-size:13px;"> [Subir task clase 5] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhPHXWaAavJMhBwKMaA8hxEB234i-XWUkVRuCQzGH5KYlA?e=mjU1ER" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 5: Funciones Lógicas <a href="https://lectures-excel.gitlab.io/202201/lecture-5" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EqKjcYcEBT1CnDThBh-5i7UB-_SQmM-JTWUMhIuRJYlhig?e=7Pbk0D-task" style="color:blue;font-size:13px;"> [Subir task clase 5] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhPHXWaAavJMhBwKMaA8hxEB234i-XWUkVRuCQzGH5KYlA?e=mjU1ER" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Funciones SI(), Y() y O()
 * **[2.]** Anidar funciones
