@@ -110,7 +110,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[3.]** Funciones SI.CONJUNTO() y XO()
 * **[4.]** Funciones SI.ERROR() y SI.ND()
 
-##### Clase 6: Combinación de Funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-6" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EqlIknjcUTFEm76Z3A2VFYsB-5ei1C17LNJt79OxBtF_Fw?e=f7EqCd" style="color:blue;font-size:13px;"> [Subir task clase 6] </a> - <a href="" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 6: Combinación de Funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-6" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EqlIknjcUTFEm76Z3A2VFYsB-5ei1C17LNJt79OxBtF_Fw?e=f7EqCd" style="color:blue;font-size:13px;"> [Subir task clase 6] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/ElyUSzQh5TFMpPvQobSwGl4Bl9LNt0GUGGKm1pCKaE7mYQ?e=tqKd5x" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** SUMAR.SI()
 * **[2.]** SUMAR.SI.CONJUNTO()
