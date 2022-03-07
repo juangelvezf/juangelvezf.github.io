@@ -72,7 +72,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/syllabus.pdf)
 
-`r fontawesome::fa('github')` **Repositorio del curso** [clik aquí](https://github.com/taller-R/taller_r_202201)
+`r fontawesome::fa('github')` **Repositorio del curso** [clik aquí](https://github.com/taller-R-202201)
 
 `r fontawesome::fa('calendar-alt')` **Clases:** Lunes 17:00 – 18:15, Salón B-404
 
@@ -98,16 +98,43 @@ Puede ir a este [enlace](https://lectures-blog.gitlab.io/R-initial-setup/#/antes
 
 Puede registrarse como estudiante/educador para obtener [beneficios](https://education.github.com/benefits) adicionales.
 
-### Lectures Slides
+### Clases
 
-* **[Lecture 1](https://lectures-r.gitlab.io/202201/lecture-1)** 
+##### Clase-01
 
-* **[Lecture 2](https://lectures-r.gitlab.io/202201/lecture-2)** 
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-6)** 
+* Codes
+* Task
 
-* **[Lecture 3](https://lectures-r.gitlab.io/202201/lecture-3)** - **[task](https://lectures-r.gitlab.io/task_202202/task-clase-03/)**
+##### Clase-02
 
-* **[Lecture 4](https://lectures-r.gitlab.io/202201/lecture-4)** - **[task](https://lectures-r.gitlab.io/task_202202/task-clase-04/)**
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-2)** 
+* Codes
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-02/)**
 
+##### Clase-03
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-3)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-03)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-03/)**
+
+##### Clase-04
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-4)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-04)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-04/)**
+
+##### Clase-05
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-5)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-05)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-05/)**
+
+##### Clase-06
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-6)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-06)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-06/)**
 
 </div>
 
