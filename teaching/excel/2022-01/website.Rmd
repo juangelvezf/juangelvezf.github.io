@@ -117,7 +117,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[3.]** CONTAR.SI()
 * **[4.]** CONTAR.SI.CONJUNTO()
 
-##### Clase 7: BUSCARV y BUSCARH 
+##### Clase 7: BUSCARV y BUSCARH <a href="https://lectures-excel.gitlab.io/202201/lecture-7" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 7] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvrV5dFY109CngFBWeqnspoBeME3fx4zgQucg7hU7ar1IQ?e=Tt8y4b" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** BUSCARV()
 * **[2.]** BUSCARV() + opciones
