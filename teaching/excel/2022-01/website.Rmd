@@ -124,7 +124,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[3.]** BUSCARV() + SI()
 * **[4.]** BUSCARV() + BUSCARH()
 
-##### Clase 8: Aplicar Filtros 
+##### Clase 8: Filtros <a href="https://lectures-excel.gitlab.io/202201/lecture-8" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 8] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EogRRKqFvGFEszko719cQoEBuDJxeNO22CpzMP6GdbIHNw?e=jhrKbB" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Filtros básicos
 * **[2.]** Filtros condicionales
