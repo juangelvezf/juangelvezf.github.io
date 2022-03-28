@@ -100,41 +100,53 @@ Puede registrarse como estudiante/educador para obtener [beneficios](https://edu
 
 ### Clases
 
-##### Clase-01
+##### Clase-01: **Introducción a R**
 
 * Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-6)** 
 * Codes
 * Task
 
-##### Clase-02
+##### Clase-02: **Configuración de Git**
 
 * Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-2)** 
 * Codes
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-02/)**
 
-##### Clase-03
+##### Clase-03: **Estructuras de datos**
 
 * Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-3)** 
 * Codes **[[ver aquí]](https://github.com/taller-R-202201/class-03)**
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-03/)**
 
-##### Clase-04
+##### Clase-04: **Importar datos, Pipe (%>%) y Generar variables**
 
 * Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-4)** 
 * Codes **[[ver aquí]](https://github.com/taller-R-202201/class-04)**
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-04/)**
 
-##### Clase-05
+##### Clase-05: **Introducción a tidydata **
 
 * Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-5)** 
 * Codes **[[ver aquí]](https://github.com/taller-R-202201/class-05)**
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-05/)**
 
-##### Clase-06
+##### Clase-06: **Combinar y pivotear conjuntos de datos**
 
 * Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-6)** 
 * Codes **[[ver aquí]](https://github.com/taller-R-202201/class-06)**
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-06/)**
+
+##### Clase-07: **Presentar información**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-7)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-07)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-07/)**
+
+##### Clase-08: **Loops**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-8)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-08)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-08/)**
 
 </div>
 
