@@ -148,6 +148,12 @@ Puede registrarse como estudiante/educador para obtener [beneficios](https://edu
 * Codes **[[ver aquí]](https://github.com/taller-R-202201/class-08)**
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-08/)**
 
+##### Clase-09: **Familia apply**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-9)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-09)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-09/)**
+
 </div>
 
 <!------------- Panel de la derecha ------------->
