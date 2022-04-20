@@ -130,13 +130,13 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[2.]** Filtros condicionales
 * **[3.]** Filtros avanzados
 
-##### Clase 9: Estadísticas Descriptivas <a href="https://lectures-excel.gitlab.io/202201/lecture-9" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 8] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvM93nCD1sRFktsAvLbFCmYBFWhsfmqUeh3u_VLf6ZGkgQ?e=trYUg7" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 9: Estadísticas Descriptivas <a href="https://lectures-excel.gitlab.io/202201/lecture-9" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 9] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvM93nCD1sRFktsAvLbFCmYBFWhsfmqUeh3u_VLf6ZGkgQ?e=trYUg7" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Medidas de tendencia central
 * **[2.]** Medidas de dispersión
 * **[3.]** Medidas de posición
 
-##### Clase 10: Visualización de Datos 
+##### Clase 10: Visualización de Datos <a href="https://lectures-excel.gitlab.io/202201/lecture-10" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 10] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EkGtx2o0EQpBu1_7TxNiBjgBm9LviNuAHIqnR6gKrf1nWg?e=yrAcNp" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Gráfico de columna y/o barras
 * **[2.]** Gráfico circular
