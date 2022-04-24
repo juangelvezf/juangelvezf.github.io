@@ -70,7 +70,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Acerca de este curso
 
-`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/syllabus.pdf)
+`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/ECON_1302_01_Eduard_Martinez.pdf)
 
 `r fontawesome::fa('github')` **Repositorio del curso** [clik aquí](https://github.com/taller-R-202201)
 
