@@ -176,6 +176,9 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[4]** Filtros con Macros
 * **[5]** Gráficos con Macros
 
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<br>  </br> <!--- Agrega lineas en blanco --->
 
 </div>
 
