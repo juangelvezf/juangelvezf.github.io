@@ -166,6 +166,31 @@ Puede registrarse como estudiante/educador para obtener [beneficios](https://edu
 * Codes **[[ver aquí]](https://github.com/taller-R-202201/class-11)**
 * Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-11/)**
 
+##### Clase-12: **Manipulating Simple Feature Geometries**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-12)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-12)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-12/)**
+
+##### Clase-13: **Regresiones**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-13)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-13)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-13/)**
+
+##### Clase-14: **Introducción a web-scraping**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-14)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-14)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-14/)**
+
+##### Clase-15: **Rmarkdown y Shiny**
+
+* Lecture **[[ver aquí]](https://lectures-r.gitlab.io/202201/lecture-15)** 
+* Codes **[[ver aquí]](https://github.com/taller-R-202201/class-15)**
+* Task **[[ver aquí]](https://lectures-r.gitlab.io/task_202202/task-clase-15/)**
+
+
 ## Talleres
 
 ##### Taller-1: **Importar y preparar bases de datos**
