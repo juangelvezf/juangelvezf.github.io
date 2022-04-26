@@ -91,59 +91,59 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[3.]** Proteger libros y celdas en Excel
 * **[4.]** [Atajos de teclado](https://lectures-excel.gitlab.io/202201/shortcut)
 
-##### Clase 3: Importar datos y operadores <a href="https://lectures-excel.gitlab.io/202201/lecture-3" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Em7eTE-9ayVEkoXBq4bnDykBAaNiKjOazZbTqBcRyRzPEg?e=RDe2qh-task" style="color:blue;font-size:13px;"> [Subir task clase 3] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Emd7VAlJ8bFGq0mApoFyeXABuaHj_l4dwqvh9sfUJ2qM5w?e=fOCQNv" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 3: Importar datos y operadores <a href="https://lectures-excel.gitlab.io/202201/lecture-3" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Emd7VAlJ8bFGq0mApoFyeXABuaHj_l4dwqvh9sfUJ2qM5w?e=fOCQNv" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Leer archivos desde diferentes formatos
 * **[2.]** Operadores
 * **[3.]** Referencias relativas y absolutas
 
-##### Clase 4: Introducción a funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-4" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EmUi-1qwOiZIn3CM8jmYoDABCWWgIfJZyPxbLVO-DH4ppw?e=jzYU85-task" style="color:blue;font-size:13px;"> [Subir task clase 4] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhDjDo6LVfVAjGSZrSY9oboB-QpluKAmelNTVYpYT6U-9w?e=Og1afn" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 4: Introducción a funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-4" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhDjDo6LVfVAjGSZrSY9oboB-QpluKAmelNTVYpYT6U-9w?e=Og1afn" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Formulas y funciones
 * **[2.]** Listas desplegables
 * **[3.]** Función de texto
 
-##### Clase 5: Funciones Lógicas <a href="https://lectures-excel.gitlab.io/202201/lecture-5" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EqKjcYcEBT1CnDThBh-5i7UB-_SQmM-JTWUMhIuRJYlhig?e=7Pbk0D-task" style="color:blue;font-size:13px;"> [Subir task clase 5] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhPHXWaAavJMhBwKMaA8hxEB234i-XWUkVRuCQzGH5KYlA?e=mjU1ER" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 5: Funciones Lógicas <a href="https://lectures-excel.gitlab.io/202201/lecture-5" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EhPHXWaAavJMhBwKMaA8hxEB234i-XWUkVRuCQzGH5KYlA?e=mjU1ER" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Funciones SI(), Y() y O()
 * **[2.]** Anidar funciones
 * **[3.]** Funciones SI.CONJUNTO() y XO()
 * **[4.]** Funciones SI.ERROR() y SI.ND()
 
-##### Clase 6: Combinación de Funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-6" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EqlIknjcUTFEm76Z3A2VFYsB-5ei1C17LNJt79OxBtF_Fw?e=f7EqCd" style="color:blue;font-size:13px;"> [Subir task clase 6] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/ElyUSzQh5TFMpPvQobSwGl4Bl9LNt0GUGGKm1pCKaE7mYQ?e=tqKd5x" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 6: Combinación de Funciones <a href="https://lectures-excel.gitlab.io/202201/lecture-6" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/ElyUSzQh5TFMpPvQobSwGl4Bl9LNt0GUGGKm1pCKaE7mYQ?e=tqKd5x" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** SUMAR.SI()
 * **[2.]** SUMAR.SI.CONJUNTO()
 * **[3.]** CONTAR.SI()
 * **[4.]** CONTAR.SI.CONJUNTO()
 
-##### Clase 7: BUSCARV y BUSCARH <a href="https://lectures-excel.gitlab.io/202201/lecture-7" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 7] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvrV5dFY109CngFBWeqnspoBeME3fx4zgQucg7hU7ar1IQ?e=Tt8y4b" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 7: BUSCARV y BUSCARH <a href="https://lectures-excel.gitlab.io/202201/lecture-7" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvrV5dFY109CngFBWeqnspoBeME3fx4zgQucg7hU7ar1IQ?e=Tt8y4b" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** BUSCARV()
 * **[2.]** BUSCARV() + opciones
 * **[3.]** BUSCARV() + SI()
 * **[4.]** BUSCARV() + BUSCARH()
 
-##### Clase 8: Filtros <a href="https://lectures-excel.gitlab.io/202201/lecture-8" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 8] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EogRRKqFvGFEszko719cQoEBuDJxeNO22CpzMP6GdbIHNw?e=jhrKbB" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 8: Filtros <a href="https://lectures-excel.gitlab.io/202201/lecture-8" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EogRRKqFvGFEszko719cQoEBuDJxeNO22CpzMP6GdbIHNw?e=jhrKbB" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Filtros básicos
 * **[2.]** Filtros condicionales
 * **[3.]** Filtros avanzados
 
-##### Clase 9: Estadísticas Descriptivas <a href="https://lectures-excel.gitlab.io/202201/lecture-9" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 9] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvM93nCD1sRFktsAvLbFCmYBFWhsfmqUeh3u_VLf6ZGkgQ?e=trYUg7" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 9: Estadísticas Descriptivas <a href="https://lectures-excel.gitlab.io/202201/lecture-9" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EvM93nCD1sRFktsAvLbFCmYBFWhsfmqUeh3u_VLf6ZGkgQ?e=trYUg7" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Medidas de tendencia central
 * **[2.]** Medidas de dispersión
 * **[3.]** Medidas de posición
 
-##### Clase 10: Visualización de Datos <a href="https://lectures-excel.gitlab.io/202201/lecture-10" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="hola" style="color:blue;font-size:13px;"> [Subir task clase 10] </a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EkGtx2o0EQpBu1_7TxNiBjgBm9LviNuAHIqnR6gKrf1nWg?e=yrAcNp" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
+##### Clase 10: Visualización de Datos <a href="https://lectures-excel.gitlab.io/202201/lecture-10" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EkGtx2o0EQpBu1_7TxNiBjgBm9LviNuAHIqnR6gKrf1nWg?e=yrAcNp" style="color:blue;font-size:13px;"> [Datos de la clase] </a> 
 
 * **[1.]** Gráfico de columna y/o barras
 * **[2.]** Gráfico circular
 * **[3.]** Gráfico de dispersión
 * **[4.]** Gráfico de línea y/o área
 
-##### Clase 11: Tablas Dinámicas 
+##### Clase 11: Tablas Dinámicas <a href="https://lectures-excel.gitlab.io/202201/lecture-11" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EkFhElhlOsJHmsZkcVX2D0YBA6r3NIfL-WD-NDglzNsFTA?e=eRIFTd" style="color:blue;font-size:13px;"> [Datos de la clase] </a>
 
 * **[1.]** Generar tablas dinámicas 
 * **[2.]** Personalizar tablas dinámicas
@@ -152,23 +152,23 @@ knitr::opts_chunk$set(echo = TRUE)
 * **[5.]** Gráficos dinámicos
 * **[6.]** Campos, elementos y conjuntos
 
-##### Clase 12: Correlación y Análisis de Regresión 
+##### Clase 12: Correlación y Análisis de Regresión <a href="https://lectures-excel.gitlab.io/202201/lecture-12" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/Ek_BGC6lL9FDnCDh4mgGVEwB7PEWmEKadh5NsTIJpwwE-g?e=Pq9nol" style="color:blue;font-size:13px;"> [Datos de la clase] </a>
 
 * **[1.]** Configuración inicial
 * **[2.]** Correlación
 * **[3.]** Análisis de correlación
 
-##### Clase 13: Funciones de Bases de Datos 
+##### Clase 13: Funciones de Bases de Datos <a href="https://lectures-excel.gitlab.io/202201/lecture-13" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EoIwmLpQmTVCsNaUgXT1j7YBREA6GFH4vGQkCCF8zh4oYA?e=BlN9pq" style="color:blue;font-size:13px;"> [Datos de la clase] </a>
 
 * **[1.]** BDSUMA() y BDCONTAR()
 * **[2.]** BDPROMEDIO(), BDMIN()  y BDMAX()
 * **[3.]** BD... + Listas desplegables
 
-##### Clase 14: Dashboards 
+##### Clase 14: Dashboards <a href="https://lectures-excel.gitlab.io/202201/lecture-14" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EjJTqdxbqApEldgW3Rmqfc4BY76ajFw5IHxNDrEQUOLVSw?e=k2V09K" style="color:blue;font-size:13px;"> [Datos de la clase] </a>  
 
 * **[1.]** Dashboards
 
-##### Clase 15: Introducción a Macros 
+##### Clase 15: Introducción a Macros  <a href="https://lectures-excel.gitlab.io/202201/lecture-15" style="color:blue;font-size:13px;"> [Ver presentación]</a> - <a href="https://uniandes-my.sharepoint.com/:f:/g/personal/ef_martinezg_uniandes_edu_co/EjtZYYUqachOnHvHMpNKgZ8BrPlKjWr9KilqHQc4FOL4ag?e=go4hjs" style="color:blue;font-size:13px;"> [Datos de la clase] </a>
 
 * **[1]** ¿Qué son las Macros?
 * **[2]** Advertencia de Seguridad
