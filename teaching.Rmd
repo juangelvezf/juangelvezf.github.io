@@ -25,7 +25,7 @@ pagetitle : Research - Eduard F. Martínez-González
 
 * **R Aplicado a la Investigación en Ciencias Económicas y Empresariales** <br>
   Facultad de Ciencias Empresariales y Económicas <br>
-  [Spring 2022 website](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/website.html)
+  [Spring 2022 website](https://eduard-martinez.github.io/teaching/r_unimag/2022-01/website.html)
   
 ## Workshops
 
