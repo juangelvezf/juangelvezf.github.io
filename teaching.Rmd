@@ -20,6 +20,12 @@ pagetitle : Research - Eduard F. Martínez-González
 * **Taller de Excel - Econ 1300** <br>
   Department of Economics <br>
   [Spring 2022 website](https://eduard-martinez.github.io/teaching/excel/2022-01/website.html)
+
+#### Universidad del Magdalena, Colombia
+
+* **R Aplicado a la Investigación en Ciencias Económicas y Empresariales** <br>
+  Facultad de Ciencias Empresariales y Económicas <br>
+  [Spring 2022 website](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/website.html)
   
 ## Workshops
 

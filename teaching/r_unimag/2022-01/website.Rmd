@@ -1,5 +1,5 @@
 ---
-pagetitle: Taller de Excel, ECON-1300
+pagetitle: R Aplicado a la Investigación en Ciencias Económicas y Empresariales
 ---
 
 <!--- Inicio Emcabezado --->
@@ -66,116 +66,135 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!--- Tirulo --->
-<h1 style="color:black;">Taller de Excel, ECON-1300 </h1>
+<h2 style="color:black;">R Aplicado a la Investigación en Ciencias Económicas y Empresariales</h2>
 
-`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/excel/2022-01/syllabus.pdf)
+### 1-Acerca de este curso
 
-`r fontawesome::fa('calendar-alt')` **Clases:** Miércoles 6:30 – 07:45, Salón ML-505
+`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/ACON_1302_01_Eduard_Martinez.pdf)
 
-`r fontawesome::fa('clock')` **Horario de atención:** Lunes 11:00 – 12:00, Oficina W-722
+`r fontawesome::fa('gitlab')` **Repositorio del curso** [clik aquí](https://github.com/taller-R-202201)
 
-## Lectures
+`r fontawesome::fa('calendar-alt')` **Clases:** Por definir.
 
-##### Clase 1: Introducción a Excel  <a href="https://lectures-excel.gitlab.io/202201/lecture-1" style="color:blue;font-size:13px;"> [Ver presentación] </a> 
-* **[1.]** Prólogo
-* **[2.]** Syllabus
-* **[3.]** ¿Excel?
-* **[4.]** Interfaz de Excel
+`r fontawesome::fa('clock')` **Horario de atención:** Por definir.
 
-##### Clase 2: Introducción a la interfaz de Excel
+### 2-Configuración inicial
 
-* **[1.]** Libros y Hojas. 
-* **[2.]** Filas y Columnas.
-* **[3.]** Celdas, Rangos y Tablas.
-* **[4.]** Atajos
+**[1] Descargar [R](https://cran.r-project.org/)**
 
-##### Clase 3: Importar datos, libros e interfaz de Excel 
+**[2.] Descargar [RStudio](https://www.rstudio.com/products/rstudio/download/preview/)**
 
-* **[1.]** Importar datos.
-* **[2.]** Proteger libros y celdas en Excel
-* **[3.]** Listas desplegables.
-* **[4.]** Referencias relativas y absolutas.
+RStudio es un entorno de desarrollo integrado (IDE) para el lenguaje de programación R. Esta IDE brinda una interfaz más amigable con el usuario facilitando el aprendizaje.
 
-##### Clase 4: Introducción a Funciones y Operadores 
+**[3.] Instalar R y RStudio **
 
-* **[1.]** Operadores.
-* **[2.]** Formulas y Funciones. 
-* **[3.]** Función de fecha y hora.
+Puede ir a este [enlace](https://presentacións-blog.gitlab.io/R-initial-setup/#/antes-de-iniciar-el-curso) y seguir las instrucciones de instalación para el sistema operativo de su equipo.
 
-##### Clase 5: Funciones Lógicas 
+### 3-Clases
 
-* **[1.]** Funciones SI(), Y() y O()
-* **[2.]** Anidar funciones
-* **[3.]** Funciones SI.CONJUNTO() y XO()
-* **[4.]** Funciones SI.ERROR() y SI.ND()
+#### 3.1-Fundamentos de programación [4 horas]
 
+##### Clase-01: **Introducción a R**
 
-##### Clase 6: Combinación de Funciones 
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
 
-* **[1.]** SUMAR.SI()
-* **[2.]** SUMAR.SI.CONJUNTO()
-* **[3.]** CONTAR.SI()
-* **[4.]** CONTAR.SI.CONJUNTO()
+- ¿Usar R?
+- Interfaz de Rstudio.
+- Introducción a R.
+- Librerías.
+- Funciones y help.
 
-##### Clase 7: BUSCARV y BUSCARH 
+##### Clase-02: **Lenguaje orientado a objetos**
 
-* **[1.]** BUSCARV()
-* **[2.]** BUSCARV() + opciones
-* **[3.]** BUSCARV() + SI()
-* **[4.]** BUSCARV() + BUSCARH()
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
 
-##### Clase 8: Aplicar Filtros 
+- Nombrar objetos.
+- Tipo de datos.
+- Estructura de datos.
 
-* **[1.]** Filtros básicos
-* **[2.]** Filtros condicionales
-* **[3.]** Filtros avanzados
+#### 3.2-Manipular bases de datos en R [8 horas]
 
-##### Clase 9: Estadísticas Descriptivas 
+##### Clase-03: **Limpiar conjuntos de datos (parte-1) **
 
-* **[1.]** Medidas de tendencia central
-* **[2.]** Medidas de dispersión
-* **[3.]** Medidas de posición
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
 
-##### Clase 10: Visualización de Datos 
+- Directorio de trabajo.
+- Importar-exportar conjuntos de datos.
+- Tidy-data.
+- Renombrar variables.
+-  Adicionar/Eliminar variables.
+- Pipe (%>%).
 
-* **[1.]** Gráfico de columna y/o barras
-* **[2.]** Gráfico circular
-* **[3.]** Gráfico de dispersión
-* **[4.]** Gráfico de línea y/o área
+##### Clase-04: **Limpiar conjuntos de datos (parte-2) **
 
-##### Clase 11: Tablas Dinámicas 
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
 
-* **[1.]** Generar tablas dinámicas 
-* **[2.]** Personalizar tablas dinámicas
-* **[3.]** Configurar campos de valor
-* **[4.]** Formato condicional y filtros
-* **[5.]** Gráficos dinámicos
-* **[6.]** Campos, elementos y conjuntos
+- Remover filas y/o columnas.
+- Combinar conjuntos de datos (adicionar filas/columnas).
+- Pivotear conjuntos de datos.
+- Aplicación: Gran Encuesta Integrada de Hogares (GEIH) - DANE.
 
-##### Clase 12: Correlación y Análisis de Regresión 
+#### 3.3-Fundamentos de estadística [10 horas]
 
-* **[1.]** Configuración inicial
-* **[2.]** Correlación
-* **[3.]** Análisis de correlación
+##### Clase-05: **Estadística descriptiva (parte-1)**
 
-##### Clase 13: Funciones de Bases de Datos 
+Ver presentación **[[aquí]]()**.  Ver códigos **[[aquí]]()**. taller de la clase **[[aquí]]()**.
 
-* **[1.]** BDSUMA() y BDCONTAR()
-* **[2.]** BDPROMEDIO(), BDMIN()  y BDMAX()
-* **[3.]** BD... + Listas desplegables
+- Medidas de tendencia central.
+- Promedio condicional.
+- Medidas de dispersión.
+- Correlación.
+- Aplicación: SABER-PRO y SABER-11 - ICFES.
 
-##### Clase 14: Dashboards 
+##### Clase-06: **Estadística descriptiva (parte-2)**
 
-* **[1.]** Dashboards
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
 
-##### Clase 15: Introducción a Macros 
+- Visualización de información.
+- Aplicación: Gran Encuesta Integrada de Hogares (GEIH) - DANE.
 
-* **[1]** ¿Qué son las Macros?
-* **[2]** Advertencia de Seguridad
-* **[3]** ¿Cómo crear Macros?
-* **[4]** Filtros con Macros
-* **[5]** Gráficos con Macros
+##### Clase-07: **Estadística inferencial**
 
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
+
+- Distribuciones de probabilidad.
+- Prueba de hipótesis e intervalos de confianza.
+- Diferencia de medias.
+- Aplicación: Encuesta nacional de calidad de vida (ECV) - DANE.
+
+#### 3.4-Análisis de regresión [8 horas]
+
+##### Clase-08: **Fundamentación teórica**
+
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
+
+- ¿Qué dice y qué no dice una regresión?
+- ¿Qué pude fallar en una regresión?
+- Endogeneidad.
+- Métodos cuasiexperimentales.
+
+##### Clase-09: **Aplicación**
+
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
+
+- OLS
+- Regresión discontinua.
+- Modelos no lineales.
+- Interpretación y presentación de resultados.
+
+#### 3.5-Presentación de información [4 horas]
+
+##### Clase-10: **Elaboración de informes**
+
+Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
+
+- Introducción a Rmarkdown.
+- ¿Cómo podemos presentar los resultados de una investigación?
+- Automatizar informes.
+
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<br>  </br> <!--- Agrega lineas en blanco --->
 
 </div>
 
