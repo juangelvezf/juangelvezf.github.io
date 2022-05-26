@@ -41,42 +41,21 @@ Economics PhD student at Universidad de los Andes, interested in Crime Economics
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
-## About me
+### About me
 
 I’m an Economics PhD student at Universidad de los Andes. My primary interests are Crime Economics, Urban Economics and Public Policy. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
 
 You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">here</a>.
 
+### Current Positions
 
-## Experience
-
-* #### Teaching
-
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar (in Spanish), Department of Economics, Universidad de los Andes, Colombia. 2019 - Currently. ([Available here](https://github.com/taller-R-202201))</p>
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar, Department of Economics, Universidad de los Andes, Colombia. 2019 - Currently. ([Available here](https://github.com/taller-R-202201))</p>
   
   + <p><strong style="color:black;font-size:16px;"> Teaching Assitance: </strong> Big Data and Machine Learning for Applied Economics - Econ 4676, Department of Economics, Universidad de los Andes, Colombia. 2022 - Currently. ([Available here](https://github.com/ECON-4676-UNIANDES-Fall-2021)) </p>
   
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Big Data and Machine Learning en el Mercado Inmobiliario (in Spanish), Department of Economics, Universidad de los Andes, Colombia. 2021 - Currently. ([Available here](https://ignaciomsarmiento.github.io/teaching/BDML)) </p>
-  
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Curso de Geoestadística, Universidad Piloto de Colombia, Colombia. 2021. </p>
-  
-* #### Research
+  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Big Data and Machine Learning for Real State, Department of Economics, Universidad de los Andes, Colombia. 2021 - Currently. ([Available here](https://ignaciomsarmiento.github.io/teaching/BDML)) </p>
 
-  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong> Centro de Investigaciones Económicas y Financieras (CIEF), Universidad EAFIT, Colombia. 2021. </p>
-    
-  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes, Colombia. 2019 - 2020. </p>
-
-  + <p><strong style="color:black;font-size:16px;"> Research Analyst: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED) - Universidad de los Andes, Colombia. 2018 - 2019. </p>
-
-  + <p><strong style="color:black;font-size:16px;"> Research Assistant: </strong>  Centro de Estudios Económicos Regionales (CEER) - Central Bank of Colombia. 2016 - 2017. </p>
-
-* #### Other experience
-  
-  + <p><strong style="color:black;font-size:16px;">Research Analyst: </strong>  Fundación Ideas para la Paz (FIP), Colombia. 2020 - 2021. </p>
-  
-  + <p><strong style="color:black;font-size:16px;">Research Analyst: </strong>  Truth Commission, Colombia. 2020 - 2021. </p>
-
-## Contac info
+### Contac info
 
 <!-- Correo -->
 <span id="person-email" itemprop="email"><a href="ef.martinezg@uniandes.edu.co" style="color:black;"> <img alt="Qries" src="./images/correo.png" width=30" height="30">  ef.martinezg@uniandes.edu.co</a></span>

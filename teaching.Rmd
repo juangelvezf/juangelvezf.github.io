@@ -41,7 +41,7 @@ pagetitle : Research - Eduard F. Martínez-González
   Universidad EAFIT, Colombia, 2021 <br>
   [[Recordings]](https://www.youtube.com/channel/UCLqqb0eZ1razOkTDusAVEnA) [[2021 Website]](https://github.com/taller-R/taller_cief_202102)
   
-* **Geostatistics** <br>
+* **Workshop at Geostatistics** <br>
   Universidad Piloto de Colombia, Colombia, 2021 <br>
 
 
