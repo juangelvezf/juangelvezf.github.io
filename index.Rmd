@@ -25,8 +25,13 @@ Economics PhD student at Universidad de los Andes, interested in Crime Economics
 <!-- Twitter -->
  <a href="https://twitter.com/emartigo" style="color:black;"> <img alt="Qries" src="./images/twitter.jpg" width=30" height="30">  @emartigo</a> 
 
+<!-- gitlab -->
+<a href="https://gitlab.com/eduard-martinez" style="color:black;"> <img alt="Qries" src="./images/gitlab.png" width=30" height="30">  eduard-martinez</a>
+
 <!-- GitHub -->
 <a href="https://github.com/eduard-martinez" style="color:black;"> <img alt="Qries" src="./images/github.png" width=30" height="30">  eduard-martinez</a>
+
+
 
 </div>
 <!------------- Fin panel de la izquierda ------------->

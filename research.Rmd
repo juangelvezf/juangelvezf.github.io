@@ -68,6 +68,9 @@ pagetitle : Research - Eduard F. Martínez-González
 <!-- Twitter -->
  <a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/twitter.jpg" width=20" height="20">  @emartigo</a> 
 
+<!-- gitlab -->
+<a href="https://gitlab.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/gitlab.png" width=20" height="20">  eduard-martinez</a>
+
 <!-- GitHub -->
 <a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/github.png" width=20" height="20">  eduard-martinez</a>
 </div>
