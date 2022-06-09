@@ -11,21 +11,20 @@ Welcome to my personal blog. I post here notes about programming in R and spatia
 
 <strong style="color:black;font-size:18px;"> 1. Introduction to R </strong> (in Spanish) [clik here](https://blog-r.gitlab.io/2-intro-r)
 
-+ OpenStreetMap
-+ Geocoding Addresses
-+ Google Places
++ Interfaz R y Rstuio
++ Librerías
++ Funciones
 
 <strong style="color:black;font-size:18px;"> 2. Data structure in R </strong> (in Spanish) [clik here](https://blog-r.gitlab.io/3-data-structure)
 
-+ OpenStreetMap
-+ Geocoding Addresses
-+ Google Places
++ Tipos de datos
++ Vectores, listas, matrices y dataframes
 
 <strong style="color:black;font-size:18px;"> 3. Tidy data in R </strong> (in Spanish) [clik here](https://blog-r.gitlab.io/5-tidy-data)
 
-+ OpenStreetMap
-+ Geocoding Addresses
-+ Google Places
++ Leer/escribir datos
++ Adicionar/eliminar variables
++ Combinar conjuntos de datos
 
 <strong style="color:black;font-size:18px;"> 4. Introduction to spatial data in R </strong> (in Spanish) [clik here]()
 
