@@ -48,7 +48,7 @@ geom_point(col = "red" , size = 0.5)
 ## by group
 ggplot(data = db , 
        mapping = aes(x = age , y = y_ingLab_m , group=as.factor(formal) , color=as.factor(formal))) +
-geom_point()
+       geom_point()
 
 ## density: income by sex
 p <- ggplot(data=db) + 
@@ -157,9 +157,9 @@ db = db %>%
 db %>% select(directorio,y_total_m,mean_y_total_m) %>% tail()
 
 db = db %>%
-     mutate(y_total_m = ifelse(is.na(y_total_m)==T,
-                               mean_y_total_m,
-                               y_total_m))
+     mutate(y_total_m = ifelse(test = is.na(y_total_m)==T,
+                               yes = mean_y_total_m,
+                               no = y_total_m))
 
 db %>% select(directorio,y_total_m,mean_y_total_m) %>% tail()
 
