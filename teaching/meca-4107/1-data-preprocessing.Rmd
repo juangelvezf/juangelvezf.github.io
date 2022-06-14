@@ -66,7 +66,7 @@ db <- import("https://gitlab.com/Lectures-R/bd-meca-2022-summer/lecture-01/-/raw
 
 #### **1.1. dataframe vs tibble**
 
-**Why is it tibble?:** Tibbles are a modern take on data frames. They keep the features that have stood the test of time, and drop the features that used to be convenient but are now frustrating (i.e. converting character vectors to factors).
+**Wha is a tibble?:** Tibbles are a modern take on data frames. They keep the features that have stood the test of time, and drop the features that used to be convenient but are now frustrating (i.e. converting character vectors to factors).
 
 Then, **Why should I use them?:** There are three key differences between tibbles and data frames: printing, subsetting, and recycling rules. Run `vignette("tibble")` on the console to read more about it.
 
