@@ -2113,16 +2113,16 @@ now!</strong></p>
 ## FALSE  TRUE 
 ##  1354  1863</code></pre>
 <div class="sourceCode" id="cb76"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="do">## replace values:</span></span>
-<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>db <span class="sc">%&gt;%</span> <span class="fu">select</span>(directorio,<span class="fu">contains</span>(<span class="st">&quot;salary&quot;</span>)) <span class="sc">%&gt;%</span> <span class="fu">tail</span>()</span></code></pre></div>
-<pre><code>## # A tibble: 6 × 4
-##   directorio y_salary_m y_salary_m_hu y_salarySec_m
-##        &lt;int&gt;      &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;
-## 1    4540692         NA           NA             NA
-## 2    4540693    1000000         4861.            NA
-## 3    4540693     781242         3798.            NA
-## 4    4540693         NA           NA             NA
-## 5    4540694         NA           NA             NA
-## 6    4540694         NA           NA             NA</code></pre>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>db <span class="sc">%&gt;%</span> <span class="fu">select</span>(directorio,y_total_m) <span class="sc">%&gt;%</span> <span class="fu">tail</span>()</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 2
+##   directorio y_total_m
+##        &lt;int&gt;     &lt;dbl&gt;
+## 1    4540692        NA
+## 2    4540693   1000000
+## 3    4540693    869453
+## 4    4540693        NA
+## 5    4540694        NA
+## 6    4540694   1000000</code></pre>
 <div class="sourceCode" id="cb78"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a>db <span class="ot">=</span> db <span class="sc">%&gt;%</span> </span>
 <span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a>     <span class="fu">group_by</span>(directorio) <span class="sc">%&gt;%</span> </span>
 <span id="cb78-3"><a href="#cb78-3" aria-hidden="true" tabindex="-1"></a>     <span class="fu">mutate</span>(<span class="at">mean_y_total_m =</span> <span class="fu">mean</span>(y_total_m,<span class="at">na.rm=</span>T))</span>

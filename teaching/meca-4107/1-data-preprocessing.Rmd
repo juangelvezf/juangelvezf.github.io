@@ -263,7 +263,7 @@ is.na(db$y_total_m) %>% table()
 
 ```{r}
 ## replace values:
-db %>% select(directorio,contains("salary")) %>% tail()
+db %>% select(directorio,y_total_m) %>% tail()
 
 db = db %>% 
      group_by(directorio) %>% 
