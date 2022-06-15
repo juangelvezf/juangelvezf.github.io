@@ -3,7 +3,7 @@ pagetitle: "2 - Introducción a web scraping"
 title: "Week 2: Introducción a web scraping"
 subtitle: Big Data and Machine Learning for Applied Economics | [MECA-4107](https://bloqueneon.uniandes.edu.co/d2l/home/130328)
 author: 
-      name: Eduard-Martínez & Lucas II
+      name: Eduard-Martínez & Lucas Antonio II
       affiliation: Universidad de los Andes  #[`r fontawesome::fa('globe')`]()
 # date: Lecture 10  #"`r format(Sys.time(), '%d %B %Y')`"
 output: 
@@ -45,9 +45,7 @@ require(pacman)
 
 ## p_load llama/instala-llama las librerías que se enlistan:
 p_load(tidyverse, # contiene las librerías ggplot, dplyr...
-       rvest)#, # web-scraping
-       #xml2,   # web-scraping
-       #httr)  # web-scraping
+       rvest)# web-scraping
 ```
 
 ## **1. Introducción a web scraping**
@@ -284,10 +282,6 @@ puede navegar hasta la url de **`r db$titles[1]`** y ver el contenido de la url:
 browseURL(db$url[1])
 ```
 
-
-## **3. `Rselenium`**
-
-https://ignaciomsarmiento.github.io/GEIH2018_sample/page1.html
 
 ### Para seguir leyendo
 
