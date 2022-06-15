@@ -1,0 +1,300 @@
+---
+pagetitle: "2 - Introducción a web scraping"
+title: "Week 2: Introducción a web scraping"
+subtitle: Big Data and Machine Learning for Applied Economics | [MECA-4107](https://bloqueneon.uniandes.edu.co/d2l/home/130328)
+author: 
+      name: Eduard-Martínez & Lucas II
+      affiliation: Universidad de los Andes  #[`r fontawesome::fa('globe')`]()
+# date: Lecture 10  #"`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document:
+    theme: flatly
+    highlight: haddock
+    # code_folding: show
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    keep_md: false
+    keep_tex: false ## Change to true if want keep intermediate .tex file
+    ## For multi-col environments
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    dev: cairo_pdf
+    # fig_width: 7 ## Optional: Set default PDF figure width
+    # fig_height: 6 ## Optional: Set default PDF figure height
+    includes:
+      in_header: tex/preamble.tex ## For multi-col environments
+    pandoc_args:
+        --template=tex/mytemplate.tex ## For affiliation field. See: https://bit.ly/2T191uZ
+always_allow_html: true
+urlcolor: blue
+mainfont: cochineal
+sansfont: Fira Sans
+monofont: Fira Code ## Although, see: https://tex.stackexchange.com/q/294362
+## Automatically knit to both formats
+---
+
+## **0. Configuración inicial**
+
+Llamar/instalar las librerías para esta sesión:
+
+```{r}
+## llamar la librería pacman: contiene la función p_load()
+require(pacman)
+
+## p_load llama/instala-llama las librerías que se enlistan:
+p_load(tidyverse, # contiene las librerías ggplot, dplyr...
+       rvest)#, # web-scraping
+       #xml2,   # web-scraping
+       #httr)  # web-scraping
+```
+
+## **1. Introducción a web scraping**
+
+Web scrapin es una técnica usada para automatizar los procesos de extracción de información de sitios web, como tablas, textos o link a otras páginas. **¿Por qué hacer web-scraping?**
+
+-   Funciona mejor que copiar y pegar la información de la web.
+-   Es rápido y replicable.
+
+### **1.1 robots.txt**
+
+El ***robots exclusion standard***, también conocido como ***protocolo de exclusión para robots*** o simplemente `robots.txt`, es un protocolo estándar usado en algunos sitios web para comunicarse con buscadores y otros robots en la web. Este protocolo le indica a los buscadores o robots web sobre las partes de ese sitio web que no ***deben/pueden*** procesarse o escanearse. Veamos algunos ejemplos de `robots.txt`:
+
+**Ejemplo 1: permite a cualquier robots procesar/escanear todos los elementos de la pagína**
+
+<table style="background-color:#f9f2f4">
+<tr><th><code style="background-color:#f9f2f4"> # robots.txt for https://example.com/</code></th></tr>
+<tr><td><code style="background-color:#f9f2f4"> User-agent: * </code></td></tr>
+<tr><td><code style="background-color:#f9f2f4"> Disallow:</code></td></tr>
+</table>
+
+**Ejemplo 2: no permite procesar/escanear ningún elemento de la pagína**
+
+<table style="background-color:#f9f2f4">
+<tr><th><code style="background-color:#f9f2f4"> # robots.txt for https://example.com/</code></th></tr>
+<tr><td><code style="background-color:#f9f2f4"> User-agent: * </code></td></tr>
+<tr><td><code style="background-color:#f9f2f4"> Disallow: / </code></td></tr>
+</table>
+
+**Ejemplo 3: no permite procesar/escanear ningún elemento del archivo /public/index.html**
+
+<table style="background-color:#f9f2f4">
+<tr><th><code style="background-color:#f9f2f4"> # robots.txt for https://example.com/</code></th></tr>
+<tr><td><code style="background-color:#f9f2f4"> User-agent: * </code></td></tr>
+<tr><td><code style="background-color:#f9f2f4"> Disallow: /public/index.html </code></td></tr>
+</table>
+
+**Ejemplo 4: no le permite al robot `BadBot` procesar/escanear ningún elemento de la pagína:**
+
+<table style="background-color:#f9f2f4">
+<tr><th><code style="background-color:#f9f2f4"> # robots.txt for https://example.com/</code></th></tr>
+<tr><td> <code style="background-color:#f9f2f4"> User-agent: BadBot </code></td></tr>
+<tr><td><code style="background-color:#f9f2f4"> Disallow: / </code></td></tr>
+</table>
+
+Puede accederse al protocolo de exclusión de una página agregando `robots.txt` al dominio principal de la página. Por ejemplo `https://example.com/robots.txt`
+
+```{r, eval=FALSE}
+## Acceder al robots.txt de wikipedia
+browseURL("https://en.wikipedia.org/robots.txt")
+```
+
+### **1.2 Hyper Text Markup Language (HTML)**
+
+Un ***Hyper Text Markup Language*** no es un lenguaje de programación, sino más bien un lenguaje de marcado de hipertexto. Un ***HTML*** se escribe en su totalidad con elementos, los que a su vez están constituidos por etiquetas, contenido y atributos (mas adelante veremos que es cada uno de ellos). Los elementos están estructurados como un árbol (tronco, ramas, hojas). Por tanto, para poder extraer un elemento (por ejemplo una hoja), se rastrear la ruta del nodo o etiqueta (indicarle el tronco y la rama que contiene la hoja). Los ***HTML*** son interpretados por los navegadores web visualizando su contenido (una página web por ejemplo) tal y como estamos acostumbrados a verlo. **Puede acceder al HTML de una página web así:**
+
+![](pics/view_html.gif)
+
+### **1.3 Elementos en un HTML**
+
+Un elemento esta compuesto por una etiqueta `<p>`, atributos `id="texto"` (no siempre contiene atributos) y el contenido `Hola mundo`. Por ejemplo:
+
+`<p id="texto"> Hola mundo </p>`
+
+Las etiquetas sirven para delimitar el inicio (`< >`) y el final (`<\ >`) de un elemento. Aquí puede observar algunas etiquetas de elementos comunes en HTML:
+
+-   `<p>`: Párrafos
+-   `<head>`: Encabezado de la pagina
+-   `<body>`: Cuerpo de la pagina
+-   `<h1>, <h2>,...,<hi>`: Encabezados, Secciones
+-   `<a>`: links
+-   `<li>`: Ítem en una lista
+-   `<table>`: Tablas
+-   `<td>`: Una celda de datos en una tabla
+-   `<div>`: División. Sirve para crear secciones o agrupar contenidos.
+-   `<script>`: Se utiliza para insertar o hacer referencia a un script
+
+Por otra parte, los atributos sirven para configurar o proveer información adicional a un elemento. Siempre se expresan en la etiqueta de inicio y tienen asignado un nombre y un valor. Por ejemplo:
+
+`<a class="document-toc-link" col="red">Lista de Atributos</a>`
+
+Aquí la etiqueta del elemento es `a` y tiene dos atributos `class` que indica que el contenido es un link a otro sitio web y `col` que indica que debe visualizarce de color rojo.
+
+### **1.4 Mi primer HTML**
+
+Ya puedes escribir tu primer **HTML**. Intente copiar el siguiente código y ejecutarlo sobre la consola de R:
+
+```{r, eval=FALSE}
+my_html <- 
+'<!DOCTYPE html> 
+<html>
+<meta charset="utf-8">
+<head>
+<title> Título de la página: ejemplo de clase </title>
+</head>
+<body>
+<h1> Title 1.</h1>
+<h2> Subtitle <u>subrayado-1</u>. </h2>
+<p> Este es un párrafo muy pequeño que se encuentra dentro de la etiqueta <b>p</b> de <i>html</i> </p>
+</body>
+</html>'
+```
+
+Ahora va escribir/guardar el objeto `my_html` como un archivo **.html** y lo va a leer con el navegador de su equipo:
+
+```{r, eval=FALSE}
+write.table(x=my_html , file='my_page.html' , quote=F , col.names=F , row.names=F)
+browseURL("my_page.html") ## leer con el navegador de su equipo
+```
+
+Su navegador interpretará el archivo `my_page.html` y debe visualizar lo siguiente:
+
+![](pics/my_page.png){width="80%"}
+
+**Note:** intente sobrescriba el objeto `my_html` agregando un elemento `h1` en el que escriba su nombre y ubiquelo después del elemento `p`. Ejecute el código nuevamente y vea como cambió el html.
+
+## **2. `rvest`**
+
+`rvest` es una librería que contiene un conjunto de funciones para raspar (o recolectar) datos desde páginas web estaticas usando R. Puede ver una introducción a web escraping con `rvest` escribiendo sobre la consola:
+
+```{r,eval=T,echo=T,warning=T}
+vignette("rvest")
+```
+
+### **2.1 Aplicación en R:**
+
+```{r,eval=T,echo=T,warning=T}
+my_url = "https://es.wikipedia.org/wiki/Copa_Mundial_de_F%C3%BAtbol"
+browseURL(my_url) ## Ir a la página
+```
+
+```{r,eval=T,echo=T,warning=T}
+my_html = read_html(my_url) ## leer el html de la página
+class(my_html) ## ver la clase del objeto
+```
+
+```{r,eval=F}
+View(my_html)
+```
+
+![](pics/obj_html.png){width="80%"}
+
+### **2.2 Extraer elementos de un HTML**
+
+Usted puede usar la etiqueta de un elemento para extraer todo los elementos de ese tipo en el html:
+
+```{r,eval=T,echo=T,warning=T}
+## Obtener los elementos h2 de la página
+my_html %>% html_elements("h2")
+```
+
+Los elementos `h2` contiene las subsesiones de la página. Puede extraer el texto de cada elemento usando la función `html_text()`
+
+```{r,eval=T,echo=T,warning=T}
+## Ver los textos
+my_html %>% html_elements("h2") %>% html_text()
+```
+
+### **2.3 Xpath**
+
+**¿Cómo se puede extraer un elemento especifico de un HTML?**. El lenguaje Xpath (*XML Path Language*) es el sistema que permite construir expresiones usadas para recorrer y consultar los elementos de un documento XML. Es decir, un `XPath` permite buscar un elemento teniendo en cuenta la estructura jerárquica del XML.
+
+![](pics/body_html.png)
+Por el ejemplo, para obtener el elemento marcado con un recuadro rojo, el `xpath` le indica a R cuál es el camino que debe recorrer para extraer ese elemento. Puede obtener el `xpath` inspeccionando el elemento así: 
+
+![](pics/xpath.gif){width="80%"}
+
+Para extraer el nodo que contiene el primer párrafo, usted puede extraer el xpath de ese parrafo (`'//*[@id="mw-content-text"]/div/p[1]'`) y usar la función `html_nodes()` para extraer el elemento: 
+
+```{r,eval=T,echo=T,warning=T}
+my_html %>% html_nodes(xpath = '//*[@id="mw-content-text"]/div/p[1]')
+```
+
+Para exraer el texto del elemento, puede emplear la función `html_text()` nuevamente:
+
+```{r,eval=T,echo=T,warning=T}
+my_html %>% html_nodes(xpath = '//*[@id="mw-content-text"]/div/p[1]')  %>% 
+html_text() 
+```
+
+### **2.4 Extraer tablas de un html**
+
+```{r,eval=T,echo=T,warning=T}
+## extraer todas las tablas del html 
+my_table = my_html %>% html_table()
+
+## numero de tablas extraidas
+length(my_table)
+my_table[[11]]
+```
+
+**Nota:** tambien puede usar el nombre del elemento (`table`) para extraer las tablas del html.
+
+### **2.5 Extraer atributos de un elemento**
+
+Si quiere usar la etiqueta del elemento para extraer solo los elementos que 
+
+```{r,eval=T,echo=T,warning=T}
+sub_html = my_html %>% html_nodes(xpath='//*[@id="mw-content-text"]/div[1]/table[10]/tbody')
+class(sub_html)
+```
+
+Extraer los elementos con que contiene links a otras páginas:
+
+```{r,eval=T,echo=T,warning=T}
+elements = sub_html %>% html_nodes("a")
+elements[1:5]
+```
+
+Extraer el atributo `titel`:
+
+```{r,eval=T,echo=T,warning=T}
+titles = elements %>% html_attr("title")
+titles[1:5]
+```
+
+Extraer el atributo `href` que contiene la url a las referencias:
+
+```{r,eval=T,echo=T,warning=T}
+refs = elements %>% html_attr("href")
+refs[1:5]
+```
+
+puede crear un objeto que contenga la url de la página y el contenido de la url:
+
+```{r,eval=T,echo=T,warning=T}
+db = tibble(titles,url=paste0("https://es.wikipedia.org",refs))
+db %>% head()
+```
+
+puede navegar hasta la url de **`r db$titles[1]`** y ver el contenido de la url:
+
+```{r,eval=T,echo=T,warning=T}
+browseURL(db$url[1])
+```
+
+
+## **3. `Rselenium`**
+
+https://ignaciomsarmiento.github.io/GEIH2018_sample/page1.html
+
+### Para seguir leyendo
+
+-   Munzert, Simon et al., 2015. Automated Data Collection with R: A Practical Guide to Web Scraping and Text Mining [[Ver aquí]](http://www.r-datacollection.com)
+
+    -   Chapter 2: HTML
+    -   Chapter 4: Path
+    -   Chapter 9: Scraping the Web
+
+
