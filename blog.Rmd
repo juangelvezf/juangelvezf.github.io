@@ -9,13 +9,13 @@ pagetitle : Blog - Eduard F. Martínez-González
 
 Welcome to my personal blog. I post here notes about programming in R and spatial data. Enjoy!
 
-<strong style="color:black;font-size:18px;"> 1. Introduction to R </strong> (in Spanish) [clik here](https://blog-r.gitlab.io/2-intro-r)
+<strong style="color:black;font-size:18px;"> 1. Introduction to R </strong> (in Spanish) [clik here](https://lectures-r.gitlab.io/blog/2-intro-r)
 
 + Interfaz R y Rstuio
 + Librerías
 + Funciones
 
-<strong style="color:black;font-size:18px;"> 2. Data structure in R </strong> (in Spanish) [clik here](https://blog-r.gitlab.io/3-data-structure)
+<strong style="color:black;font-size:18px;"> 2. Data structure in R </strong> (in Spanish) [clik here](https://lectures-r.gitlab.io/blog/3-objects)
 
 + Tipos de datos
 + Vectores, listas, matrices y dataframes
