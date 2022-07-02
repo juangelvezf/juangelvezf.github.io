@@ -209,8 +209,8 @@ head(geih)
 
 ```{r, eval=T}
 ## probit
-cm_prob = confusionMatrix(data=factor(geih$ocu) , 
-                          reference=factor(geih$ocu_prob) , 
+cm_prob = confusionMatrix(data=factor(geih$ocu_prob) , 
+                          reference=factor(geih$ocu) , 
                           mode="sens_spec" , positive="1")
 cm_prob
 

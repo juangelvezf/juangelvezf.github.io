@@ -1859,34 +1859,34 @@ automatica (0):</p>
 <div id="clasificación" class="section level4">
 <h4><strong>3.3. Clasificación</strong></h4>
 <div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="do">## probit</span></span>
-<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>cm_prob <span class="ot">=</span> <span class="fu">confusionMatrix</span>(<span class="at">data=</span><span class="fu">factor</span>(geih<span class="sc">$</span>ocu) , </span>
-<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">reference=</span><span class="fu">factor</span>(geih<span class="sc">$</span>ocu_prob) , </span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>cm_prob <span class="ot">=</span> <span class="fu">confusionMatrix</span>(<span class="at">data=</span><span class="fu">factor</span>(geih<span class="sc">$</span>ocu_prob) , </span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">reference=</span><span class="fu">factor</span>(geih<span class="sc">$</span>ocu) , </span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>                          <span class="at">mode=</span><span class="st">&quot;sens_spec&quot;</span> , <span class="at">positive=</span><span class="st">&quot;1&quot;</span>)</span>
 <span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>cm_prob</span></code></pre></div>
 <pre><code>## Confusion Matrix and Statistics
 ## 
 ##           Reference
 ## Prediction    0    1
-##          0 1125  169
-##          1 1088  477
+##          0 1125 1088
+##          1  169  477
 ##                                           
 ##                Accuracy : 0.5603          
 ##                  95% CI : (0.5419, 0.5786)
-##     No Information Rate : 0.774           
-##     P-Value [Acc &gt; NIR] : 1               
+##     No Information Rate : 0.5474          
+##     P-Value [Acc &gt; NIR] : 0.08503         
 ##                                           
 ##                   Kappa : 0.1641          
 ##                                           
-##  Mcnemar&#39;s Test P-Value : &lt;2e-16          
+##  Mcnemar&#39;s Test P-Value : &lt; 2e-16         
 ##                                           
-##             Sensitivity : 0.7384          
-##             Specificity : 0.5084          
-##          Pos Pred Value : 0.3048          
-##          Neg Pred Value : 0.8694          
-##              Prevalence : 0.2260          
+##             Sensitivity : 0.3048          
+##             Specificity : 0.8694          
+##          Pos Pred Value : 0.7384          
+##          Neg Pred Value : 0.5084          
+##              Prevalence : 0.5474          
 ##          Detection Rate : 0.1668          
-##    Detection Prevalence : 0.5474          
-##       Balanced Accuracy : 0.6234          
+##    Detection Prevalence : 0.2260          
+##       Balanced Accuracy : 0.5871          
 ##                                           
 ##        &#39;Positive&#39; Class : 1               
 ## </code></pre>
