@@ -15,7 +15,7 @@ p_load(rio, # import/export data
 set.seed(0000)
 
 ## load data
-db <- import("https://gitlab.com/Lectures-R/bd-meca-2022-summer/lecture-01/-/raw/main/data/GEIH_sample1.Rds")
+db <- import("https://gitlab.com/Lectures-R/bd-meca-2022-summer/lecture-01/-/raw/main/data/GEIH_sample1.rds")
 
 ## data dictionary is available here:
 browseURL("https://ignaciomsarmiento.github.io/GEIH2018_sample/dictionary.html")

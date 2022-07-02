@@ -1,0 +1,52 @@
+# Eduard Martínez
+# update: 18-06-2022
+
+## load packages
+rm(list = ls())
+require(pacman)
+p_load(tidyverse,rvest,RSelenium)
+
+#============#
+#     MAC    #
+#============#
+
+## run docker (mac)
+# sudo docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.0
+# sudo docker ps
+# sudo docker stop $(sudo docker ps -q)
+
+## start server
+remDr <- remoteDriver(port = 4445L)
+remDr$open()
+
+## go to web-page
+remDr$navigate("https://ignaciomsarmiento.github.io/GEIH2018_sample/page1.html")
+remDr$getTitle()
+
+## View web-page
+remDr$screenshot(useViewer = T , display = T)
+
+## Extract table
+tabla_1 = remDr$getPageSource()[[1]] %>% read_html() %>% html_table()
+tabla_df = tabla_1[[1]]
+
+colnames(tabla_df)[1] = "nrow"
+
+#============#
+#   Windows  #
+#============#
+
+## start server
+
+
+## navegar a la página
+remDr$navigate("https://ignaciomsarmiento.github.io/GEIH2018_sample/page1.html")
+remDr$getTitle()
+
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+---
+pagetitle: "4 - Introducción a web scraping"
+title: "Week 4: Introducción a web scraping"
+subtitle: Big Data and Machine Learning for Applied Economics | [MECA-4107](https://bloqueneon.uniandes.edu.co/d2l/home/130328)
+author: 
+      name: Eduard-Martínez & Lucas Antonio II
+      affiliation: Universidad de los Andes  #[`r fontawesome::fa('globe')`]()
+# date: Lecture 10  #"`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document:
+    theme: flatly
+    highlight: haddock
+    # code_folding: show
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    keep_md: false
+    keep_tex: false ## Change to true if want keep intermediate .tex file
+    ## For multi-col environments
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    dev: cairo_pdf
+    # fig_width: 7 ## Optional: Set default PDF figure width
+    # fig_height: 6 ## Optional: Set default PDF figure height
+    includes:
+      in_header: tex/preamble.tex ## For multi-col environments
+    pandoc_args:
+        --template=tex/mytemplate.tex ## For affiliation field. See: https://bit.ly/2T191uZ
+always_allow_html: true
+urlcolor: blue
+mainfont: cochineal
+sansfont: Fira Sans
+monofont: Fira Code ## Although, see: https://tex.stackexchange.com/q/294362
+## Automatically knit to both formats
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+require(pacman)
+p_load(tidyverse,caret,class,gamlr)
+```
+
+## **0. Configuración inicial**
+
+Llamar/instalar las librerías para esta sesión:
+
+```{r,eval=F}
+## llamar la librería pacman: contiene la función p_load()
+require(pacman)
+
+## p_load llama/instala-llama las librerías que se enlistan:
+p_load(tidyverse, caret,
+       gamlr, # cv.gamlr
+       class) # knn
+```
+
+
+## **1. Métricas para problemas de clasificación**
+
+
+## **2. K-Nearest Neighbors**
+
+Vamos a cargar el conjunto de datos de **Motor Trend Car Road Tests (mtcars)** la cuál contiene información de algunas caracteristicas para 32 marcas de vehículos de 1974: millas por galón (mpg), número de cilindros (cyl), esplazamiento (disp), potencia bruta (hp), relación del eje trasero (drt), peso en miles de libras (wt), 1/4 de milla de tiempo (qseg), motor en forma de V (vs), transmisión manual (am), número de marchas hacia delante (gear) y número de carburadores (carb).
+
+```{r, eval=T}
+?mtcars
+db <- tibble(mtcars)
+head(db)
+db$am = factor(x=as.character(db$am), levels=c(0,1) , labels =c("automatic","manual"))
+```
+
+```{r, eval=T}
+set.seed(210422)
+test <- sample(x=1:32, size=10)
+x <- scale(db[,-9])
+apply(x,2,sd)
+k1 = knn(train=x[-test,], test=x[test,], cl=db$am[-test], k=1)
+k5 = knn(train=x[-test,], test=x[test,], cl=db$am[-test], k=3)
+results = tibble(db$am[test],k1,k5)
+results
+a = confusionMatrix(db$am[test],k1)
+a
+```
+
+## **3. Regresión: Logit y Probit**
+
+#### **3. **
+
+```{r, eval=T}
+data(package="caret")
+df <- tibble(starwars)
+df
+```
+
+#### **3. **
+
+```{r, eval=T}
+colnames(df)
+```
+
+#### **3. **
+
+```{r, eval=T}
+
+```
+
+
+
+
+
+
+1. Miren bien el tema de hacer logit y probit. 
+2. Recobrar probabilidades y probar distintos puntos de cortes.
+3. Tambien que vean lasso logit
+4. Les hablen de como submitir las predicciones
+
+
+### Para seguir leyendo
+
+-   Munzert, Simon et al., 2015. Automated Data Collection with R: A Practical Guide to Web Scraping and Text Mining [[Ver aquí]](http://www.r-datacollection.com)
+
+    -   Chapter 2: HTML
+    -   Chapter 4: Path
+    -   Chapter 9: Scraping the Web
+
+
