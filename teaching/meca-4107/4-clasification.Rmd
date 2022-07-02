@@ -38,7 +38,7 @@ monofont: Fira Code ## Although, see: https://tex.stackexchange.com/q/294362
 ```{r setup, include=FALSE}
 rm(list=ls())
 require(pacman)
-p_load(tidyverse,caret,class,gamlr)
+p_load(tidyverse,caret,class,gamlr,rio)
 ```
 
 ## **0. Configuración inicial**
@@ -50,7 +50,7 @@ Llamar/instalar las librerías para esta sesión:
 require(pacman)
 
 ## p_load llama/instala-llama las librerías que se enlistan:
-p_load(tidyverse, caret,
+p_load(tidyverse, caret, rio, 
        gamlr, # cv.gamlr
        class) # knn
 ```
@@ -88,9 +88,9 @@ a
 #### **3. **
 
 ```{r, eval=T}
-data(package="caret")
-df <- tibble(starwars)
+df <- import("https://eduard-martinez.github.io/teaching/meca-4107/geih.rds")
 df
+df = df %>% select(2:12,y_salary_m,y_total_m,maxEducLevel,ocu,pea)
 ```
 
 #### **3. **
