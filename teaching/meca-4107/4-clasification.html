@@ -1837,9 +1837,10 @@ automatica (0):</p>
 ## 5 3.144350e-01 3.143079e-01
 ## 6 7.058035e-01 7.055604e-01</code></pre>
 <div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="do">## definir la regla</span></span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>geih<span class="sc">$</span>ocu_prob <span class="ot">=</span> <span class="fu">ifelse</span>(geih<span class="sc">$</span>ocu_prob<span class="sc">&gt;</span><span class="fl">0.7</span>,<span class="dv">1</span>,<span class="dv">0</span>)</span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>geih<span class="sc">$</span>ocu_log <span class="ot">=</span> <span class="fu">ifelse</span>(geih<span class="sc">$</span>ocu_log<span class="sc">&gt;</span><span class="fl">0.7</span>,<span class="dv">1</span>,<span class="dv">0</span>)</span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(geih)</span></code></pre></div>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>rule<span class="ot">=</span><span class="fl">0.7</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>geih<span class="sc">$</span>ocu_prob <span class="ot">=</span> <span class="fu">ifelse</span>(geih<span class="sc">$</span>ocu_prob<span class="sc">&gt;</span>rule,<span class="dv">1</span>,<span class="dv">0</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>geih<span class="sc">$</span>ocu_log <span class="ot">=</span> <span class="fu">ifelse</span>(geih<span class="sc">$</span>ocu_log<span class="sc">&gt;</span>rule,<span class="dv">1</span>,<span class="dv">0</span>)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(geih)</span></code></pre></div>
 <pre><code>##   directorio ocu age estrato1 sex maxEducLevel dominio mes y_subFamiliar_m
 ## 1    4514331   0  29        2   0            6  BOGOTA   1              NA
 ## 2    4514331   1  36        2   1            6  BOGOTA   1           2e+05

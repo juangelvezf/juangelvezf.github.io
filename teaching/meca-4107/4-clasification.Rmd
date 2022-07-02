@@ -199,8 +199,9 @@ head(geih)
 
 ```{r, eval=T}
 ## definir la regla
-geih$ocu_prob = ifelse(geih$ocu_prob>0.7,1,0)
-geih$ocu_log = ifelse(geih$ocu_log>0.7,1,0)
+rule=0.7
+geih$ocu_prob = ifelse(geih$ocu_prob>rule,1,0)
+geih$ocu_log = ifelse(geih$ocu_log>rule,1,0)
 head(geih)
 ```
 
