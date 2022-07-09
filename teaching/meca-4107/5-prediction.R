@@ -17,8 +17,8 @@ predict <- stats::predict
 ##=== 1. data acquisition ===##
 
 ## source
-#browseURL("https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page")
-#browseURL("https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf")
+browseURL("https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page")
+browseURL("https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf")
 
 ## about data
 # id_row: ID row
