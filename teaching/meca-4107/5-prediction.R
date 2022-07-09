@@ -37,8 +37,6 @@ predict <- stats::predict
 ## load data
 data <- import("https://eduard-martinez.github.io/teaching/meca-4107/5_train.rds") %>%
         mutate(payment_ccard=factor(payment_ccard,levels=c(1,0),labels=c("Si","No")))
-               
-data_submission <- import("https://eduard-martinez.github.io/teaching/meca-4107/5_test_class.rds")
 
 ##=== 2. prepare data ===##
 
@@ -95,9 +93,6 @@ confusionMatrix(data=testing$p_logit,
 
 ##=== 4. predictions: CV ===##
 
-## modelo a ajustar
-model <- as.formula("payment_ccard ~ trip_distance + pickup_hour + pu_location_id:do_location_id + factor(passenger_count) + factor(trip_type)")
-
 ## define control
 fiveStats <- function(...) c(twoClassSummary(...), defaultSummary(...))
 control <- trainControl(method = "cv", number = 5,
@@ -144,4 +139,30 @@ rfROC
 rfThresh <- coords(rfROC, x = "best", best.method = "closest.topleft")
 
 rfThresh
+
+##=== 6. submit ===##
+
+## data test
+data_submit <- import("https://eduard-martinez.github.io/teaching/meca-4107/5_test_class.rds")
+
+## prediction
+data_submit$prediction <- predict(caret_logit , data_submit , type="prob")[1,]
+
+
+
+
+submit = data_submit %>% select(id_row,prediction)
+%>% 
+  mutate(p_logit=ifelse(predict_logit>0.35,1,0) %>% 
+           factor(.,levels=c(1,0),labels=c("Si","No")))
+
+
+##
+
+
+
+
+
+
+
 
