@@ -70,7 +70,7 @@ prop.table(table(evaluation$payment_ccard))
 ##=== 3. predictions: logit ===##
 
 ## modelo a ajustar
-model <- as.formula("payment_ccard ~ trip_distance + pickup_hour + pu_location_id:do_location_id + factor(passenger_count) + factor(trip_type)")
+model <- as.formula("payment_ccard ~ trip_distance + pickup_hour + pu_location_id:do_location_id + passenger_count + factor(trip_type)")
 
 ## estimations
 glm_logit <- glm(model , family=binomial(link="logit") , data=training)
@@ -146,19 +146,15 @@ rfThresh
 data_submit <- import("https://eduard-martinez.github.io/teaching/meca-4107/5_test_class.rds")
 
 ## prediction
-data_submit$prediction <- predict(caret_logit , data_submit , type="prob")[1,]
+data_submit$prediction <- predict(caret_logit , data_submit , type="prob")[,1]
 
+data_submit = data_submit %>% mutate(p=ifelse(prediction>=rfThresh$threshold,1,0))
 
+submit = data_submit %>% select(id_row,p)
 
-
-submit = data_submit %>% select(id_row,prediction)
-%>% 
-  mutate(p_logit=ifelse(predict_logit>0.35,1,0) %>% 
-           factor(.,levels=c(1,0),labels=c("Si","No")))
-
-
-##
-
+## export results
+export(submit,"~/Downloads/201725842.rds")
+browseURL("https://www.dropbox.com/sh/iamu7lweh0awyfa/AAC-4T4OyXhR1vifqLRB6K1ja?dl=0")
 
 
 
