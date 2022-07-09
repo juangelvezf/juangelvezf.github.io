@@ -19,7 +19,7 @@ p_load(tidyverse, caret, rio,
 db <- tibble(mtcars)
 head(db)
 
-cat("Intentemos predecir si un automovil tiene transmisión manual (1) o automatica (0):")"
+cat("Intentemos predecir si un automovil tiene transmisión manual (1) o automatica (0):")
 
 ## recategorizar variable
 db = db %>% 

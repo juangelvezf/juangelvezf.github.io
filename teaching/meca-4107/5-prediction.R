@@ -1,5 +1,5 @@
 ## Eduard Martinez
-## update: 02-07-2022
+## update: 09-07-2022
 ## R version 4.1.1 (2021-08-10)
 
 ## clean environment
@@ -7,20 +7,22 @@ rm(list=ls())
 
 ## Llamar/instalar las librerías para esta sesión:
 require(pacman)
-p_load(tidyverse, caret, rio, 
-       modelsummary, # tidy, msummary
-       gamlr)       # cv.gamlr
+p_load(tidyverse , rio , caret ,  modelsummary , gamlr,
+       ROCR, # ROC
+       pROC) # optimal cutoff
 
 ## solver packages conflicts
-predict = stats::predict
+predict <- stats::predict
   
 ##=== 1. data acquisition ===##
 
 ## source
-browseURL("https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page")
-browseURL("https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf")
+#browseURL("https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page")
+#browseURL("https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf")
 
 ## about data
+# id_row: ID row
+# payment_ccard: A numeric code signifying how the passenger paid for the trip. 1= credit card ; 0=otherways 
 # trip_type: 1= Street-hail ; 2= Dispatch
 # pickup_hour: The hour when the meter was engaged
 # trip_distance: The elapsed trip distance in miles reported by the taximeter.
@@ -29,114 +31,117 @@ browseURL("https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_re
 # tip_amount: Does not include cash tips.
 # tolls_amount: Total amount of all tolls paid in trip.
 # total_amount: The total amount charged to passengers. Does not include cash tips.
-# payment_ccard: A numeric code signifying how the passenger paid for the trip. 1= credit card ; 0=otherways 
 # pu_location_id: TLC Taxi Zone in which the taximeter was engaged
 # do_location_id: TLC Taxi Zone in which the taximeter was disengaged
 
 ## load data
-train = import("https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-01.parquet")
-test = 
+data <- import("https://eduard-martinez.github.io/teaching/meca-4107/5_train.rds") %>%
+        mutate(payment_ccard=factor(payment_ccard,levels=c(1,0),labels=c("Si","No")))
+               
+data_submission <- import("https://eduard-martinez.github.io/teaching/meca-4107/5_test_class.rds")
 
+##=== 2. prepare data ===##
 
+## proporciones
+prop.table(table(data$payment_ccard))
 
-##=== 1. K-Nearest Neighbors ===##
+## now create the evaluation and test sets
+set.seed(2104)
 
-## obtener los datos
-?mtcars
-db <- tibble(mtcars)
-head(db)
+## set training dataset
+split1 <- createDataPartition(data$payment_ccard , p = 0.7)[[1]]
 
-cat("Intentemos predecir si un automovil tiene transmisión manual (1) o automatica (0):")
+training = data[split1,]
 
-## recategorizar variable
-db = db %>% 
-     mutate(am=ifelse(am==1,"manual (1)","automatic (0)") %>% as.factor())
+## set evaluation and testing datasets
+other <- data[-split1,]
 
-## fijar semilla
-set.seed(210422)
+split2 <- createDataPartition(other$payment_ccard , p = 1/3)[[1]]
 
-## generar observaciones aleatorias
-test <- sample(x=1:32, size=10)
+evaluation <- other[split2,]
 
-## reescalar variables (para calcular distancias)
-x <- scale(db[,-9]) 
-apply(x,2,sd) ## verificar
+testing <- other[-split2,]
 
-## k-vecinos
-k1 = knn(train=x[-test,], ## base de entrenamiento
-         test=x[test,],   ## base de testeo
-         cl=db$am[-test], ## outcome
-         k=1)        ## vecinos 
+## check balance
+prop.table(table(training$payment_ccard))
 
-tibble(db$am[test],k1)
+prop.table(table(testing$payment_ccard))
 
-## matriz de confusión
-confusionMatrix(data=k1 , 
-                reference=db$am[test] , 
-                mode="sens_spec" , 
-                positive="manual (1)")
-                
-cm = confusionMatrix(data=k1 , reference=db$am[test], positive="manual (1)")$table
-cm
+prop.table(table(evaluation$payment_ccard))
 
-## obtener los valores manualmente 
-(cm[1,1]+cm[2,2])/sum(cm) ## Accuracy
-cm[2,2]/sum(cm[,2]) ## Sensitivity
-cm[1,1]/sum(cm[,1]) ## Specificity
-cm[2,1]/sum(cm[2,]) ## Ratio Falsos Positivos
-cm[1,2]/sum(cm[1,]) ## Ratio Falsos Negativos
-
-##=== 2. Regresión: Logit y Probit ===##
-
-## obtener datos
-geih <- import("https://eduard-martinez.github.io/teaching/meca-4107/geih.rds")
-head(geih)
+##=== 3. predictions: logit ===##
 
 ## modelo a ajustar
-model <- as.formula("ocu ~ age + sex + factor(maxEducLevel)")
+model <- as.formula("payment_ccard ~ trip_distance + pickup_hour + pu_location_id:do_location_id + factor(passenger_count) + factor(trip_type)")
 
-## estimación logit
-logit <- glm(model , family=binomial(link="logit") , data=geih)
-tidy(logit)
+## estimations
+glm_logit <- glm(model , family=binomial(link="logit") , data=training)
 
-## estimación probit
-probit <- glm(model , family=binomial(link="probit") , data=geih)
-tidy(probit)
-
-## ratio de los coeficientes
-logit$coefficients / probit$coefficients
-
-## preddicción
-geih$ocu_log = predict(logit , newdata=geih , type="response")
-geih$ocu_prob = predict(probit , newdata=geih , type="response")
-head(geih)
+## predict payment_ccard
+testing$predict_logit <- predict(glm_logit , testing , type="response")
 
 ## definir la regla
-rule=0.7
-geih$ocu_prob = ifelse(geih$ocu_prob>rule,1,0)
-geih$ocu_log = ifelse(geih$ocu_log>rule,1,0)
-head(geih)
+ggplot(data=testing , mapping = aes(payment_ccard , predict_logit)) + 
+geom_boxplot(aes(fill=payment_ccard)) + theme_test()
+
+testing <- testing %>% 
+           mutate(p_logit=ifelse(predict_logit>0.35,1,0) %>% 
+                                 factor(.,levels=c(1,0),labels=c("Si","No")))
+
+## confusion mnatrix
+confusionMatrix(data=testing$p_logit, 
+                reference=testing$payment_ccard , 
+                mode="sens_spec" , positive="Si")
+
+##=== 4. predictions: CV ===##
+
+## modelo a ajustar
+model <- as.formula("payment_ccard ~ trip_distance + pickup_hour + pu_location_id:do_location_id + factor(passenger_count) + factor(trip_type)")
+
+## define control
+fiveStats <- function(...) c(twoClassSummary(...), defaultSummary(...))
+control <- trainControl(method = "cv", number = 5,
+                        summaryFunction = fiveStats, 
+                        classProbs = TRUE,
+                        verbose=FALSE,
+                        savePredictions = T)
+
+## train
+caret_logit = train(model,
+                    data=training,
+                    method="glm",
+                    trControl = control,
+                    family = "binomial",
+                    preProcess = c("center", "scale"))
+caret_logit
+
+## predict
+testing$p_caret <- predict(caret_logit , testing , type="prob")[1]
+
+## ROC
+pred <- prediction(testing$p_caret , testing$payment_ccard)
+
+roc_ROCR <- performance(pred,"tpr","fpr")
+
+plot(roc_ROCR, main = "ROC curve", colorize = T)
+abline(a = 0, b = 1)
+
+auc_roc = performance(pred, measure = "auc")
+auc_roc@y.values[[1]]
+
+##=== 5. optimal cutoff ===##
+
+evalResults <- data.frame(payment_ccard = evaluation$payment_ccard)
 
 
-## Clasificación: probit
-cm_prob = confusionMatrix(data=factor(geih$ocu) , 
-                          reference=factor(geih$ocu_prob) , 
-                          mode="sens_spec" , positive="1")
-cm_prob
+evalResults$Roc <- predict(caret_logit, newdata = evaluation,
+                           type = "prob")[,1]
 
-## Clasificación: logit
-cm_log = confusionMatrix(data=factor(geih$ocu) , 
-                         reference=factor(geih$ocu_log) , 
-                         mode="sens_spec" , positive="1")
-cm_log
+rfROC <- roc(evalResults$payment_ccard, evalResults$Roc, levels = rev(levels(evalResults$payment_ccard)))
 
-## Clasificación: obtener los valores manualmente
-cm = cm_log$table
-(cm[1,1]+cm[2,2])/sum(cm) ## Accuracy
-cm[2,2]/sum(cm[,2]) ## Sensitivity
-cm[1,1]/sum(cm[,1]) ## Specificity
-cm[2,1]/sum(cm[2,]) ## Ratio Falsos Positivos
-cm[1,2]/sum(cm[1,]) ## Ratio Falsos Negativos
+rfROC
 
+rfThresh <- coords(rfROC, x = "best", best.method = "closest.topleft")
 
+rfThresh
 
