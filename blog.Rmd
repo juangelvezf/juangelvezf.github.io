@@ -26,7 +26,7 @@ Welcome to my personal blog. I post here notes about programming in R and spatia
 + Adicionar/eliminar variables
 + Combinar conjuntos de datos
 
-<strong style="color:black;font-size:18px;"> 4. Introduction to spatial data in R </strong> (in Spanish) [clik here]()
+<strong style="color:black;font-size:18px;"> 4. Introduction to spatial data in R </strong> (in Spanish) [clik here](https://lectures-r.gitlab.io/blog/7-introduction-gis-in-r)
 
 + Introduction to GIS
 + Coordinate Reference Systems - CRS
