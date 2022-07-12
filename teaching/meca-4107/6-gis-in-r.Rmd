@@ -1,0 +1,332 @@
+---
+pagetitle: "Week 6: APIS: Gis en R"
+title: "Week 6: Obtener datos GIS en R"
+subtitle: Big Data and Machine Learning for Applied Economics | [MECA-4107](https://bloqueneon.uniandes.edu.co/d2l/home/130328)
+author: 
+      name: Eduard-Martínez & Lucas Antonio II
+      affiliation: Universidad de los Andes
+output: 
+  html_document:
+    theme: flatly
+    highlight: haddock
+    # code_folding: show
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    keep_md: false
+    keep_tex: false ## Change to true if want keep intermediate .tex file
+    ## For multi-col environments
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    dev: cairo_pdf
+    # fig_width: 7 ## Optional: Set default PDF figure width
+    # fig_height: 6 ## Optional: Set default PDF figure height
+    includes:
+      in_header: tex/preamble.tex ## For multi-col environments
+    pandoc_args:
+        --template=tex/mytemplate.tex ## For affiliation field. See: https://bit.ly/2T191uZ
+always_allow_html: true
+urlcolor: darkblue
+mainfont: cochineal
+sansfont: Fira Sans
+monofont: Fira Code ## Although, see: https://tex.stackexchange.com/q/294362
+---
+
+```{r setup, include=F , cache=F}
+# load packages
+require(pacman)
+p_load(knitr,kable,kableExtra,tidyverse,janitor,rio,skimr)
+Sys.setlocale("LC_CTYPE", "en_US.UTF-8") # Encoding UTF-8
+
+# option html
+options(htmltools.dir.version = F)
+opts_chunk$set(fig.align="center", fig.height=4 , dpi=300 , cache=F)
+```
+
+<!--=================-->
+<!--=================-->
+
+## **1. Checklist**
+
+Antes de iniciar con esta lectura asegúrese de...
+
+#### **☑ Lectures previas**
+
+Puede darle una mirada a [Introducción a GIS en R](https://lectures-r.gitlab.io/blog/7-introduction-gis-in-r)
+
+#### **☑ Versión de R**
+
+Tener la versión `r R.version.string` instalada:
+
+```{r, cache=T , echo=T}
+R.version.string
+```
+
+#### **☑ Librerías**
+
+Instale/llame la librería `pacman`, y use la función `p_load()` para instalar/llamar las librerías de esta sesión:
+
+```{r , eval=T}
+## Llamar pacman (contiene la función p_load)
+require(pacman) 
+
+## Llama/instala-llama las librerías listadas
+p_load(tidyverse,rio,
+       sf, # Leer/escribir/manipular datos espaciales
+       leaflet, # Visualizaciones dinámicas
+       tmaptools, # geocode_OSM()
+       osmdata) # Get OSM's data
+```
+
+<!---------------------->
+<!---- OpenStreetMap --->
+<!---------------------->
+
+## **2. OpenStreetMap**
+
+OpenStreetMap ([OSM](https://www.openstreetmap.org)) es un proyecto de mapeo de acceso abierto global, gratuito y licenciado bajo [ODbL Licence](https://www.openstreetmap.org/copyright). OSM recopila información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes de información libre. 
+
+![](pics/osm.png){width=500}
+
+<!---------------->
+### **2.1. Geocodificar direcciones**
+
+La función `geocode_OSM()` de la librería `tmaptools` se conecta a la API de `OpenStreetMap` y retorna el vertice con la coordenada geográfica del sitio/dirección buscado. 
+
+```{r eval=F, include=T}
+## Buscar un lugar público por el nombre
+geocode_OSM("Casa de Nariño, Bogotá") 
+```
+
+Puede adicionar el argumento `as.sf=T` para generar un objeto de clase `sf`:
+
+```{r eval=F, include=T}
+## geocode_OSM no reconoce el caracter #, en su lugar se usa %23% 
+point = geocode_OSM("Cra. 8 %23% 7-26, Bogotá", as.sf=T) 
+point
+```
+
+Puede visualizar el objeto `point` usando la librería `leaflet`: 
+
+```{r,eval=F,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
+## la función addTiles adiciona la capa de OpenStreetMap
+leaflet() %>% addTiles() %>% addCircles(data=point)
+```
+
+<!---------------->
+### **2.2. Librería `osmdata`**
+
+`osmdata` es una librería de R que permite descargar y usar datos de OpenStreetMap ([OSM](https://www.openstreetmap.org)). 
+
+#### **2.2.1. Features disponibles**
+
+Puede acceder a la lista de `features` disponibles en `OSM` [aquí](https://wiki.openstreetmap.org/wiki/Map_features). En R puede obtener un vector con los nombres de los `features` usando la función `available_features()`:
+
+```{r eval=F, include=T}
+available_features() %>% head(20)
+```
+
+Cada `feature` contiene una lista de `tags`. Puede acceder al vector de `tags` usando la función `available_tags()`. Por ejemplo, puede acceder a la lista de `amenity` así:
+
+```{r eval=F, include=T}
+available_tags("amenity") %>% head(20)
+```
+
+<!---------------->
+#### **2.2. Descargar features**
+
+Para descargar `features` desde `OSM`, primero debe definir un espacio geográfico y obtener la caja de de coordenadas que lo contiene:
+
+```{r eval=F, include=T}
+## obtener la caja de coordenada que contiene el poligono de Bogotá
+opq(bbox = getbb("Bogotá Colombia"))
+```
+
+Objeto 
+
+```{r eval=F, include=T}
+## objeto osm
+osm = opq(bbox = getbb("Bogotá Colombia")) %>%
+      add_osm_feature(key="amenity" , value="bus_station") 
+class(osm)
+```
+
+Obtener 
+
+```{r eval=F, include=T}
+## extraer Simple Features Collection
+osm_sf = osm %>% osmdata_sf()
+osm_sf
+```
+
+Puede visualizar 
+
+```{r eval=F, include=T}
+## Obtener un objeto sf
+bus_station = osm_sf$osm_points %>% select(osm_id,amenity) 
+bus_station
+```
+
+Puede visualizar 
+
+```{r eval=F, include=T}
+## Pintar las estaciones de autobus
+leaflet() %>% addTiles() %>% addCircleMarkers(data=bus_station , col="red")
+```
+
+<!-------------------------------->
+<!---- Operaciones geometrícas --->
+<!-------------------------------->
+
+## **3. Operaciones geometrícas **
+
+```{r eval=F, include=T}
+## Help
+vignette("sf3")
+vignette("sf4")
+```
+
+#### **3.1. Obtener datos**
+
+Obtener datos de viviendas: 
+
+```{r eval=T, include=T}
+## apartamentos
+housing = tibble(cod_apto=c("Apto 101","Apto 102","Apto 103","Apto 104"),
+                 lat=c(4.67737,4.67549,4.67678,4.67857),
+                 lon=c(-74.04926,-74.04944,-74.04716, -74.04945)) 
+
+# make points
+housing = st_as_sf(x=housing,coords=c("lon","lat"),crs=4326)
+housing
+```
+
+
+```{r eval=F, include=T}
+# get amenities
+chico = getbb(place_name = "UPZ Chicó Lago Bogotá Colombia",
+              featuretype = "boundary:administrative",
+              format_out = "sf_polygon")
+
+bar = opq(bbox = st_bbox(chico)) %>%
+      add_osm_feature(key = "amenity", value = "bar") %>%
+      osmdata_sf() %>% .$osm_points
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data=bar)
+
+# gen lines
+streets = opq(bbox = st_bbox(housing)) %>%
+          add_osm_feature(key = "highway") %>%
+          osmdata_sf() %>% .$osm_lines
+
+leaflet() %>% addTiles() %>% addPolylines(data=streets ,col="red")
+
+# gen polygons
+park = getbb(place_name = "Parque de la 93",
+             featuretype = "amenity",
+             format_out = "sf_polygon") %>% mutate(name="Parque de la 93")
+
+leaflet() %>% addTiles() %>% addPolygons(data=park)
+
+#### load data
+load("input/mhv_blocks_bog.rds")
+leaflet() %>% addTiles() %>% addPolygons(data=mhv_bog)
+
+####=== 1.1. Affine transformations ===##
+st_crs(mhv_bog)
+st_crs(housing)
+housing = st_transform(x=housing , crs=st_crs(mhv_bog))
+st_crs(housing)
+
+####=== 1.2. Cliping data ===##
+
+#### bares 
+leaflet() %>% addTiles() %>% addCircleMarkers(data=bar,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+bar_housing = st_crop(x=bar , y=st_bbox(housing))
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data=bar_housing,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+#### mhv
+mhv_housing = st_crop(x=mhv_bog , y=st_bbox(housing))
+
+leaflet() %>% addTiles() %>% addPolygons(data=mhv_housing,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+####=== 1.3. Buffer ===##
+mhv_housing_bf = st_buffer(x=mhv_housing , dist=10)
+
+leaflet() %>% addTiles() %>% addPolygons(data=mhv_housing_bf,col="green") %>% addCircleMarkers(data=housing,col="red")
+
+####=== 1.4. Joining two feature sets based on geometries ===##
+leaflet() %>% addTiles() %>% 
+addPolygons(data=mhv_housing_bf,col="green" , label=mhv_housing_bf$MANZ_CCNCT) %>% 
+addCircleMarkers(data=housing , col="red" , label=housing$cod_apto)
+
+housing
+housing = st_join(x=housing , y=mhv_housing_bf)
+housing
+
+####=== 1.5. Centroid ===##
+c_park = st_centroid(x = park)
+
+leaflet() %>% addTiles() %>% addCircleMarkers(data=c_park,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+####=== 1.6. Distances ===##
+
+#### Distances to park
+leaflet() %>% addTiles() %>% addCircleMarkers(data=c_park,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+dist_park = st_distance(x=housing , y=c_park)
+
+housing$dist_park = dist_park
+
+housing
+
+#### Distances to bar
+leaflet() %>% addTiles() %>% addCircleMarkers(data=bar_housing,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+dist_bar = st_distance(x=housing , y=bar_housing)
+dist_bar
+
+min_dist = apply(dist_bar , 1 , min)
+min_dist
+housing$dist_bar = min_dist
+housing
+
+#### Distance to street
+foot_way = subset(streets,highway="foot_way")
+leaflet() %>% addTiles() %>% addPolylines(data=foot_way,col="blue") %>% addCircleMarkers(data=housing,col="red")
+
+dist_street = st_distance(x=housing , y=foot_way)
+dist_street
+
+min_dist = apply(dist_street , 1 , min)
+min_dist
+housing$dist_street = min_dist
+housing
+
+#### save data 
+export(housing,"output/housing.rds")
+```
+
+
+
+<!----------------->
+<!--- Checklist --->
+<!----------------->
+### **Referencias**
+
+* Lovelace, R., Nowosad, J., & Muenchow, J. (2019). **Geocomputation with R.** [[Ver aquí]](https://geocompr.robinlovelace.net)
+
+  + Cap. 4: Spatial Data Operations
+  + Cap. 5: Geometry Operations
+  + Cap. 6: Reprojecting geographic data
+  + Cap. 11: Statistical learning
+  
+* Bivand, R. S., Pebesma, E. J., Gómez-Rubio, V., & Pebesma, E. J. (2013). **Applied spatial data analysis with R.** [[Ver aquí]](https://csgillespie.github.io/efficientR/)
+
+  + Cap. 4: Spatial Data Import and Export
+  + Cap. 7: Spatial Point Pattern Analysis
+  + Cap. 8: Interpolation and Geostatistics
+
