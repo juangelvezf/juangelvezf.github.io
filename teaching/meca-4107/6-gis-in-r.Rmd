@@ -109,7 +109,7 @@ point
 
 Puede visualizar el objeto `point` usando la librería `leaflet`: 
 
-```{r,eval=F,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
+```{r,eval=T,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
 ## la función addTiles adiciona la capa de OpenStreetMap
 leaflet() %>% addTiles() %>% addCircles(data=point)
 ```
@@ -170,7 +170,7 @@ bus_station
 
 Visualiza el objeto `bus_station`:
 
-```{r,eval=F,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
+```{r,eval=T,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
 ## Pintar las estaciones de autobus
 leaflet() %>% addTiles() %>% addCircleMarkers(data=bus_station , col="red")
 ```
@@ -215,7 +215,7 @@ park %>% head()
 
 Visualizar todos los objetos:
 
-```{r,eval=F,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
+```{r,eval=T,echo=T,warning=T,fig.height=1.5,fig.width=2.5}
 leaflet() %>% addTiles() %>% 
 addPolygons(data=mnz) %>% # manzanas
 addPolygons(data=park , col="green") %>%  # parque de la 93
