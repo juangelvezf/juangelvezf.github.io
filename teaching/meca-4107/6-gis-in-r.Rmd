@@ -189,50 +189,27 @@ vignette("sf4")
 
 #### **3.1. Obtener datos**
 
-Obtener datos de viviendas: 
-
-```{r eval=T, include=T}
-## apartamentos
-housing = tibble(cod_apto=c("Apto 101","Apto 102","Apto 103","Apto 104"),
-                 lat=c(4.67737,4.67549,4.67678,4.67857),
-                 lon=c(-74.04926,-74.04944,-74.04716, -74.04945)) 
-
-# make points
-housing = st_as_sf(x=housing,coords=c("lon","lat"),crs=4326)
-housing
-```
-
-
 ```{r eval=F, include=T}
-# get amenities
-chico = getbb(place_name = "UPZ Chicó Lago Bogotá Colombia",
-              featuretype = "boundary:administrative",
-              format_out = "sf_polygon")
+## apartamentos
+housing = import("https://eduard-martinez.github.io/data/house_points.rds")
 
+## precios medianos de las viviendas
+mnz = import("https://eduard-martinez.github.io/data/mnz_prices_house.rds")
+
+## bares
 bar = opq(bbox = st_bbox(chico)) %>%
       add_osm_feature(key = "amenity", value = "bar") %>%
       osmdata_sf() %>% .$osm_points
 
-leaflet() %>% addTiles() %>% addCircleMarkers(data=bar)
-
-# gen lines
-streets = opq(bbox = st_bbox(housing)) %>%
-          add_osm_feature(key = "highway") %>%
-          osmdata_sf() %>% .$osm_lines
-
-leaflet() %>% addTiles() %>% addPolylines(data=streets ,col="red")
-
-# gen polygons
+## parque de la 93
 park = getbb(place_name = "Parque de la 93",
              featuretype = "amenity",
              format_out = "sf_polygon") %>% mutate(name="Parque de la 93")
+```
 
-leaflet() %>% addTiles() %>% addPolygons(data=park)
 
-#### load data
-load("input/mhv_blocks_bog.rds")
-leaflet() %>% addTiles() %>% addPolygons(data=mhv_bog)
 
+```{r eval=T, include=T}
 ####=== 1.1. Affine transformations ===##
 st_crs(mhv_bog)
 st_crs(housing)
