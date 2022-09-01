@@ -1,0 +1,84 @@
+##==================================##
+## 0. Minimal, Reproducible Example ##
+##==================================##
+
+## How to create a Minimal, Reproducible Example?
+browseURL(url = "https://stackoverflow.com/help/minimal-reproducible-example")
+
+## Minimal
+cat("Use la menor cantidad de código posible que aún produzca el mismo problema.")
+
+## Minimal and readable
+cat("No sacrifiques la claridad por la brevedad al crear un ejemplo mínimo. 
+     Use nombres y sangrías consistentes, e incluya comentarios de código si es necesario. 
+     Use el acceso directo de su editor de código para formatear el código. 
+     Además, use espacios en lugar de tabulaciones: es posible que las pestañas no tengan el formato correcto en Stack Overflow.")
+
+## Complete
+cat("Que proporcione todas las partes que otra persona necesita para reproducir su problema en la misma pregunta.")
+
+## Reproducible
+cat("Pruebe el código que está a punto de proporcionar para asegurarse de que reproduce el problema.")
+
+## Por ejemplo, usted si quiere saber ¿Cómo seleccionar variables que coincidan con un patrón? Tiene a lo menos dos opciones para plantear su pregunta:
+
+##=== Opción 1 ===## 
+
+## Puede generar un ojeto que permita reproducir su pregunta. Por ejemplo:
+df = data.frame(p1=rnorm(5) , 
+                x1=runif(5) , 
+                a1=runif(5) , 
+                p2=rnorm(5) )
+
+## Imprimalo sobre la consola y copie el resultado para que todos puedan ver el objeto:
+     p1   x1    a1    p2
+1  1.12 0.87 0.602 -0.28
+2 -0.72 0.52 0.647  1.70
+3 -1.77 0.03 0.335 -1.12
+4 -0.59 0.80 0.085  0.16
+5 -1.90 0.33 0.399 -0.62
+
+## Ahora alguien usar su ejemplo para responderle esto:
+df %>% select(starts_with("p"))
+
+     p1    p2
+1  1.12 -0.28
+2 -0.72  1.70
+3 -1.77 -1.12
+4 -0.59  0.16
+5 -1.90 -0.62
+
+##=== Opción 2 ===## 
+
+cat("Puede seleccionar algun data sets de R que le permita reproducir su pregunta.
+     Por ejemplo, la librería datasets contiene mas de 100 data sets disponibles:")
+
+## Vea los datasets disponibles
+data(package="datasets")
+
+## Obtenga los datos
+data(iris)
+iris
+
+## Imprimalo sobre la consola y copie el resultado para que todos puedan ver su objeto:
+head(iris)
+  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+1          5.1         3.5          1.4         0.2  setosa
+2          4.9         3.0          1.4         0.2  setosa
+3          4.7         3.2          1.3         0.2  setosa
+4          4.6         3.1          1.5         0.2  setosa
+5          5.0         3.6          1.4         0.2  setosa
+6          5.4         3.9          1.7         0.4  setosa
+
+## Ahora alguien usar su ejemplo para responderle esto:
+iris %>% select(Species,starts_with("Petal."))
+
+  Species Petal.Length Petal.Width
+1  setosa          1.4         0.2
+2  setosa          1.4         0.2
+3  setosa          1.3         0.2
+4  setosa          1.5         0.2
+5  setosa          1.4         0.2
+6  setosa          1.7         0.4
+
+
