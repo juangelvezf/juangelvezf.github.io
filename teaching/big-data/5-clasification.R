@@ -108,14 +108,14 @@ ggplot(., aes(fill=as.factor(prob_07), y=n, x=as.factor(sex))) +
 geom_bar(position="fill", stat="identity")
 
 ## Clasificación: probit
-cm_prob <- confusionMatrix(data=factor(geih$ocu) , 
-                           reference=factor(geih$prob_07) , 
+cm_prob <- confusionMatrix(data=factor(geih$prob_07) , 
+                           reference=factor(geih$ocu) , 
                            mode="sens_spec" , positive="1")
 cm_prob
 
 ## Clasificación: logit
-cm_log <- confusionMatrix(data=factor(geih$ocu) , 
-                          reference=factor(geih$log_07) , 
+cm_log <- confusionMatrix(data=factor(geih$log_07) , 
+                          reference=factor(geih$ocu) , 
                           mode="sens_spec" , positive="1")
 cm_log
 
@@ -138,7 +138,11 @@ plot(ROC_07, main = "ROC curve", col="red") ## plot object
 abline(a = 0, b = 1)
 
 ## Curva de ROC
-geih$prob_05 <- ifelse(geih$ocu_log>0.5,1,0) ## make predictions
+geih$prob_05 <- ifelse(geih$ocu_prob>0.5,1,0) ## make predictions
+
+geih %>% group_by(sex,prob_05) %>% mutate(count=1) %>% summarize(n=sum(count)) %>%
+ggplot(., aes(fill=as.factor(prob_05), y=n, x=as.factor(sex))) + 
+geom_bar(position="fill", stat="identity")
 
 pred_05 <- prediction(geih$prob_05, geih$ocu) ## paste predictions
 
@@ -147,8 +151,4 @@ ROC_05 <- performance(pred_05,"tpr","fpr") ## get ROC object
 plot(ROC_07, main = "ROC curve", col="red")
 plot(ROC_05, main = "ROC curve", col="blue" , add=T)
 abline(a = 0, b = 1)
-
-
-
-
 
