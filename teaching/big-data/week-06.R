@@ -169,9 +169,11 @@ rfROC <- roc(evalResults$payment_ccard, evalResults$Roc, levels = rev(levels(eva
 
 rfROC
 
+## cuttof que mazimiza
 rfThresh <- coords(rfROC, x = "best", best.method = "closest.topleft")
 
 rfThresh
+rfThresh$threshold ## cuttof que mazimiza
 
 ##=== 7. submit ===##
 
