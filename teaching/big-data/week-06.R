@@ -83,11 +83,16 @@ ggplot(data=testing , mapping = aes(payment_ccard , predict_logit)) +
 geom_boxplot(aes(fill=payment_ccard)) + theme_test()
 
 testing <- testing %>% 
-           mutate(p_logit=ifelse(predict_logit>0.36,1,0) %>% 
+           mutate(p_logit=ifelse(predict_logit>0.3,1,0) %>% 
                                  factor(.,levels=c(1,0),labels=c("Si","No")))
 
 testing %>% group_by(trip_type,p_logit) %>% mutate(count=1) %>% summarize(n=sum(count)) %>%
 ggplot(., aes(fill=as.factor(p_logit), y=n, x=as.factor(trip_type))) + 
+geom_bar(position="fill", stat="identity")
+
+
+testing %>% group_by(trip_type,p_card) %>% mutate(count=1) %>% summarize(n=sum(count)) %>%
+ggplot(., aes(fill=as.factor(p_card), y=n, x=as.factor(trip_type))) + 
 geom_bar(position="fill", stat="identity")
 
 ## confusion mnatrix
@@ -115,10 +120,11 @@ caret_logit = train(model,
 caret_logit
 
 ## predict
-testing$p_caret <- predict(caret_logit , testing , type="prob")[1]
-
 ## ROC
-testing <- testing %>% mutate(p_caret=ifelse(p_caret>0.6,1,0))
+testing$predict_caret <- predict(caret_logit , testing , type="prob")[1] %>% unlist()
+
+testing <- testing %>% mutate(p_caret=ifelse(predict_caret>0.6,1,0))
+
 pred <- prediction(testing$p_caret , testing$p_card)
 
 roc_ROCR <- performance(pred,"tpr","fpr")
@@ -130,16 +136,25 @@ auc_roc = performance(pred, measure = "auc")
 auc_roc@y.values[[1]]
 
 ##=== 5. optimal cutoff (parte 1) ===##
-cuttof <- seq(0.1, 0.9, length.out = 100) 
+cuttof <- seq(0.5430, 0.6564 , length.out = 100) 
 auc = list()
 count = 1
 for ( i in cuttof){
-      testing$p <- ifelse(testing$predict_logit>0.2,1,0)
+      testing$p <- ifelse(testing$predict_caret>i,1,0)
       pred_i <- prediction(testing$p , testing$p_card)
       auc_roc_i = performance(pred_i, measure = "auc")
       auc[[count]] = auc_roc_i@y.values[[1]]
       count = count + 1
 }
+auc = auc %>% unlist()
+
+dt_auc = data.frame("auc" = auc , "cuttof" = cuttof)
+
+
+ggplot(data=dt_auc , aes(x=cuttof,y=auc)) + geom_point() + geom_line() + theme_test() +
+geom_vline(xintercept = dt_auc$cuttof[dt_auc$auc==max(dt_auc$auc)] , color="red")
+
+dt_auc$cuttof[dt_auc$auc==max(dt_auc$auc)]
 
 ##=== 6. optimal cutoff (parte 2) ===##
 
