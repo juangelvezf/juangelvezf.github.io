@@ -136,7 +136,7 @@ auc_roc = performance(pred, measure = "auc")
 auc_roc@y.values[[1]]
 
 ##=== 5. optimal cutoff (parte 1) ===##
-cuttof <- seq(0.5430, 0.6564 , length.out = 100) 
+cuttof <- seq(min(testing$predict_caret), max(testing$predict_caret) , length.out = 100) 
 auc = list()
 count = 1
 for ( i in cuttof){
@@ -147,13 +147,16 @@ for ( i in cuttof){
       count = count + 1
 }
 auc = auc %>% unlist()
+auc
 
+## make dataframe
 dt_auc = data.frame("auc" = auc , "cuttof" = cuttof)
 
-
+## plot cuttof vs AUC
 ggplot(data=dt_auc , aes(x=cuttof,y=auc)) + geom_point() + geom_line() + theme_test() +
 geom_vline(xintercept = dt_auc$cuttof[dt_auc$auc==max(dt_auc$auc)] , color="red")
 
+## cuttof que maximiza
 dt_auc$cuttof[dt_auc$auc==max(dt_auc$auc)]
 
 ##=== 6. optimal cutoff (parte 2) ===##
