@@ -62,23 +62,26 @@ pagetitle: R Aplicado a la Investigación en Ciencias Económicas y Empresariale
 <div class="col-sm-9">
 
 ```{r setup, include=FALSE}
+# load packages
+require(pacman)
+p_load(knitr,fontawesome,kableExtra)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!--- Tirulo --->
 <h2 style="color:black;">R Aplicado a la Investigación en Ciencias Económicas y Empresariales</h2>
 
-### 1-Acerca de este curso
+### **[1.] Acerca de este curso**
 
-`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-01/ACON_1302_01_Eduard_Martinez.pdf)
+`r fontawesome::fa('book-open')` [Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-02/syllabus.pdf)
 
-`r fontawesome::fa('gitlab')` **Repositorio del curso** [clik aquí](https://github.com/taller-R-202201)
+`r fa('globe')` Página web del curso [aquí](https://github.com/unimag-202202) 
 
-`r fontawesome::fa('calendar-alt')` **Clases:** Por definir.
+`r fa('clock')` Sabado 08:00 – 11:00, Sala de Microsoft Teams.
 
-`r fontawesome::fa('clock')` **Horario de atención:** Por definir.
+`r fa('envelope')` Horario de atención: Definir previamente por correo ef.martinezg@uniandes.edu.co 
 
-### 2-Configuración inicial
+### **[2.] Configuración inicial**
 
 **[1] Descargar [R](https://cran.r-project.org/)**
 
@@ -88,143 +91,17 @@ RStudio es un entorno de desarrollo integrado (IDE) para el lenguaje de programa
 
 **[3.] Instalar R y RStudio **
 
-Puede ir a este [enlace](https://presentacións-blog.gitlab.io/R-initial-setup/#/antes-de-iniciar-el-curso) y seguir las instrucciones de instalación para el sistema operativo de su equipo.
+Puede ir a este [enlace](https://lectures-r.gitlab.io/unimag-202201/initial-setup-00) y seguir las instrucciones de instalación para el sistema operativo de su equipo.
 
-### 3-Programa
-
-#### 3.1-Fundamentos de programación
-
-##### **Introducción a R**
-
-- ¿Usar R?
-- Interfaz de Rstudio.
-- Introducción a R.
-- Librerías.
-- Funciones y help.
-
-##### **Lenguaje orientado a objetos**
-
-- Nombrar objetos.
-- Tipo de datos.
-- Estructura de datos.
-
-#### 3.2-Manipular bases de datos en R
-
-##### **Limpiar conjuntos de datos (parte-1) **
-
-- Directorio de trabajo.
-- Importar-exportar conjuntos de datos.
-- Tidy-data.
-- Renombrar variables.
--  Adicionar/Eliminar variables.
-- Pipe (%>%).
-
-##### **Limpiar conjuntos de datos (parte-2) **
-
-- Remover filas y/o columnas.
-- Combinar conjuntos de datos (adicionar filas/columnas).
-- Pivotear conjuntos de datos.
-- Aplicación: Gran Encuesta Integrada de Hogares (GEIH) - DANE.
-
-#### 3.3-Fundamentos de estadística
-
-##### **Estadística descriptiva (parte-1)**
-
-- Medidas de tendencia central.
-- Promedio condicional.
-- Medidas de dispersión.
-- Correlación.
-- Aplicación: SABER-PRO y SABER-11 - ICFES.
-
-##### **Estadística descriptiva (parte-2)**
-
-- Visualización de información.
-- Aplicación: Gran Encuesta Integrada de Hogares (GEIH) - DANE.
-
-##### **Estadística inferencial**
-
-- Distribuciones de probabilidad.
-- Prueba de hipótesis e intervalos de confianza.
-- Diferencia de medias.
-- Aplicación: Encuesta nacional de calidad de vida (ECV) - DANE.
-
-#### 3.4-Análisis de regresión
-
-##### **Fundamentación teórica**
-
-- ¿Qué dice y qué no dice una regresión?
-- ¿Qué pude fallar en una regresión?
-- Endogeneidad.
-- Métodos cuasiexperimentales.
-
-##### **Aplicación**
-
-- OLS
-- Regresión discontinua.
-- Modelos no lineales.
-- Interpretación y presentación de resultados.
-
-#### 3.5-Presentación de información
-
-##### **Elaboración de informes**
-
-- Introducción a Rmarkdown.
-- ¿Cómo podemos presentar los resultados de una investigación?
-- Automatizar informes.
-
-### 4-Material
+### **[3.] Material de la clase**
 
 ##### Clase-01:
 
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
+- Introduccion al curso **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-01)**
+- Fundamentos de programacion **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-02)**
+- Estructura de datos **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-03)**
+- Leer/escribir conjuntos de datos **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-04)**
 
-##### Clase-02:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-03:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-04:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-05:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-06:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-07:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-08:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-09:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-10:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-11:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-12:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
-
-##### Clase-13:
-
-Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase **[[aquí]]()**.
 
 
 <br>  </br> <!--- Agrega lineas en blanco --->
@@ -261,10 +138,6 @@ Ver presentación **[[aquí]]()**, códigos **[[aquí]]()** y taller de la clase
 
 
 <!--------------------------------- El codigo finaliza aca --------------------------------->
-
-
-
-
 
 </div>
 <script>
