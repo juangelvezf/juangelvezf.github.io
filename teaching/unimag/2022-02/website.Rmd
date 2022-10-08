@@ -105,7 +105,9 @@ Puede ir a este [enlace](https://lectures-r.gitlab.io/unimag-202201/initial-setu
 
 - Leer/escribir y explorar conjuntos de datos **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-04)**
 
+##### Clase-03:
 
+- Tidy data en R: Aplicación Saber-PRO **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-05)**
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
