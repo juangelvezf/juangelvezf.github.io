@@ -95,19 +95,23 @@ Puede ir a este [enlace](https://lectures-r.gitlab.io/unimag-202201/initial-setu
 
 ### **[3.] Material de la clase**
 
-##### Clase-01:
+##### **Clase-01:**
 
 - Introduccion al curso **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-01)**
 - Fundamentos de programacion **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-02)**
 - Estructura de datos **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-03)**
 
-##### Clase-02:
+##### **Clase-02:**
 
 - Leer/escribir y explorar conjuntos de datos **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-04)**
 
-##### Clase-03:
+##### **Clase-03:**
 
-- Tidy data en R: Aplicación Saber-PRO **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-05)**
+- Tidy data en R: Aplicación Saber-11 **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-05)**
+
+##### **Clase-04:**
+
+- Vusualización y presentación de información: Aplicación Saber-PRO **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-06)**
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
