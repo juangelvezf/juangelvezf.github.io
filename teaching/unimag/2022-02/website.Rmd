@@ -111,7 +111,7 @@ Puede ir a este [enlace](https://lectures-r.gitlab.io/unimag-202201/initial-setu
 
 ##### **Clase-04:**
 
-- Vusualización y presentación de información: Aplicación Saber-PRO **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-06)**
+- Combinar y resumir un conjuntos de datos: Aplicación GEIH **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-06)**
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
