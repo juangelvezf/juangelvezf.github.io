@@ -86,9 +86,5 @@ db %>% head()
 browseURL(db$url[10])
 
 
-url = "https://ignaciomsarmiento.github.io/GEIH2018_sample/pages/geih_page_3.html"
-tabla = url %>% read_html() %>% html_table()
-tabla_clean = tabla[[1]] %>% as_data_frame()
-
 
 
