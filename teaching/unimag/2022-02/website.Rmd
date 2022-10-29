@@ -1,5 +1,5 @@
 ---
-pagetitle: R Aplicado a la Investigación en Ciencias Económicas y Empresariales
+pagetitle: R Aplicado a la Investigación en Económía
 ---
 
 <!--- Inicio Emcabezado --->
@@ -69,7 +69,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!--- Tirulo --->
-<h2 style="color:black;">R Aplicado a la Investigación en Ciencias Económicas y Empresariales</h2>
+<h2 style="color:black;">R Aplicado a la Investigación en Económía</h2>
 
 ### **[1.] Acerca de este curso**
 
@@ -112,6 +112,10 @@ Puede ir a este [enlace](https://lectures-r.gitlab.io/unimag-202201/initial-setu
 ##### **Clase-04:**
 
 - Combinar y resumir un conjuntos de datos: Aplicación GEIH **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-06)**
+
+##### **Clase-05:**
+
+- Visualización de información: Aplicación análisis del mercado laboral - GEIH **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-07)**
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
