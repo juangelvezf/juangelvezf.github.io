@@ -8,7 +8,10 @@ pagetitle : Research - Eduard F. Martínez-González
 
 <p>  </p> <!--- Agrega una linea en blanco --->
 
-<!--- Documento 6 --->
+<!------------- Panel de la izquierda ------------->
+<div class="col-sm-9">
+
+<!--- Documento 1 --->
 
 * <strong style="color:black;font-size:22px;">School Education for Inclusion and Social Transformation in the Colombian Caribbean</strong> [[PDF]](https://eduard-martinez.github.io/research/caribbean_education.pdf) [[DTSER-BANREP]](https://www.banrep.gov.co/es/publicaciones/documento-de-trabajo-economia-regional-y-urbana-263) (with [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76))
 
@@ -17,9 +20,6 @@ pagetitle : Research - Eduard F. Martínez-González
 # Working papers
 
 <p>  </p> <!--- Agrega una linea en blanco --->
-
-<!------------- Panel de la izquierda ------------->
-<div class="col-sm-9">
 
 <!--- Documento 1 --->
 
