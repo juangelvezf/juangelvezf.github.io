@@ -4,18 +4,8 @@ pagetitle : Research - Eduard F. Martínez-González
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
-# Publications
-
-<p>  </p> <!--- Agrega una linea en blanco --->
-
 <!------------- Panel de la izquierda ------------->
 <div class="col-sm-9">
-
-<!--- Documento 1 --->
-
-* <strong style="color:black;font-size:22px;">School Education for Inclusion and Social Transformation in the Colombian Caribbean</strong> [[PDF]](https://eduard-martinez.github.io/research/caribbean_education.pdf) [[DTSER-BANREP]](https://www.banrep.gov.co/es/publicaciones/documento-de-trabajo-economia-regional-y-urbana-263) (with [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76))
-
-<p align="justify"> **Abstrac:** The Caribbean Region of Colombia is particularly behind in terms of school coverage and quality. This paper proposes a set of policies that provide a big push to the public education system and allow closing the gap by 2030. Policies are organized into four categories: Preschool education, full-day schooling, teacher training and institutional capacity. The total cost of the intervention is estimated at 6,274 million dollars over 12 years, of which 2,114 correspond to investments and 4,160 to the additional recurrent expenditures of the education system. </p>
 
 # Working papers
 
@@ -51,6 +41,14 @@ pagetitle : Research - Eduard F. Martínez-González
 
 <p align="justify"> **Abstrac:** This paper studies the effect of a negative economic shock on crime. I collect criminal records for 165,000 users of an informal financial sector firm that was closed in Colombia at the end of 2008. I exploit the exogenous variation produced by the intervention in users who had deposits with an expiration date in the days close to the firm's closing date. The results suggest an increase in the number of legal proceedings for those suffering the negative economic shock, but this effect is concentrated only in those on the right-hand side of the distribution of unrecovered investments. </p>
 
+<!--- Documento 6 --->
+
+* <strong style="color:black;font-size:22px;">School Education for Inclusion and Social Transformation in the Colombian Caribbean</strong> [[PDF]](https://eduard-martinez.github.io/research/caribbean_education.pdf) [[DTSER-BANREP]](https://www.banrep.gov.co/es/publicaciones/documento-de-trabajo-economia-regional-y-urbana-263) (with [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76))
+
+<p align="justify"> **Abstrac:** The Caribbean Region of Colombia is particularly behind in terms of school coverage and quality. This paper proposes a set of policies that provide a big push to the public education system and allow closing the gap by 2030. Policies are organized into four categories: Preschool education, full-day schooling, teacher training and institutional capacity. The total cost of the intervention is estimated at 6,274 million dollars over 12 years, of which 2,114 correspond to investments and 4,160 to the additional recurrent expenditures of the education system. </p>
+
+<!--- Work in progress --->
+
 # Work in progress
 
 Coca, Glyphosate and the balloon effect. (with Hernando Zuleta and María del Pilar LópezUribe)
@@ -58,8 +56,6 @@ Coca, Glyphosate and the balloon effect. (with Hernando Zuleta and María del Pi
 Incomplete Peace and Cocaine Dutch Disease. (With Lucas Marín Llanes, Manuel Fernández and María Alejandra Vélez)
 
 Measuring the spatial displacement of illicit crops in Colombia. (With María Alejandra Vélez, Hernando Zuleta and Lucas Marín Llanes)
-
-
 
 </div>
 <!------------- Panel de la izquierda ------------->
