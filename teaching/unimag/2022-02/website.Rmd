@@ -117,6 +117,11 @@ Puede ir a este [enlace](https://lectures-r.gitlab.io/unimag-202201/initial-setu
 
 - Visualización de información: Aplicación análisis del mercado laboral - GEIH **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-07)**
 
+##### **Clase-06:**
+
+- Datos Espaciales en R **[[Slides aquí]](https://lectures-r.gitlab.io/unimag-202201/lecture-08)**
+
+
 <br>  </br> <!--- Agrega lineas en blanco --->
 
 <br>  </br> <!--- Agrega lineas en blanco --->
