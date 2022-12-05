@@ -11,7 +11,8 @@ pagetitle : Home - Eduard F. Martínez-González
 <img src="./images/profile2.png" class="center" alt="drawing" width="250" height="250"/>
 
 #### Eduard F. Martínez-González
-Economics PhD student at Universidad de los Andes, interested in Crime Economics and Urban Economics.
+
+Economics PhD student at Universidad de los Andes, interested in Applied Econometrics, Big Data, and Machine Learning.
 
 <!-- Location -->
 <a href="https://www.google.com/maps/place/Bogotá/@4.6486259,-74.2478944,11z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Bogotá, Colombia.</a>
@@ -41,30 +42,24 @@ Economics PhD student at Universidad de los Andes, interested in Crime Economics
 
 #### About me
 
-I’m an Economics PhD student at Universidad de los Andes. My primary interests are Crime Economics, Urban Economics and Public Policy. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
+I’m an Economics PhD student at Universidad de los Andes. My primary interests are Public Policy, Illegal Markets and Urban Economics. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
 
 I will be in the Economics Job Markets in 2022-2023. You can find my CV <a href="https://eduard-martinez.github.io/cv/CV-Eduard_F_Martinez_G.pdf">here</a>
 and my Job Market Paper <a href="https://eduard-martinez.github.io/cv/CV-Eduard_F_Martinez_G.pdf">here</a>.
 
-
 <br>  </br> <!--- Agrega lineas en blanco --->
-<br>  </br> <!--- Agrega lineas en blanco --->
-<br>  </br> <!--- Agrega lineas en blanco --->
-<br>  </br> <!--- Agrega lineas en blanco --->
-<br>  </br> <!--- Agrega lineas en blanco --->
-
 
 ##### Contact info:
 
-Departament of Economics, Universidad de los Andes
+<p style="color:black">Departament of Economics, Universidad de los Andes
 
-Calle 19A No. 1-37 Este Bloque W, Of. 722
+Calle 19A No. 1-37 Este Bloque W, Of. 722</p>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="17" height="17"> ef.martinezg[at]uniandes.edu.co </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="17" height="17"> ef.martinezg@uniandes.edu.co </img></p>
 
 <!-- Tel -->
-<img alt="Qries" src="./images/tel.png" width="17" height="17"> (+571) 3394949 Ext: 2430 </img>
+<p style="color:black"> <img alt="Qries" src="./images/tel.png" width="17" height="17"> (+571) 3394949 Ext: 2430 </img></p>
 
 </div> <!--- FIn del panel de la derecha --->
 
