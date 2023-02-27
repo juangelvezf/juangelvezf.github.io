@@ -1,0 +1,89 @@
+---
+pagetitle : Blog - Eduard F. Martínez-González
+---
+
+<br> </br> <!--- Agrega lineas en blanco --->
+
+<!------------- Panel de la izquierda ------------->
+<div class="col-sm-9">
+
+Welcome to my personal blog. I post here notes about programming in R and spatial data. Enjoy!
+
+<strong style="color:black;font-size:18px;"> 1. Introduction to R </strong> (in Spanish) [clik here](https://lectures-r.gitlab.io/blog/2-intro-r)
+
++ Interfaz R y Rstuio
++ Librerías
++ Funciones
+
+<strong style="color:black;font-size:18px;"> 2. Data structure in R </strong> (in Spanish) [clik here](https://lectures-r.gitlab.io/blog/3-objects)
+
++ Tipos de datos
++ Vectores, listas, matrices y dataframes
+
+<strong style="color:black;font-size:18px;"> 3. Tidy data in R </strong> (in Spanish) [clik here](https://blog-r.gitlab.io/5-tidy-data)
+
++ Leer/escribir datos
++ Adicionar/eliminar variables
++ Combinar conjuntos de datos
+
+<strong style="color:black;font-size:18px;"> 4. Introduction to spatial data in R </strong> (in Spanish) [clik here](https://lectures-r.gitlab.io/blog/7-introduction-gis-in-r)
+
++ Introduction to GIS
++ Coordinate Reference Systems - CRS
++ R-spatial
++ Application: read/print spatial data
+
+<strong style="color:black;font-size:18px;"> 5. Getting GIS data from APIS in R </strong> (in Spanish) [clik here]()
+
++ OpenStreetMap
++ Geocoding Addresses
++ Google Places
+
+</div>
+<!------------- Panel de la izquierda ------------->
+
+<!------------- Panel de la derecha ------------->
+<div class="col-sm-3">
+
+#### Eduard F. Martínez-González
+
+<!-- Correo -->
+
+<p style="color:black;font-size:12px;">
+
+<img src="./images/correo.png" alt="Qries" width="20&quot;" height="20"/> [ef.martinezg\@uniandes.edu.co](mailto:ef.martinezg@uniandes.edu.co){.email} </img>
+
+</p>
+
+<!-- Correo -->
+
+<p style="color:black;font-size:12px;">
+
+<img src="./images/correo.png" alt="Qries" width="20&quot;" height="20"/> [edfemagonza\@gmail.com](mailto:edfemagonza@gmail.com){.email} </img>
+
+</p>
+
+<!-- Tel -->
+
+<p style="color:black;font-size:12px;">
+
+<img src="./images/tel.png" alt="Qries" width="20&quot;" height="20"/> (+571) 3394949 Ext: 2430</img>
+
+</p>
+
+<!-- Twitter -->
+
+<a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img src="./images/twitter.jpg" alt="Qries" width="20&quot;" height="20"/> @emartigo</a>
+
+<!-- gitlab -->
+
+<a href="https://gitlab.com/eduard-martinez" style="color:black;font-size:12px;"> <img src="./images/gitlab.png" alt="Qries" width="20&quot;" height="20"/> eduard-martinez</a>
+
+<!-- GitHub -->
+
+<a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img src="./images/github.png" alt="Qries" width="20&quot;" height="20"/> eduard-martinez</a>
+
+</div>
+<!------------- Panel de la derecha ------------->
+
+<br> </br> <!--- Agrega lineas en blanco --->
