@@ -7,55 +7,46 @@ pagetitle : Research - Juan D. Gélvez-Ferreira
 <!------------- Panel de la izquierda ------------->
 <div class="col-sm-9">
 
-# Working papers
+# Peer-reviewed Publications
 
 <p>  </p> <!--- Agrega una linea en blanco --->
 
-<!--- Documento 1 --->
+<!--- Documento  --->
 
-* <strong style="color:black;font-size:22px;"> Motorcycle Restrictions and Crime in Colombia </strong>  [[SSNR]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4072147) (with [Michael Weintraub](http://michael-weintraub.squarespace.com), [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76) and Juan Pablo Mesa) [[App here]](https://eduard-martinez.shinyapps.io/restriction-app/) [[Slides here]](https://eduard-martinez.github.io/research/slides.pdf)
+* <strong style="color:black;font-size:22px;"> 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? </strong>  [[Revista de Gestión y Política Pública. CIDE, México.]] (with Catalina Miranda and María P. Nieto) [[Paper here]](http://www.gestionypoliticapublica.cide.edu/?p=1208)
 
- <p align="justify"> **Abstrac:** In many low and middle-income countries, motorcycles are the most commonly used means of transportation. Over and beyond their many legal uses, motorcycles are also widely used to commit crimes. While motorcycle restrictions to reduce crime have been adopted in at least 14 countries, we do not know if they are effective. We evaluate the impact of six of these restrictions in Colombia: two that ban male passengers, two that ban any passengers (regardless of sex) and two that restrict motorcycles outright. To identify causal effects on crime, we estimate difference-in-differences models that exploit spatial and temporal variation in the implementation of these measures using georeferenced crime data. In four cases we find no crime reduction effects of these policies. Even when we do identify such effects, they tend to be associated with spatial displacement of crime of equal magnitude, or the results are not robust to different model specifications. Given the high costs of ensuring compliance with these measures, and the costs they impose on ordinary citizens, local authorities should seek out other alternatives to improve citizen security. </p>
 
-<!--- Documento 2 --->
+<!--- Documento  --->
 
-* <strong style="color:black;font-size:22px;"> Land Property Rights in Drug Policy: Evidence from the Formalizar para Substitution program in Colombia </strong> (with [María del Pilar López-Uribe](https://sites.google.com/site/marialopezuribe00/), [Juan Carlos Muñoz-Mora](https://www.eafit.edu.co/docentes-investigadores/Paginas/juan-carlos-munoz.aspx), Ana Pirela de los Rios and Carolina Castro) [[Slides here]](https://eduard-martinez.github.io/research/slides_fxs.pdf)
+* <strong style="color:black;font-size:22px;"> 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia. </strong> (with María P. Nieto and Carlos Andrés Rocha) [[Paper here]](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395)
 
- <p align="justify"> **Abstrac:** Land formalization generates multiple benefits for rural households, especially in areas exposed to illegal activities. This study evaluates a land titling program - Formalizar para Sustituir - as a strategy for the voluntary substitution of households towards legal crops. Using new information from surveys at the household level and satellite data at the village level, the results suggest that, on average, the area planted with coca leaf in the villages benefiting from formalization is reduced by 1,372 pp in the years following the start of the program. . The mechanisms found suggest that land formalization increases household income and reduces the multidimensional poverty index through a substitution towards legal crops. However, the results suggest that the effect on substitution is reduced over time, and the positive impacts on the income of the beneficiaries are only observed if this formalization was accompanied by greater state presence such as access to roads and public goods. Thus, the importance of property rights is highlighted as an essential step in the permanent transition to legality for small coca growers, but insufficient if it does not include other measures of state presence. </p>
+. </p>
 
-<!--- Documento 3 --->
 
-* <strong style="color:black;font-size:22px;">Coca, Glyphosate and the balloon effect.</strong> (with [Hernando Zuleta](https://economia.uniandes.edu.co/profesores/hernando-zuleta) and [María del Pilar Lopez](https://sites.google.com/site/marialopezuribe00/))
+<!--- Documento  --->
 
-<p align="justify"> **Abstrac:** For many years the Colombian government has undertaken different policy measures to eliminate or at least reduce coca production in the country. However, these efforts have not been reflected in a significant drop in coca crops. We argue that one of the main reasons for this apparent failure is the so-called balloon effect, namely, the response of coca growers to eradication is to re-plant in relatively close areas. In this work, we exploit a unique database and demonstrate the existence of the balloon effect within municipalities. According to our estimates, on average the new coca seeds in a municipality represent *** percent of the crops eradicated in the previous year. Our results invite us to rethink supply containment policies and to explore other options that affect the incentives of coca growers. </p>
+* <strong style="color:black;font-size:22px;"> 2022. Crop substitution, a war of incentives: Impact evaluation on the coca crop substitution program in Colombia. </strong> [[In the book Coca, Cocaína y Violencia. Univesidad de Los Andes, Colombia.]] (With Matilde Angarita) [[Paper here]](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
 
-<!--- Documento 4 --->
 
-* <strong style="color:black;font-size:22px;">Payroll taxes, wage rigidities and youth unemployment: Evidence from colombian labor market</strong> [[PDF]](https://eduard-martinez.github.io/research/youth_unemployment.pdf) (with [Danilo Aristizabal](http://danilo-aristizabal.github.io))
+<!--- Documento  --->
 
-<p align="justify"> **Abstrac:** This paper studies the effect on youth employment of a payroll tax cut for new hires young workers under the age of 28 in Colombia. We exploit differential degrees of exposure to wage rigidities to identify the effect. We measure an individual’s exposure to wage rigidities as the distance, in the city in which the individual lives, from the median salary by educational level with respect to the minimum wage. We have two different treatment groups and use a difference-in-difference model. The effect of reduced payroll taxes is asymmetric for youth who earn below and above the minimum wage. Reducing payroll taxes increased youth labor participation, rather than reducing informality. </p>
+* <strong style="color:black;font-size:22px;"> 2022. Illicit crops, peace agreements, and coca crops’ substitution policy.</strong> [In the book Coca, Cocaína y Violencia. Univesidad de Los Andes, Colombia.]]  (with [Juan Carlos Garzón](https://globalinitiative.net/profile/juan-carlos-garzon-vergara/)) and Jose Bernal.][[Paper here]](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia).
 
-<!--- Documento 5 --->
+<!--- Documento  --->
 
-* <strong style="color:black;font-size:22px;"> Economics Shocks and Crime: Evidence From Colombia </strong> [[PDF]](https://eduard-martinez.github.io/research/jmp/economics_shocks.pdf) 
+* <strong style="color:black;font-size:22px;"> 2020. Public Policy Analysis and Decision Making in the Military Forces: The Havana Experience.</strong> [In International Library of Policy Analysis. Policy Press and Bristol University Press.]]  (with Paula Lorena Mora, [Sebastián Bitar](https://academia.uniandes.edu.co/AcademyCv/s-bitar)), and [Michael Weintraub](http://www.miweintraub.com/)).][[Paper here]](https://policy.bristoluniversitypress.co.uk/policy-analysis-in-colombia).
 
-<p align="justify"> **Abstrac:** This paper studies the effect of a negative economic shock on crime. I collect criminal records for 165,000 users of an informal financial sector firm that was closed in Colombia at the end of 2008. I exploit the exogenous variation produced by the intervention in users who had deposits with an expiration date in the days close to the firm's closing date. The results suggest an increase in the number of legal proceedings for those suffering the negative economic shock, but this effect is concentrated only in those on the right-hand side of the distribution of unrecovered investments. </p>
 
-<!--- Documento 6 --->
-
-* <strong style="color:black;font-size:22px;">School Education for Inclusion and Social Transformation in the Colombian Caribbean</strong> [[PDF]](https://eduard-martinez.github.io/research/caribbean_education.pdf) [[DTSER-BANREP]](https://www.banrep.gov.co/es/publicaciones/documento-de-trabajo-economia-regional-y-urbana-263) (with [Leonardo Bonilla](https://investiga.banrep.gov.co/es/profile/76))
-
-<p align="justify"> **Abstrac:** The Caribbean Region of Colombia is particularly behind in terms of school coverage and quality. This paper proposes a set of policies that provide a big push to the public education system and allow closing the gap by 2030. Policies are organized into four categories: Preschool education, full-day schooling, teacher training and institutional capacity. The total cost of the intervention is estimated at 6,274 million dollars over 12 years, of which 2,114 correspond to investments and 4,160 to the additional recurrent expenditures of the education system. </p>
 
 <!--- Work in progress --->
 
 # Work in progress
 
-Coca, Glyphosate and the balloon effect. (with Hernando Zuleta and María del Pilar LópezUribe)
+Race, Politics, and Disaster Assistance in Colombia. (with Isabella Alcañiz) [[Pre-analysis plan here]](https://osf.io/5jqxb).
 
-Incomplete Peace and Cocaine Dutch Disease. (With Lucas Marín Llanes, Manuel Fernández and María Alejandra Vélez)
+The effect of peace-building on political behavior in Colombia. (With Marcus Jhonson). Submitted. 
 
-Measuring the spatial displacement of illicit crops in Colombia. (With María Alejandra Vélez, Hernando Zuleta and Lucas Marín Llanes)
+Costly Norm Enforcement through Sanctions and Rewards: An Experiment with Colombian Future Police Officers. (With Cesar Mantilla) [[Working paper here]](https://osf.io/aebxy/).
 
 </div>
 <!------------- Panel de la izquierda ------------->

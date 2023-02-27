@@ -11,32 +11,23 @@ pagetitle : Research - Eduard F. Martínez-González
 
 ## Teaching
 
-#### Universidad de los Andes, Colombia
+#### Graduate School of the Colombian National Police, Colombia
 
-* **Statistical & R Programming Workshop Seminar - Econ 1302** <br>
-  Department of Economics <br>
-  [Fall 2022 Syllabus](https://eduard-martinez.github.io/teaching/r_uniandes/2022-02/syllabus.pdf)
+* **Public Policy (2020 and 2021)** <br>
+  Citizen Security Master <br>
+  [Syllabus and slides](https://www.dropbox.com/sh/lhta1m6ct1icf6d/AADpVpNz9QotErNk47FidRsea?dl=0)
 
-* **Big Data and Machine Learning for Real State** <br>
-  Big Data and Machine Learning for Real Estate  <br>
-  [Spring 2022 website](https://ignaciomsarmiento.github.io/teaching/BDML)
 
-* **Big Data and Machine Learning for Applied Economics - Econ 4676**  <br>
-  Department of Economics  <br>
-  [Fall 2021 website](https://github.com/ECON-4676-UNIANDES-Fall-2021)
+## Universidad de Los Andes
+
+* **Solutions to the problem of crime** <br>
+  Universidad de Los Andes, Master's level, 2019 <br>
   
-## Workshops
+* **Aproximaciones Experimentales y Cuasi-Experimentales a la Seguridad y Justicia**(undergraduate and masters) <br>
+  Universidad de Los Andes, Masters, 2019 <br>
 
-* **R for Applied Research in Economic** <br>
-  Universidad EAFIT, Colombia, 2021 <br>
-  [[Recordings]](https://www.youtube.com/channel/UCLqqb0eZ1razOkTDusAVEnA) [[2021 Website]](https://github.com/taller-R/taller_cief_202102)
-  
-* **Workshop at Geostatistics** <br>
-  Universidad Piloto de Colombia, Colombia, 2021 <br>
-
-* **R Aplicado a la Investigación en Económía** <br>
-  Universidad del Magdalena, Colombia, 2022 <br>
-  [Spring 2022 website](https://eduard-martinez.github.io/teaching/unimag/2022-02/website.html)
+* **Introducción a Asuntos Públicos Globales**(undergraduate) <br>
+  Universidad de Los Andes, Masters, 2018 <br>
   
 </div>
 <!------------- Panel de la izquierda ------------->
@@ -46,25 +37,25 @@ pagetitle : Research - Eduard F. Martínez-González
 <!------------- Panel de la derecha ------------->
 <div class="col-sm-3">
 
-#### Eduard F. Martínez-González
- 
-<!-- Correo -->
-<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> ef.martinezg@uniandes.edu.co </img></p>
+#### Juan D. Gélvez-Ferreira
+
+Ph.D. student at The University of Maryland, College Park, interested in political economy and political behavior in Latin America .
+
+<!-- Location -->
+<a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
 
 <!-- Correo -->
-<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/correo.png" width=20" height="20"> edfemagonza@gmail.com </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
 
-<!-- Tel -->
-<p style="color:black;font-size:12px;"><img alt="Qries" src="./images/tel.png" width=20" height="20"> (+571) 3394949 Ext: 2430</img></p>
+<!-- Correo -->
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jd.gelvez399@uniandes.edu.co </img></p>
 
 <!-- Twitter -->
- <a href="https://twitter.com/emartigo" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/twitter.jpg" width=20" height="20">  @emartigo</a> 
+ <a href="https://twitter.com/JuanGelvezF" style="color:black;"> <img alt="Qries" src="./images/twitter.jpg" width="20" height="20">  @JuanGelvezF</a> 
 
-<!-- gitlab -->
-<a href="https://gitlab.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/gitlab.png" width=20" height="20">  eduard-martinez</a>
 
 <!-- GitHub -->
-<a href="https://github.com/eduard-martinez" style="color:black;font-size:12px;"> <img alt="Qries" src="./images/github.png" width=20" height="20">  eduard-martinez</a>
+<a href="https://github.com/juangelvezf" style="color:black;"> <img alt="Qries" src="./images/github.png" width="20" height="20">  juangelvezf</a>
 
 </div>
 <!------------- Panel de la derecha ------------->
