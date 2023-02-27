@@ -1,4 +1,4 @@
-# A Academic web page that alocate on GitHub
+# Academic web site - GitHub
 
-This repository contains the codes for my website https://eduard-martinez.github.io 
-You can Fork this web page and edit it.
+This repository contains the codes for my website https://juangelvezf.github.io 
+Based on https://eduard-martinez.github.io 

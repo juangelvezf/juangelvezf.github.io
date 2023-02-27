@@ -1,5 +1,5 @@
 ---
-pagetitle : Databases - Eduard F. Martínez-González
+pagetitle : Databases - Juan D. Gélvez-Ferreira
 ---
 
 <br>  </br>
