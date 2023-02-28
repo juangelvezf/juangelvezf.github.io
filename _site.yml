@@ -14,7 +14,7 @@ navbar:
     - text: "Research"
       href: research.html
     - text: "CV"
-      href: https://www.dropbox.com/s/wqk62qgyw9fusc3/Juan_Gelvez_Ferreira_CV.pdf?dl=0
+      href: cv/Juan_Gelvez_Ferreira_CV.pdf
 
     - text: "Teaching"
       href: teaching.html
