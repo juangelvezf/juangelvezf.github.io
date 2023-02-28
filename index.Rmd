@@ -38,11 +38,17 @@ Ph.D. student at The University of Maryland, College Park, interested in politic
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
-#### About me
+#### About me/Sobre mi
 
-Welcome! I am Ph.D. student working on political economy and political behavior in Latin America at The University of Maryland, College Park. My research interests include crime, environmental and disaster politics, and political violence. To study these topics, I use a mix-methods approach: causal inference, social networks analysis, and fieldwork.
+Welcome! I am Ph.D. student working on political economy and political behavior in Latin America at The University of Maryland, College Park. My research interests include crime, environmental and disaster politics, and political violence. To study these topics, I use a multi-methods approach: causal inference, social networks analysis, and fieldwork.Before I started graduate school, I worked as policymaker in Colombia, my home country. I hold a Master in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
 
-You can find my CV <a href="https://www.dropbox.com/s/wqk62qgyw9fusc3/Juan_Gelvez_Ferreira_CV.pdf?dl=0">here</a>.
+You can find my CV <a href="href="https://juangelvezf.github.io/cv/Juan_Gelvez_Ferreira_CV.pdf">here</a>.
+
+
+Bienvenida/o! Soy estudiante doctoral en la Universidad de Maryland, College Park, donde investigo comportamientos políticos en América Latina.  Mis temas de investigación son crimen, política medioambiental y de desastres naturales, y violencia política. Para estudiar estos temas uso metodologías mixtas: inferencia causal, análisis de redes y trabajo de campo. Antes de empezar mi doctorado trabajé como formulador de política pública en Colombia, mi país de origen. Soy profesional en Gobierno y Asuntos Públicos, y magíster en Políticas Públicas de la Universidad de Los Andes. 
+
+Mi hoja de vida se puede descargar <a href="href="https://juangelvezf.github.io/cv/Juan_Gelvez_Ferreira_CV.pdf">aquí</a>.
+
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 

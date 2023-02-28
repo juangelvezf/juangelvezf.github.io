@@ -11,23 +11,23 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 ## Teaching
 
-#### Graduate School of the Colombian National Police, Colombia
+#### Lecturer at the Graduate School of the Colombian National Police, Colombia
 
-* **Public Policy (2020 and 2021)** <br>
-  Citizen Security Master <br>
+* **Public Policy** <br>
+  Masters in Citizen Security, 2020 and 2021 <br>
   [Syllabus and slides](https://www.dropbox.com/sh/lhta1m6ct1icf6d/AADpVpNz9QotErNk47FidRsea?dl=0)
 
 
-## Universidad de Los Andes
+#### Teacher assistant at Universidad de Los Andes
 
-* **Solutions to the problem of crime** <br>
-  Universidad de Los Andes, Master's level, 2019 <br>
+* **Solutions to the problem of crime**  <br>
+  Masters, 2019 <br>
   
-* **Aproximaciones Experimentales y Cuasi-Experimentales a la Seguridad y Justicia**(undergraduate and masters) <br>
-  Universidad de Los Andes, Masters, 2019 <br>
+* **Aproximaciones Experimentales y Cuasi-Experimentales a la Seguridad y Justicia** <br>
+  Undergraduate and masters, 2019 <br>
 
-* **Introducción a Asuntos Públicos Globales**(undergraduate) <br>
-  Universidad de Los Andes, Masters, 2018 <br>
+* **Introducción a Asuntos Públicos Globales** <br>
+  Undergraduate and masters, 2018 <br>
   
 </div>
 <!------------- Panel de la izquierda ------------->
@@ -39,7 +39,7 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 #### Juan D. Gélvez-Ferreira
 
-Ph.D. student at The University of Maryland, College Park, interested in political economy and political behavior in Latin America .
+Ph.D. student at The University of Maryland, College Park.
 
 <!-- Location -->
 <a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
