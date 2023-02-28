@@ -1,4 +1,5 @@
 # Academic web site - GitHub
 
-This repository contains the codes for my website https://juangelvezf.github.io 
-Based on https://eduard-martinez.github.io 
+This repository contains the codes for my academic website https://juangelvezf.github.io 
+
+Feel free to fork it and build your own. 
