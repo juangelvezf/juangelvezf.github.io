@@ -13,6 +13,8 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 <!--- Documentos  --->
 
+* Revised and Resubmitted. The effect of peace-building on political behavior in Colombia. (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Working paper here](https://ilcss.umd.edu/static/a5e2d57ee5135fd70ca4814355d0b8ff/nadies.pdf) and [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0). 
+
 * 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With Catalina Miranda and María P. Nieto) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
 
 
@@ -34,9 +36,9 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 ## Work in progress
 
-Race, Politics, and Disaster Assistance in Colombia. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
+The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
 
-The effect of peace-building on political behavior in Colombia. (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Working paper here](https://ilcss.umd.edu/static/a5e2d57ee5135fd70ca4814355d0b8ff/nadies.pdf) and [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0). *Submitted.*  
+Does crime matter? Electoral results, political alignment, and security provision in Colombia *Submitted.* 
 
 
 Costly Norm Enforcement through Sanctions and Rewards: An Experiment with Colombian Future Police Officers. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
