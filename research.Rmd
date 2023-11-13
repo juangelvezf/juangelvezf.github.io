@@ -13,7 +13,7 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 <!--- Documentos  --->
 
-* Revised and Resubmitted. The effect of peace-building on political behavior in Colombia. (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Working paper here](https://ilcss.umd.edu/static/a5e2d57ee5135fd70ca4814355d0b8ff/nadies.pdf), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
+* 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
 
 * 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With Catalina Miranda and María P. Nieto) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
 
