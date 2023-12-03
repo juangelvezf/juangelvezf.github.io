@@ -13,12 +13,14 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 <!--- Documentos  --->
 
+* Forthcoming. Temporal Twists: The impact of the COVID-19 Pandemic on Crime Dynamics in Colombia. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)). [Paper here soon](). 
+
 * 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
 
-* 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With Catalina Miranda and María P. Nieto) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
+* 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With [Catalina Miranda](https://www.linkedin.com/in/catalinamiranda/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
 
 
-* 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia.URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With María P. Nieto and Carlos Andrés Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395)
+* 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia.URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395)
 
 
 * 2022. Crop substitution, a war of incentives: Impact evaluation on the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://co.linkedin.com/in/matilde-angarita-serrano-614b2472?original_referer=https%3A%2F%2Fwww.google.com%2F)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
@@ -38,9 +40,9 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
 
-Does crime matter? Electoral results, political alignment, and security provision in Colombia *Submitted.* 
+Does crime matter? The politics of crime prevention in Colombia. 
 
-Coca politics: Electoral Accountability and Political Benefits of the "war on drugs" in Colombia
+Coca politics: The politics of the "war on drugs" in Colombia. 
 
 Costly Norm Enforcement through Sanctions and Rewards: An Experiment with Colombian Future Police Officers. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
 
