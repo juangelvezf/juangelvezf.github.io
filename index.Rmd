@@ -40,7 +40,7 @@ Ph.D. student at The University of Maryland, College Park, interested in politic
 
 #### About me/ Sobre mi
 
-Welcome! I am a Ph.D. student working on political behavior in Latin America at The University of Maryland, College Park. My research interests include crime, illicit drugs, and environmental politics. To study these topics, I use computational approaches: causal inference, spatial analysis, and machine learning. Before I started graduate school, I worked as policymaker in Colombia, my home country. I hold a Master in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
+Welcome! I am a Ph.D. student working on political behavior in Latin America at The University of Maryland, College Park. My research interests include crime, illicit drugs, and environmental politics. To study these topics, I use computational approaches: causal inference, spatial analysis, and machine learning. Before I started graduate school, I worked as a policymaker in Colombia, my home country. I hold a Master's in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
 
 You can find my CV (in english) <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_Ferreira_CV.pdf">here</a>.
 
