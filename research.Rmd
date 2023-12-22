@@ -13,7 +13,7 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 <!--- Documentos  --->
 
-* Forthcoming. Temporal Twists: The impact of the COVID-19 Pandemic on Crime Dynamics in Colombia. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)). [Paper here soon](). 
+* 2023. Temporal Twists: The impact of the COVID-19 Pandemic on Crime Dynamics in Colombia. International Criminology (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)). [Paper here](https://link.springer.com/article/10.1007/s43576-023-00109-x). 
 
 * 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. Latin American Politics & Society (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
 
