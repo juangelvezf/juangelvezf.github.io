@@ -13,6 +13,8 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 <!--- Documentos  --->
 
+* 2024. Incentives War: The Consequences of Announcing a Substitution Policy on Coca Cultivation in Colombia. Journal of Illicit Economies and Developmen (With [Matilde Angarita](https://www.linkedin.com/in/matilde-angarita-serrano-614b2472/)). [Paper here](https://jied.lse.ac.uk/articles/10.31389/jied.202). 
+
 * 2023. Temporal Twists: The impact of the COVID-19 Pandemic on Crime Dynamics in Colombia. International Criminology (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)). [Paper here](https://link.springer.com/article/10.1007/s43576-023-00109-x). 
 
 * 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. Latin American Politics & Society (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
@@ -23,7 +25,7 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 * 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia.URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395)
 
 
-* 2022. Crop substitution, a war of incentives: Impact evaluation on the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://co.linkedin.com/in/matilde-angarita-serrano-614b2472?original_referer=https%3A%2F%2Fwww.google.com%2F)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
+* 2022. Impact evaluation of the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://co.linkedin.com/in/matilde-angarita-serrano-614b2472?original_referer=https%3A%2F%2Fwww.google.com%2F)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
 
 
 * 2022. Illicit crops, peace agreements, and coca crops’ substitution policy. In the book Coca, Cocaína y Violencia. Univesidad de Los Andes, Colombia. (With [Juan Carlos Garzón](https://globalinitiative.net/profile/juan-carlos-garzon-vergara/) and Jose Bernal). [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia).
