@@ -1,5 +1,5 @@
 ---
-pagetitle: "Home - Juan D. Gélvez"
+pagetitle: "Home - Juan D. Gelvez"
 ---
 
 <br>  </br> <!--- Agrega lineas en blanco --->
@@ -10,7 +10,7 @@ pagetitle: "Home - Juan D. Gélvez"
 <!-- Foto completa -->
 <img src="./images/profile2.jpg" class="center" alt="drawing" width="250" height="250"/>
 
-#### Juan D. Gélvez-Ferreira
+#### Juan David Gelvez
 
 Ph.D. student at The University of Maryland, College Park, interested in political economy and political behavior in Latin America .
 

@@ -1,5 +1,5 @@
 ---
-pagetitle : Databases - Juan D. Gélvez-Ferreira
+pagetitle : Databases - Juan D. Gelvez
 ---
 
 <br>  </br>

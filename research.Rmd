@@ -40,13 +40,22 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 ## Work in progress
 
-The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
+#### Environmental Politics and Policy
 
-Does crime matter? The politics of crime prevention in Colombia. [Working Paper here](https://ilcss.umd.edu/static/9364d55cefc8010b30187796c6c46048/does-crime-matter.pdf).
 
-Coca politics: The politics of the "war on drugs" in Colombia. 
+* Exploring the Nexus between Natural Disasters, Civil Conflict and Forced Displacement (With [Leo Bauer](https://leo-bauer.com/))
 
-Costly Norm Enforcement through Sanctions and Rewards: An Experiment with Colombian Future Police Officers. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
+* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
+
+* Weathering the Ballot Box: Natural Disasters and Electoral Politics in Colombia. 
+
+#### Crime, Police, and Illicit Drugs
+
+* Behavioral Games and Attitudes Toward the Police: An incentivized game and a prediction survey in Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
+
+* Coca politics: The politics of the "war on drugs" in Colombia.  *Working Paper.*
+
+* Does crime matter? The politics of crime prevention in Colombia. [Working Paper here](https://ilcss.umd.edu/static/9364d55cefc8010b30187796c6c46048/does-crime-matter.pdf).
 
 <!--- Policy papers --->
 
@@ -63,7 +72,7 @@ Costly Norm Enforcement through Sanctions and Rewards: An Experiment with Colomb
 <!------------- Panel de la derecha ------------->
 <div class="col-sm-3">
 
-#### Juan D. Gélvez-Ferreira
+#### Juan David Gelvez
 
 Ph.D. student at The University of Maryland, College Park.
 
