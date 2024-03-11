@@ -43,11 +43,11 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 #### Environmental Politics and Policy
 
 
-* Exploring the Nexus between Natural Disasters, Civil Conflict and Forced Displacement (With [Leo Bauer](https://leo-bauer.com/))
-
 * The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
 
 * Weathering the Ballot Box: Natural Disasters and Electoral Politics in Colombia. 
+
+* Forced Displacement, Natural Disasters, and Violence: A spatial analysis for Colombia (With [Leo Bauer](https://leo-bauer.com/))
 
 #### Crime, Police, and Illicit Drugs
 
@@ -61,9 +61,13 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 ## Selected policy papers
 
+* 2022. Costly norm enforcement through sanctions and rewards: An experiment with Colombian future police officers. [Policy Brief here ](https://www.dropbox.com/scl/fi/uq83kxcc8q6fcxbhqkw9t/Policy-Brief.-Altruismo-confianza-y-expectativas-entre-la-policia-y-la-ciudadania.pdf?rlkey=7m66px84r886kshrdqd3a8nxy&dl=0).
+
 * 2020. What works to prevent crime? Effective strategies to improve citizen security policies. Published in Centro de Estudios sobre Seguridad y Drogas, Universidad de Los Andes. [Policy paper here](https://cesed.uniandes.edu.co/como-prevenir-el-delito-estrategias-efectivas-de-convivencia-y-seguridad-ciudadana/).
 
 * 2019. Who are the coca growers? Published in Fundación Ideas para la Paz (FIP). [Policy paper here](https://ideaspaz.org/publicaciones/investigaciones-analisis/2018-08/quienes-son-las-familias-que-viven-en-las-zonas-con-cultivos-de-coca).
+
+* 2019. How is the substitution of illicit crops going? Challenges, current dilemmas, and the urgency of a consensus [Policy paper here](https://storage.ideaspaz.org/documents/FIP_sustitucion_VOL06.pdf).
 
 </div>
 <!------------- Panel de la izquierda ------------->
