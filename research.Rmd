@@ -51,7 +51,7 @@ pagetitle: "Research - Juan D. Gélvez-Ferreira"
 
 #### Crime, Police, and Illicit Drugs
 
-* Behavioral Games and Attitudes Toward the Police: An incentivized game and a prediction survey in Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
+* Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
 
 * Coca politics: The politics of the "war on drugs" in Colombia.  *Working Paper.*
 
