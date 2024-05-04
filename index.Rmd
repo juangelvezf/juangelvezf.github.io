@@ -12,7 +12,7 @@ pagetitle: "Home - Juan D. Gelvez"
 
 #### Juan David Gelvez
 
-Ph.D. student at The University of Maryland, College Park, interested in political economy and political behavior in Latin America .
+Ph.D. Student at the University of Maryland, College Park, interested in public policies and political behavior in Latin America .
 
 <!-- Location -->
 <a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
@@ -40,7 +40,7 @@ Ph.D. student at The University of Maryland, College Park, interested in politic
 
 #### About me
 
-Welcome! I am a Ph.D. student working on political behavior and public policies in Latin America at The University of Maryland (UMD), College Park. My research interests include crime, illicit drugs, and environmental politics. To study these topics, I use computational approaches: causal inference, spatial analysis, and machine learning. Before I started graduate school, I worked as a policymaker in Colombia, my home country. I hold a Master's in Government and Politics from UMD, a Master's in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
+Welcome! I am a Ph.D. student at The University of Maryland (UMD), College Park. Currently, I am working on political behavior and public policies in Latin America. My research interests include crime, illicit drugs, and environmental politics. To study these topics, I use computational approaches: causal inference, spatial analysis, and machine learning. Before I started graduate school, I worked as a policymaker in Colombia, my home country. I hold a Master's in Government and Politics from UMD, a Master's in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
 
 You can find my CV (in english) <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_Ferreira_CV.pdf">here</a>.
 
