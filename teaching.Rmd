@@ -1,5 +1,5 @@
 ---
-pagetitle: "Research - Juan David Gelvez"
+pagetitle: "Teaching - Juan David Gelvez"
 ---
 
 <br>  </br> <!--- Agrega lineas en blanco --->
@@ -37,7 +37,7 @@ pagetitle: "Research - Juan David Gelvez"
 <!------------- Panel de la derecha ------------->
 <div class="col-sm-3">
 
-#### Juan D. Gelvez
+#### Juan David Gelvez
 
 Ph.D. student at The University of Maryland, College Park.
 

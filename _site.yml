@@ -1,11 +1,11 @@
-title: "Juan D. Gélvez-Ferreira"  
-name: "Juan Gelvez"
+title: "Juan David Gelvez"  
+name: "Juan David Gelvez"
 output_dir: "."
 
  
 # Navegation bar
 navbar:
-  title: "Juan D. Gélvez-Ferreira"  
+  title: "Juan David Gelvez"  
   type: inverse
   right:
     - text: "Home"
@@ -35,7 +35,7 @@ navbar:
 # Theme https://bookdown.org/yihui/rmarkdown/html-document.html
 output:
       html_document:
-                    theme: cerulean
+                    theme: flatly
                     mathjax: "http://example.com/MathJax.js"
                     highlight: haddock
                     css: css/style.css

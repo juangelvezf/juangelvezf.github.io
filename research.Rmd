@@ -1,5 +1,5 @@
 ---
-pagetitle: "Research - Juan D. Gélvez-Ferreira"
+pagetitle: "Research - Juan D. Gelvez"
 ---
 
 <br>  </br> <!--- Agrega lineas en blanco --->
