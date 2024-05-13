@@ -22,10 +22,10 @@ pagetitle: "Research - Juan D. Gelvez"
 * 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With [Catalina Miranda](https://www.linkedin.com/in/catalinamiranda/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
 
 
-* 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia.URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395)
+* 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia. URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395/4193)
 
 
-* 2022. Impact evaluation of the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://co.linkedin.com/in/matilde-angarita-serrano-614b2472?original_referer=https%3A%2F%2Fwww.google.com%2F)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
+* 2022. Impact evaluation of the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=es)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
 
 
 * 2022. Illicit crops, peace agreements, and coca crops’ substitution policy. In the book Coca, Cocaína y Violencia. Univesidad de Los Andes, Colombia. (With [Juan Carlos Garzón](https://globalinitiative.net/profile/juan-carlos-garzon-vergara/) and Jose Bernal). [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia).
