@@ -16,10 +16,10 @@ pagetitle: "Teaching - Juan David Gelvez"
 * **Quantitative Analysis: Advanced Maximum Likelihood Estimation**  <br>
   Ph.D. Level, 2024 <br>
 
-#### Lecturer at the Graduate School of the Colombian National Police, Colombia
+#### Lecturer at the Graduate School of the National Police, Colombia
 
 * **Public Policy** <br>
-  Masters in Citizen Security, 2020 and 2021 <br>
+  Graduated Students, 2020 and 2021 <br>
   [Syllabus and slides](https://www.dropbox.com/sh/lhta1m6ct1icf6d/AADpVpNz9QotErNk47FidRsea?dl=0)
 
 
@@ -32,7 +32,7 @@ pagetitle: "Teaching - Juan David Gelvez"
   Undergraduate and masters, 2019 <br>
 
 * **Introducción a Asuntos Públicos Globales** <br>
-  Undergraduate and masters, 2018 <br>
+  Undergraduate, 2018 <br>
   
 </div>
 <!------------- Panel de la izquierda ------------->
