@@ -42,20 +42,32 @@ pagetitle: "Research - Juan D. Gelvez"
 
 #### Environmental Politics and Policy
 
+* Forced Displacement, Natural Disasters, and Violence: A spatial analysis for Colombia (With [Leo Bauer](https://leo-bauer.com/)). *Submitted.* 
 
-* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0).
+* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0). *Working Paper.*
+
+* The pork-politics of climate disasters.
 
 * Weathering the Ballot Box: Natural Disasters and Electoral Politics in Colombia. 
 
-* Forced Displacement, Natural Disasters, and Violence: A spatial analysis for Colombia (With [Leo Bauer](https://leo-bauer.com/))
 
 #### Crime, Police, and Illicit Drugs
 
-* Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Submitted.* 
+
 
 * Coca politics: The politics of the "war on drugs" in Colombia.  *Working Paper.*
 
-* Does crime matter? The politics of crime prevention in Colombia. [Working Paper here](https://ilcss.umd.edu/static/9364d55cefc8010b30187796c6c46048/does-crime-matter.pdf).
+* Does crime matter? The politics of crime prevention in Colombia. [Working Paper here](https://ilcss.umd.edu/static/9364d55cefc8010b30187796c6c46048/does-crime-matter.pdf). *R&R.*
+
+* Predicting Military Misconduct: Evidence from Colombia and Authoritarian Argentina. *Submitted.* 
+
+
+* Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and María P. Nieto) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Under-review.* 
+
+* Who Supports Forced Eradication? Protest, Gender, and Politics in Colombia. (With [Juan C Angulo](https://sites.google.com/view/juancangulo))
+
+
+
 
 <!--- Policy papers --->
 
