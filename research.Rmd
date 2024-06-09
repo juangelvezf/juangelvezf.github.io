@@ -7,34 +7,6 @@ pagetitle: "Research - Juan D. Gelvez"
 <!------------- Panel de la izquierda ------------->
 <div class="col-sm-9">
 
-## Peer-reviewed publications
-
-<p>  </p> <!--- Agrega una linea en blanco --->
-
-<!--- Documentos  --->
-
-* 2024. Incentives War: The Consequences of Announcing a Substitution Policy on Coca Cultivation in Colombia. Journal of Illicit Economies and Developmen (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=en)). [Paper here](https://jied.lse.ac.uk/articles/10.31389/jied.202). 
-
-* 2023. Temporal Twists: The impact of the COVID-19 Pandemic on Crime Dynamics in Colombia. International Criminology (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)). [Paper here](https://link.springer.com/article/10.1007/s43576-023-00109-x). 
-
-* 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. Latin American Politics & Society (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
-
-* 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With [Catalina Miranda](https://www.linkedin.com/in/catalinamiranda/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
-
-
-* 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia. URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395/4193)
-
-
-* 2022. Impact evaluation of the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=es)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
-
-
-* 2022. Illicit crops, peace agreements, and coca crops’ substitution policy. In the book Coca, Cocaína y Violencia. Univesidad de Los Andes, Colombia. (With [Juan Carlos Garzón](https://globalinitiative.net/profile/juan-carlos-garzon-vergara/) and Jose Bernal). [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia).
-
-* 2020. Public Policy Analysis and Decision Making in the Military Forces: The Havana Experience. In International Library of Policy Analysis. Policy Press and Bristol University Press. (With [Paula Mora](https://www.promisehumanrights.blog/team/paula-mora), [Sebastián Bitar](https://academia.uniandes.edu.co/AcademyCv/s-bitar), and [Michael Weintraub](http://www.miweintraub.com/)). [Paper here](https://policy.bristoluniversitypress.co.uk/policy-analysis-in-colombia).
-
-* 2019. Judicial treatment and pre-trial detention in a sample of arraignment hearings in Bogotá and Cali. In Cuaderno de Economía Universidad Nacional de Colombia. (With [Andrés Rengifo](https://rscj.newark.rutgers.edu/people/faculty/rengifo-andres/), [Lorena Avila](https://rscj.newark.rutgers.edu/people/students/lorena-avila-jaimes/), [Lucía Ramírez](https://www.dejusticia.org/responsible/lucia-ramirez-bolivar/) and [Paula Mora](https://www.promisehumanrights.blog/team/paula-mora)). [Paper here](http://www.scielo.org.co/scielo.php?script=sci_abstract&pid=S0121-47722019000200581).
-
-* 2018. Which are the determinants associated with the insecurity perception? A statistical and spatial analysis for Bogota, D.C. In Revista Criminalidad, Policía Nacional. [Paper here](http://www.scielo.org.co/scielo.php?script=sci_abstract&pid=S1794-31082019000100069&lng=en&nrm=iso).
 
 <!--- Work in progress --->
 
@@ -65,6 +37,40 @@ pagetitle: "Research - Juan D. Gelvez"
 * Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Under-review.* 
 
 * Who Supports Forced Eradication? Protest, Gender, and Politics in Colombia. (With [Juan C Angulo](https://sites.google.com/view/juancangulo))
+
+
+
+## Peer-reviewed publications
+
+<p>  </p> <!--- Agrega una linea en blanco --->
+
+<!--- Documentos  --->
+
+* 2024. Incentives War: The Consequences of Announcing a Substitution Policy on Coca Cultivation in Colombia. Journal of Illicit Economies and Development (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=en)). [Paper here](https://jied.lse.ac.uk/articles/10.31389/jied.202). 
+
+* 2023. Temporal Twists: The impact of the COVID-19 Pandemic on Crime Dynamics in Colombia. International Criminology (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)). [Paper here](https://link.springer.com/article/10.1007/s43576-023-00109-x). 
+
+* 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. Latin American Politics & Society (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
+
+* 2023. From national to subnational level:  How are design citizen's security local policies in Colombia? Revista de Gestión y Política Pública. CIDE, México. (With [Catalina Miranda](https://www.linkedin.com/in/catalinamiranda/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Paper here](http://www.gestionypoliticapublica.cide.edu/?p=1208)
+
+
+* 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia. URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395/4193)
+
+
+* 2022. Impact evaluation of the coca crop substitution program in Colombia. In the book "Coca, Cocaína y Violencia". Univesidad de Los Andes, Colombia. (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=es)) [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia)
+
+
+* 2022. Illicit crops, peace agreements, and coca crops’ substitution policy. In the book Coca, Cocaína y Violencia. Univesidad de Los Andes, Colombia. (With [Juan Carlos Garzón](https://globalinitiative.net/profile/juan-carlos-garzon-vergara/) and Jose Bernal). [Book here](https://ediciones.uniandes.edu.co/library/publication/coca-cocaina-y-violencia).
+
+#### Before Graduate School
+
+
+* 2020. Public Policy Analysis and Decision Making in the Military Forces: The Havana Experience. In International Library of Policy Analysis. Policy Press and Bristol University Press. (With [Paula Mora](https://www.promisehumanrights.blog/team/paula-mora), [Sebastián Bitar](https://academia.uniandes.edu.co/AcademyCv/s-bitar), and [Michael Weintraub](http://www.miweintraub.com/)). [Paper here](https://policy.bristoluniversitypress.co.uk/policy-analysis-in-colombia).
+
+* 2019. Judicial treatment and pre-trial detention in a sample of arraignment hearings in Bogotá and Cali. In Cuaderno de Economía Universidad Nacional de Colombia. (With [Andrés Rengifo](https://rscj.newark.rutgers.edu/people/faculty/rengifo-andres/), [Lorena Avila](https://rscj.newark.rutgers.edu/people/students/lorena-avila-jaimes/), [Lucía Ramírez](https://www.dejusticia.org/responsible/lucia-ramirez-bolivar/) and [Paula Mora](https://www.promisehumanrights.blog/team/paula-mora)). [Paper here](http://www.scielo.org.co/scielo.php?script=sci_abstract&pid=S0121-47722019000200581).
+
+* 2018. Which are the determinants associated with the insecurity perception? A statistical and spatial analysis for Bogota, D.C. In Revista Criminalidad, Policía Nacional. [Paper here](http://www.scielo.org.co/scielo.php?script=sci_abstract&pid=S1794-31082019000100069&lng=en&nrm=iso).
 
 
 
