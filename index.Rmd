@@ -13,7 +13,7 @@ pagetitle: "Home - Juan D. Gelvez"
 #### Juan David Gelvez
 
 <div style="text-align: left">
-Ph.D. Student at the University of Maryland, College Park, interested in public policies and political behavior in Latin America.
+Ph.D. Candidate at the University of Maryland, College Park, interested in public policies and political behavior in Latin America.
 </div>
 
 <!-- Location -->
