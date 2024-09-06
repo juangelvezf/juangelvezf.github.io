@@ -1,0 +1,74 @@
+---
+pagetitle: "Service - Juan D. Gelvez"
+---
+
+<br>  </br> <!--- Agrega lineas en blanco --->
+
+<!------------- Panel de la izquierda ------------->
+<div class="col-sm-9">
+
+
+<!--- Work in progress --->
+
+## Academic and Policy Engagement
+(Ver Español Abajo)
+
+I am an active member of both my academic community and policy circles. I truly believe that service to various initiatives not only advances research but also has a tangible impact on people’s lives.
+
+Within academia, at the Interdisciplinary Laboratory for Computational Social Science ([iLCSS](https://ilcss.umd.edu/)), the Latin American Studies Center ([LASCC](https://lacs.umd.edu/)) at the University of Maryland, and the [SIGLA](https://sigla.georgetown.domains/gateway/) Data Project at Georgetown University, I collaborate on designing and implementing research tools that push the boundaries of knowledge—not only for my own work but also for many other researchers and practitioners. I take pride in helping to onboard new PhD students and researchers, ensuring they feel supported as they begin their academic journeys.
+
+One of the most interesting experiences has been participating in the selection of our department chair at UMD, following an invitation from the dean. This role allowed me to contribute directly to shaping the future of our department, which is something I’m deeply invested in.
+
+I actively engage in peer review, primarily for Latin American journals, contributing to the quality and development of research within the region. I regularly provide feedback on manuscripts that push the field forward and have the potential to influence policy, offering constructive reviews to elevate the work of fellow scholars.
+
+In the policy space, I’ve had the opportunity to influence policy decisions—initially as a policy analyst in the government and at think tanks, and more recently through participation in public and private events with policymakers and the international community. I’ve contributed my expertise on crime and environmental issues, and I’ve also written recommendations for key institutions such as the National Planning Department (DNP), the National Police, and the Smart Cities System, connecting my research to real-world challenges and solutions.
+
+-----------------------------------------
+
+## Servicio a la academia y la política pública
+
+
+Me considero un miembro activo tanto de mi comunidad académica como de los círculos de políticas públicas. Estoy convencido de que trabajar en diversas iniciativas y sectores no solo impulsa la investigación académica, sino que también tiene un impacto tangible en la política pública y, por último, en la vida de las personas.
+
+Dentro del ámbito académico, he podido influenciar en diferentes espacios. En el Laboratorio Interdisciplinario de Ciencias Sociales Computacionales ([iLCSS](https://ilcss.umd.edu/)), el Centro de Estudios Latinoamericanos ([LASCC](https://lacs.umd.edu/)) de la Universidad de Maryland, y el Proyecto de Datos [SIGLA](https://sigla.georgetown.domains/gateway/) en la Universidad de Georgetown, colaboro en el diseño e implementación de herramientas de investigación que buscan ampliar el conocimiento científico, no solo para mi propio trabajo, sino también para otros investigadores y profesionales. También participo en la integración de nuevos estudiantes de doctorado e investigadores, asegurándome de que se sientan respaldados al iniciar su trayectoria académica.
+
+Una de las experiencias más interesantes ha sido participar en la selección del Director de mi departamento en la Universidad de Maryland. Este rol me permitió ver el futuro del programa -decisiones de inversión y de investigación- y contribuir en este.
+
+Mi servicio en la academia también incluye mi rol como revisor. Participo activamente en la revisión por pares, principalmente para revistas latinoamericanas, contribuyendo a la calidad y desarrollo de la investigación en la región. Frecuentemente proporciono retroalimentación sobre manuscritos que impulsan el campo y que tienen el potencial de influir en políticas públicas, ofreciendo reseñas constructivas para elevar el trabajo de otros académicos.
+
+En el ámbito de las políticas públicas, he tenido la oportunidad de influir en decisiones políticas. Inicialmente como analista de políticas en el Gobierno y en centros de pensamiento, y más recientemente a través de mi participación en eventos públicos y privados con responsables de políticas y financiadores de la comunidad internacional. He aportado mi experiencia en temas de crimen y medio ambiente, y también he redactado recomendaciones para instituciones como el Departamento Nacional de Planeación (DNP), la Policía Nacional y el Sistema de Ciudades Inteligentes, conectando mi investigación con soluciones prácticas.
+
+
+</div>
+<!------------- Panel de la izquierda ------------->
+
+
+<!------------- Panel de la derecha ------------->
+<div class="col-sm-3">
+
+#### Juan David Gelvez
+
+Ph.D. Candidate at The University of Maryland, College Park.
+
+<!-- Location -->
+<a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
+
+<!-- Correo -->
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
+
+<!-- Correo -->
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jd.gelvez399@uniandes.edu.co </img></p>
+
+<!-- Twitter -->
+ <a href="https://twitter.com/JuanGelvezF" style="color:black;"> <img alt="Qries" src="./images/twitter.jpg" width="20" height="20">  @JuanGelvezF</a> 
+
+
+<!-- GitHub -->
+<a href="https://github.com/juangelvezf" style="color:black;"> <img alt="Qries" src="./images/github.png" width="20" height="20">  juangelvezf</a>
+
+</div>
+<!------------- Panel de la derecha ------------->
+
+
+
+<br>  </br> <!--- Agrega lineas en blanco --->
