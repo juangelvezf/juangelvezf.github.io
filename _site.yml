@@ -19,16 +19,6 @@ navbar:
     - text: "Teaching"
       href: teaching.html
 
-      # Menu bar
-      #menu:
-      #  - text: "Clases"
-      #  - text: "Configurar Git y clonar un repositorio"
-      #  - text: "Introducción a R y Rstudio"
-      #    href: blog/github/clonar_github.html
-      #    href: https://eduard-martinez.gitlab.io/bd-intro-r/#/
-      #  - text: "Introducción a Gis en R"
-      #    href: https://eduard-martinez.gitlab.io/intro-gis-r/#/
-    
     - text: "Databases"
       href: databases.html
       
