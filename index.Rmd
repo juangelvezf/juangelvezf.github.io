@@ -1,5 +1,5 @@
 ---
-pagetitle: "Home - Juan D. Gelvez"
+pagetitle: "Home - Juan David Gelvez"
 ---
 
 <br>  </br> <!--- Agrega lineas en blanco --->
