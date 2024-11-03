@@ -42,7 +42,7 @@ Ph.D. Candidate at the University of Maryland, College Park, interested in publi
 
 #### About me
 
-Welcome! I am a Ph.D. Candidate at The University of Maryland (UMD), College Park. Currently, I am working on political behavior and public policies in Latin America. My research interests include crime, illicit drugs, and environmental politics. To study these topics, I use computational approaches: causal inference, spatial analysis, and machine learning. Before I started graduate school, I worked as a policymaker in Colombia, my home country. I hold a Master's in Government and Politics from UMD, a Master's in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
+Welcome! I am a Ph.D. Candidate at The University of Maryland (UMD) and Research Fellow at Georgetown University. Currently, I am working on political behavior and public policies across Latin America. My research interests include crime, illicit drugs, and environmental politics. To study these topics, I use computational approaches: causal inference, spatial analysis, and machine learning. Before I started graduate school, I worked as a policymaker in Colombia, my home country. I hold a Master's in Government and Politics from UMD, a Master's in Public Policy and a B.S in Government and Public Affairs from Universidad de Los Andes, Colombia
 
 You can find my CV (in english) <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_Ferreira_CV.pdf">here</a>.
 
@@ -51,7 +51,7 @@ You can find my CV (in english) <a href="https://juangelvezf.github.io/cv/Juan_G
 
 #### Sobre mí
 
-Bienvenida/o! Soy candidato a doctor en la Universidad de Maryland, College Park, donde investigo comportamientos políticos y políticas públicas en América Latina.  Mis temas de investigación son crimen, drogas ilícitas y política medioambiental. Para estudiar estos temas uso metodologías computacionales: inferencia causal, análisis espacial y aprendizaje automatizado. Antes de empezar mi doctorado trabajé como analista y formulador de política pública en Colombia. Soy profesional en Gobierno y Asuntos Públicos, y magíster en Políticas Públicas de la Universidad de Los Andes, y obtuve la maestría en Gobierno y Política de la Universidad de Maryland. 
+Bienvenida/o! Soy candidato a doctor en la Universidad de Maryland e investigador de la Universidad de Georgetown, donde estudio comportamientos políticos y políticas públicas en América Latina.  Mis temas de investigación son crimen, drogas ilícitas y política medioambiental. Para estudiar estos temas uso metodologías computacionales: inferencia causal, análisis espacial y aprendizaje automatizado. Antes de empezar mi doctorado trabajé como analista y formulador de política pública en Colombia. Soy profesional en Gobierno y Asuntos Públicos, y magíster en Políticas Públicas de la Universidad de Los Andes, y obtuve la maestría en Gobierno y Política de la Universidad de Maryland. 
 
 Mi hoja de vida (en español) se puede descargar <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_Ferreira_CV_esp.pdf">aquí</a>.
 
