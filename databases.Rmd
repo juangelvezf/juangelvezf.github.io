@@ -11,7 +11,7 @@ pagetitle: "Databases - Juan David Gelvez"
 
 <!--- Work in progress --->
 
-## Replication files and codes
+## Databases, Replication Files & Codes
 
 
 * Database on States and Institutions of Governance in Latin America (SIGLA) for more than 20 countries across the region is available [here](https://sigla.georgetown.domains/gateway/).
