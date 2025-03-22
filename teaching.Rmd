@@ -53,7 +53,7 @@ Ph.D. student at The University of Maryland, College Park.
 <p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jd.gelvez399@uniandes.edu.co </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvezf@gmail.com </img></p>
 
 <!-- Twitter -->
  <a href="https://twitter.com/JuanGelvezF" style="color:black;"> <img alt="Qries" src="./images/twitter.jpg" width="20" height="20">  @JuanGelvezF</a> 

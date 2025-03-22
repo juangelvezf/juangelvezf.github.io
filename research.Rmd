@@ -14,10 +14,10 @@ pagetitle: "Research - Juan David Gelvez"
 
 #### Climate Disasters Politics and Policy
 
-* Climate Disasters, Deservingness, and Public Opinion about Government Assistance. [Pre-analysis plan here](https://osf.io/d5697)
+* Climate Disasters, Deservingness, and Public Opinion about Government Assistance. [Pre-analysis plan here](https://osf.io/9qesu)
 
 
-* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0). *Working Paper*
+* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/6ty4k) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0). *Working Paper*
 
 
 * The Spatial Interplay of Climate Disasters, Armed Conflict, and Forced Displacement: Evidence from Colombia.	 (With [Leo Bauer](https://leo-bauer.com/)). *Submitted.* 
@@ -111,7 +111,7 @@ Ph.D. Candidate at The University of Maryland, College Park.
 <p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jd.gelvez399@uniandes.edu.co </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvezf@gmail.com </img></p>
 
 <!-- Twitter -->
  <a href="https://twitter.com/JuanGelvezF" style="color:black;"> <img alt="Qries" src="./images/twitter.jpg" width="20" height="20">  @JuanGelvezF</a> 
