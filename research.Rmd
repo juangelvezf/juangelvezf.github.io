@@ -12,34 +12,34 @@ pagetitle: "Research - Juan David Gelvez"
 
 ## Work in progress
 
-#### Environmental Politics and Policy
+#### Climate Disasters Politics and Policy
 
-* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0). *Working Paper.*
+* Climate Disasters, Deservingness, and Public Opinion about Government Assistance. [Pre-analysis plan here](https://osf.io/d5697)
 
-* The Pork-Politics of climate disasters.
+
+* The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/5jqxb) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0). *Working Paper*
+
 
 * The Spatial Interplay of Climate Disasters, Armed Conflict, and Forced Displacement: Evidence from Colombia	 (With [Leo Bauer](https://leo-bauer.com/)). *Submitted.* 
 
-* Weathering the Ballot Box: Blame Avoidance and Natural Disasters in Latin America. 
+* Weathering the Ballot Box: Blame Avoidance and Climate Disasters. 
 
 
 #### Crime, Police, and Illicit Drugs
 
 
 
-* Coca politics. [Working Paper here](https://osf.io/preprints/osf/yn9rz)
+* Coca Politics: Exposure to Tough-on-Crime Policies, Electoral Accountability, and Public Opinion [Working Paper here](https://osf.io/preprints/osf/yn9rz). 
 
 
 * The Politics of Crime Prevention: Evidence From Colombia. [Early Draft here](https://ilcss.umd.edu/static/9364d55cefc8010b30187796c6c46048/does-crime-matter.pdf).
 
 
-* Public Attitudes Toward Forced Eradication: Protest, Gender, and Politics in Colombia. (With [Juan C Angulo](https://sites.google.com/view/juancangulo)) *Under-review.* 
+* Coca Eradication, Social Mobilization, and Public Opinion: Evidence from a Survey Experiment in Colombia (With [Juan C Angulo](https://sites.google.com/view/juancangulo)) *Under-review.* 
 
 
-* Predicting Police and Military Misconduct: Evidence from Colombia and Mexico. [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498). 
 
-
-* Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).*Working Paper.*
+* Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).
 
 
 
@@ -48,6 +48,9 @@ pagetitle: "Research - Juan David Gelvez"
 <p>  </p> <!--- Agrega una linea en blanco --->
 
 <!--- Documentos  --->
+
+* R&R. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models . *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498).
+
 
 * 2024. Incentives War: The Consequences of Announcing a Substitution Policy on Coca Cultivation in Colombia. Journal of Illicit Economies and Development (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=en)). [Paper here](https://jied.lse.ac.uk/articles/10.31389/jied.202). 
 

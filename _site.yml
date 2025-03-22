@@ -21,6 +21,9 @@ navbar:
 
     - text: "Databases"
       href: databases.html
+
+    - text: "Service"
+      href: service.html
       
 # Theme https://bookdown.org/yihui/rmarkdown/html-document.html
 output:
