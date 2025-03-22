@@ -49,7 +49,7 @@ pagetitle: "Research - Juan David Gelvez"
 
 <!--- Documentos  --->
 
-* R&R. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models . *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498).
+* Forthcoming. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498).
 
 
 * 2024. Incentives War: The Consequences of Announcing a Substitution Policy on Coca Cultivation in Colombia. Journal of Illicit Economies and Development (With [Matilde Angarita](https://scholar.google.com/citations?user=rzL2kPcAAAAJ&hl=en)). [Paper here](https://jied.lse.ac.uk/articles/10.31389/jied.202). 
