@@ -13,7 +13,7 @@ pagetitle: "Research - Juan David Gelvez"
 
 
 
-## Selected Peer-reviewed publications
+## Selected peer-reviewed publications
 See the full list of my publications on [Google Scholar.](https://scholar.google.com/citations?user=U9OqP_4AAAAJ&hl=en)
 
 <p>  </p> <!--- Agrega una linea en blanco --->
