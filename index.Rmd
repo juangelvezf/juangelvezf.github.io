@@ -32,7 +32,7 @@ Ph.D. Candidate at the University of Maryland.
 <a href="https://scholar.google.com/citations?user=U9OqP_4AAAAJ&hl=en" style="color:black;"> <img alt="Qries" src="./images/google_scholar.png" width="20" height="20">  Google Scholar </a>
 
 <!-- GitHub -->
-<a href="https://github.com/juangelvezf" style="color:black;"> <img alt="Qries" src="./images/github.png" width="20" height="20">  juangelvezf</a>
+<a href="https://github.com/juangelvezf" style="color:black;"> <img alt="Qries" src="./images/github.png" width="20" height="20">  GitHub</a>
 
 </div>
 <!------------- Fin panel de la izquierda ------------->
