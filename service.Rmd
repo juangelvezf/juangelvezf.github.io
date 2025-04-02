@@ -59,7 +59,7 @@ Ph.D. Candidate at The University of Maryland, College Park.
 
 
 <!-- GitHub -->
-<a href="https://github.com/juangelvezf" style="color:black;"> <img alt="Qries" src="./images/github.png" width="20" height="20">  juangelvezf</a>
+<a href="https://github.com/juangelvezf" style="color:black;"> <img alt="Qries" src="./images/github.png" width="20" height="20">  GitHub</a>
 
 </div>
 <!------------- Panel de la derecha ------------->
