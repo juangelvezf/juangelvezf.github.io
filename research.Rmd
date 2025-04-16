@@ -20,12 +20,12 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 <!--- Documentos  --->
 
-* R&R. Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. *Policing and Society.* (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper in English here](https://osf.io/aebxy/).
+* R&R. Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. *Policing and Society.* (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).
 
-* Forthcoming. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Working Paper in English here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498).
+* Forthcoming. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498).
 
 
-* 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. Latin American Politics & Society (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper in English here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
+* 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. Latin American Politics & Society (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
 
 
 * 2022. Predicting crime in middle-size cities. A Machine Learning model in Bucaramanga, Colombia. URVIO- Latin American Journal of Crime Studies. FLACSO, Ecuador. (With [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230) and Carlos Rocha) [Paper in Spanish here](https://revistas.flacsoandes.edu.ec/urvio/article/view/5395/4193)
@@ -51,6 +51,8 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 * The Spatial Interplay of Climate Disasters, Armed Conflict, and Forced Displacement: Evidence from Colombia.	 (With [Leo Bauer](https://leo-bauer.com/)). *Submitted.* 
 
+* Weathering the Ballot Box:Retrospective Voting and Climate Disasters in Colombia. [Working Paper here](https://osf.io/preprints/osf/nfgmd_v1).
+
 * Who should guide climate policy? Public opinion evidence from Latin America. (With [Kathleen Gallagher Cunningham](https://gvpt.umd.edu/facultyprofile/cunningham/kathleen-gallagher) and [Flavia Batista](https://gvpt.umd.edu/gradprofile/batista-da-silva/flavia)). *Submitted.* 
 
 
@@ -58,10 +60,10 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 
 
-* Coca Politics: Exposure to Tough-on-Crime Policies, Electoral Accountability, and Public Opinion. [Working Paper here](https://osf.io/preprints/osf/yn9rz). 
+* Coca Politics: Exposure to Tough-on-Crime Policies, Electoral Accountability, and Public Opinion. [Working Paper here](https://osf.io/preprints/osf/yn9rz). *Submitted.* 
 
 
-* The Politics of Crime Prevention: Evidence From Colombia. *Submitted.*
+* The Politics of Crime Prevention: Evidence From Colombia. [Working Paper here](https://osf.io/preprints/osf/znyq5_v2).  *Under-review.* 
 
 
 * Coca Eradication, Social Mobilization, and Public Opinion: Evidence from a Survey Experiment in Colombia. (With [Juan C Angulo](https://sites.google.com/view/juancangulo)) *Under-review.* 
