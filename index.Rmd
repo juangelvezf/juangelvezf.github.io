@@ -48,7 +48,7 @@ Welcome! I am a Ph.D. Candidate and Researcher at <a href="https://ilcss.umd.edu
 
 I study comparative political behavior and the political economy of development, with a regional focus on Latin America. My main research interests include crime, climate disasters, and political attitudes. My work centers on using and advancing methods for drawing causal inferences from experimental and observational data, as well as from machine learning models.
 
-My work has been published or is currently under review in *Nature: Humanities and Social Sciences Communications*, *Latin American Politics and Society*, *Political Science Research and Methods*, *Policing & Society*, *Social Science Quarterly*, among other journals.
+My work has been published or is currently under review in *British Journal of Political Science*, *Nature: Humanities and Social Sciences Communications*, *Latin American Politics and Society*, *Political Science Research and Methods*, *Policing & Society*, *Social Science Quarterly*, among other journals.
 
 I have served as a consultant for the Inter-American Development Bank, and as a policymaker at Colombia’s National Planning Department. I was born and raised in Colombia, where I earned a Master’s in Public Policy and a B.S. in Government and Public Affairs from <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
 
@@ -65,7 +65,7 @@ You can find my CV (in English) <a href="https://juangelvezf.github.io/cv/Juan_G
 
 En mis investigaciones estudio comportamientos políticos y políticas públicas en América Latina. Mi investigación aborda temas relacionados con el crimen, los desastres climáticos, y diversas actitudes políticas hacia estos. En particular, me especializo en el uso y desarrollo de métodos para inferencia causal a partir de datos experimentales, observacionales y modelos de aprendizaje automatizado.
 
-Mi trabajo ha sido publicado o está actualmente en revisión en *Nature: Humanities and Social Sciences Communications*, *Latin American Politics and Society*, *Political Science Research and Methods*, *Policing & Society*, *Social Science Quarterly*, entre otras revistas.
+Mi trabajo ha sido publicado o está actualmente en revisión en *British Journal of Political Science*, *Nature: Humanities and Social Sciences Communications*, *Latin American Politics and Society*, *Political Science Research and Methods*, *Policing & Society*, *Social Science Quarterly*, entre otras revistas.
 
 He sido consultor para el Banco Interamericano de Desarrollo y como formulador de política pública en el Departamento Nacional de Planeación. Nací y crecí en múltiples partes de Colombia, donde obtuve una Maestría en Políticas Públicas y un pregrado en Gobierno y Asuntos Públicos en la <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
 
