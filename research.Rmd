@@ -20,7 +20,7 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 <!--- Documentos  --->
 
-* Forthcoming. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498).
+* Forthcoming. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498). [Media coverage here](https://www.cronica.com.mx/opinion/2025/05/13/si-tan-solo-hubiera-sabido/)
 
 * R&R.Coca Eradication, Social Mobilization, and Public Opinion: Evidence from a Survey Experiment in Colombia. (With [Juan C Angulo](https://sites.google.com/view/juancangulo)). *Latin American Politics & Society.* 
 
