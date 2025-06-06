@@ -20,7 +20,7 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 <!--- Documentos  --->
 
-* Forthcoming. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498). [Media coverage here](https://www.cronica.com.mx/opinion/2025/05/13/si-tan-solo-hubiera-sabido/).
+
 
 * R&R. Climate Disasters, Armed Conflict, and Forced Displacement: A 23-Year Spatial Regression Analysis in Colombia.	 (With [Leo Bauer](https://leo-bauer.com/)). *Social Science Quarterly*. 
 
@@ -29,6 +29,7 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 * R&R. Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. *Policing and Society.* (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).
 
+* 2025 Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Humanities and Social Sciences Communications - Nature.*  [Paper here](https://www.nature.com/articles/s41599-025-04967-w). [Media coverage here](https://scienmag.com/machine-learning-predicts-police-violence-in-latin-america/) and [here](https://www.cronica.com.mx/opinion/2025/05/13/si-tan-solo-hubiera-sabido/).
 
 * 2023. Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia. *Latin American Politics & Society* (With [Marcus Johnson](https://sites.google.com/umd.edu/marcusjohnsonphd/home?authuser=0)). [Paper here](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23), [Slides here](https://www.dropbox.com/s/5hoheqoxqejo9xm/Slides___Los_Nadies_y_las_Nadies.pdf?dl=0), and [Code here](https://github.com/juangelvezf/The-Nobodies). 
 
