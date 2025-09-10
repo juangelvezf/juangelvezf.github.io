@@ -15,7 +15,7 @@ pagetitle: "Databases - Juan David Gelvez"
 
 This section includes databases, replication files, and code that I have created or substantially contributed to as a main author or part of the leadership group.
 
-* Replication file for [Gelvez, J. D. (Forthcoming). Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4852498) is available [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGBZJ9O&version=DRAFT). 
+* Replication file for [Gelvez, J. D. (2025). Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models](https://www.nature.com/articles/s41599-025-04967-w) is available [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGBZJ9O&version=DRAFT). 
 
 
 * Database on States and Institutions of Governance in Latin America (SIGLA) for more than 20 countries across the region is [available here](https://sigla.georgetown.domains/gateway/).
