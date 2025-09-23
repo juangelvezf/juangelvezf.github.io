@@ -8,7 +8,7 @@ pagetitle: "Home - Juan David Gelvez"
 <div class="col-sm-4">
 
 <!-- Foto completa -->
-<img src="./images/profile2.png" class="center" alt="drawing" width="250" height="250"/>
+<img src="./images/profile1.png" class="center" alt="drawing" width="250" height="250"/>
 
 #### Juan David Gelvez
 
