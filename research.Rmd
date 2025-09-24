@@ -57,7 +57,7 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 * The Electoral Costs of the War on Drugs. [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4901913). 
 
 
-* The Politics of Crime Prevention: Evidence From Colombia. [Working Paper here](https://osf.io/preprints/osf/znyq5_v2).  *Under-review.* 
+* The Politics of Crime Prevention: Evidence From Colombia. [Working Paper here](https://doi.org/10.31219/osf.io/znyq5_v3).  *Under-review.* 
 
 
 * When Do Citizens Reject Tough-on-Crime Measures? Evidence from a Survey Experiment in Brazil. [Pre-Analysis Plan Here](https://osf.io/9yu24)
