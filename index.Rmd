@@ -46,7 +46,7 @@ Ph.D. Candidate at the University of Maryland.
 
 Welcome! I am a Ph.D. Candidate and Researcher at <a href="https://ilcss.umd.edu/">the University of Maryland (UMD)</a>.
 
-I study comparative political behavior and public policies, with a regional focus on Latin America. My main research interests include crime, illicit drugs, and climate disasters. My work centers on using and advancing methods for drawing causal inferences from experimental and observational data, as well as from machine learning models.
+I study comparative political behavior and public policy with a focus on Latin America. My research examines crime, illicit drugs, and climate disasters, and I use and develop methods to draw causal inferences from experimental and observational data as well as machine learning approaches.
 
 My work has been published or is currently under review in *British Journal of Political Science*, *Political Science Research and Methods*, *Nature:HSSC*, *Latin American Politics and Society*, *Governance*, *Policing & Society*, *Social Science Quarterly*, among other journals.
 
