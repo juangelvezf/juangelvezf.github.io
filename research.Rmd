@@ -23,8 +23,7 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 
  
-
-
+* *R&R*. The Electoral Costs of the War on Drugs. *Political Science Research and Methods*. [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4901913). 
 
 
 * *Forthcoming*. Rewards, Sanctions, and Trust in the Police: Evidence from Colombia. *Policing and Society.* (With [Cesar Mantilla](https://sites.google.com/site/cesarmantila/) and [María P. Nieto](https://co.linkedin.com/in/maria-paula-nieto-rodriguez-7911a6230)) [Data and replication code here](https://osf.io/v78zb/). [Working paper here](https://osf.io/aebxy/).
@@ -52,9 +51,6 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 ## Work in progress
 
 #### Crime, Police, and Illicit Drugs
-
-
-* The Electoral Costs of the War on Drugs. [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4901913). 
 
 
 * The Politics of Crime Prevention: Evidence From Colombia. [Working Paper here](https://doi.org/10.31219/osf.io/znyq5_v3).  *Under-review.* 
