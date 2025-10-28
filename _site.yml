@@ -22,14 +22,13 @@ navbar:
     - text: "Databases"
       href: databases.html
 
-    - text: "Service"
-      href: service.html
       
-# Theme https://bookdown.org/yihui/rmarkdown/html-document.html
 output:
-      html_document:
-                    theme: flatly
-                    mathjax: "http://example.com/MathJax.js"
-                    highlight: haddock
-                    css: css/style.css
-# Correr esto en la consola despues de cada cambio rmarkdown::render_site()
+  html_document:
+    theme: cerulean
+    mathjax: default
+    highlight: haddock
+    css: css/style.css
+    # Opcional: organiza las librerías usadas
+    # lib_dir: "site_libs"
+# Nota: Correr esto en la consola despues de cada cambio rmarkdown::render_site()
