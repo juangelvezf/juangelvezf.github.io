@@ -1,5 +1,5 @@
 ---
-pagetitle: "Home - Juan David Gelvez"
+pagetitle: "Sobre mí - Juan David Gelvez"
 ---
 
 <br>  </br> <!--- Agrega lineas en blanco --->
@@ -42,19 +42,18 @@ Ph.D. Candidate at the University of Maryland.
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
-#### About me:
+#### Sobre mí: 
 
-Welcome! I am a Ph.D. Candidate and Researcher at <a href="https://ilcss.umd.edu/">the University of Maryland (UMD)</a>.
+¡Bienvenida/o! Soy candidato a doctorado e investigador en la <a href="https://ilcss.umd.edu/">Universidad de Maryland (UMD)</a>.
 
-I study comparative political behavior and public policy with a focus on Latin America. My research examines crime, illicit drugs, and climate disasters, and I use and develop methods to draw causal inferences from experimental and observational data as well as machine learning approaches.
+En mis investigaciones estudio comportamientos políticos y políticas públicas en América Latina. Mi investigación aborda temas relacionados con el crimen, las drogas ilícitas y los desastres climáticos. En particular, me especializo en el uso y desarrollo de métodos para inferencia causal a partir de datos experimentales, observacionales y modelos de aprendizaje automatizado.
 
-My work has been published or is currently under review in *Journal of Politics*, *Political Science Research and Methods*, *Nature:HSSC*, *Latin American Politics and Society*, *Policing & Society*, among other journals.
+Mi trabajo ha sido publicado o está actualmente en revisión en *Journal of Politics*, *Political Science Research and Methods*, *Nature:HSSC*, *Latin American Politics and Society*, *Policing & Society*, entre otras revistas.
 
-I have served as a consultant for the Inter-American Development Bank, and as a policymaker at Colombia’s National Planning Department. I was born and raised in Colombia, where I earned a Master’s in Public Policy and a B.S. in Government and Public Affairs from <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
+He sido consultor para el Banco Interamericano de Desarrollo y como formulador de política pública en el Departamento Nacional de Planeación. Nací y crecí en múltiples partes de Colombia, donde obtuve una Maestría en Políticas Públicas y un pregrado en Gobierno y Asuntos Públicos en la <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
 
 
-You can find my CV (in English) <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_cv.pdf">here</a>.
-
+Mi hoja de vida (en español) se puede descargar <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_cv_esp.pdf">aquí</a>.
 
 
 <br>  </br> <!--- Agrega lineas en blanco --->
