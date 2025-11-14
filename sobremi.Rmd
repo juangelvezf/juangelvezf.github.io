@@ -48,7 +48,7 @@ Ph.D. Candidate at the University of Maryland.
 
 En mis investigaciones estudio comportamientos políticos y políticas públicas en América Latina. Mi investigación aborda temas relacionados con el crimen, las drogas ilícitas y los desastres climáticos. En particular, me especializo en el uso y desarrollo de métodos para inferencia causal a partir de datos experimentales, observacionales y modelos de aprendizaje automatizado.
 
-Mi trabajo ha sido publicado o está actualmente en revisión en *Journal of Politics*, *Political Science Research and Methods*, *Nature:HSSC*, *Latin American Politics and Society*, *Policing & Society*, entre otras revistas.
+Mi trabajo ha sido publicado en *Nature:HSSC*, *Latin American Politics and Society*, *Policing & Society*, entre otras revistas.
 
 He sido investigador (*pre-doctoral fellow*) en la <a href="https://sigla.georgetown.domains/gateway/sigla-alumni/">Universidad de Georgetown</a>, consultor académico para el Banco Inter-Americano de Desarrollo, y formulador de política pública en el Departamento Nacional de Planeación. Nací y crecí en múltiples partes de Colombia, donde obtuve una Maestría en Políticas Públicas y un pregrado en Gobierno y Asuntos Públicos en la <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
 
