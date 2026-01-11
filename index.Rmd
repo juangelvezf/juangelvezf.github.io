@@ -44,7 +44,7 @@ Ph.D. Candidate at the University of Maryland.
 
 #### About me:
 
-Welcome! I am a Ph.D. Candidate and Researcher at <a href="https://ilcss.umd.edu/">the University of Maryland (UMD)</a>.
+Welcome! I am a Ph.D. Candidate and Researcher at <a href="https://ilcss.umd.edu/">Interdisciplinary Laboratory of Computational Social Science (iLCSS)</a> at the University of Maryland (UMD).
 
 I study comparative political behavior and public policy with a focus on Latin America. My research examines crime, illicit drugs, and climate disasters, and I use and develop methods to draw causal inferences from experimental and observational data as well as machine learning approaches.
 
