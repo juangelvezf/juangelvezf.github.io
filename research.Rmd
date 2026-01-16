@@ -21,9 +21,14 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 <!--- Documentos  --->
 
 
-
  
 * *R&R*. The Electoral Costs of the War on Drugs. *Political Science Research and Methods*. [Working Paper here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4901913). 
+
+
+* *R&R*. The Politics of Crime Prevention: Evidence From Colombia. *Political Studies.* [Working Paper here](https://doi.org/10.31219/osf.io/znyq5_v3).  
+
+* *R&R*. Who should guide climate policy? Public opinion evidence from Latin America. *The Revista Latinoamericana de Opinión Pública (RLOP).*  (With [Kathleen Gallagher Cunningham](https://gvpt.umd.edu/facultyprofile/cunningham/kathleen-gallagher) and [Flavia Batista](https://gvpt.umd.edu/gradprofile/batista-da-silva/flavia)). 
+
 
 * 2025. Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models. *Nature - Humanities and Social Sciences Communications.*  [Paper here](https://www.nature.com/articles/s41599-025-04967-w). Media coverage [here](https://scienmag.com/machine-learning-predicts-police-violence-in-latin-america/) and [here](https://www.cronica.com.mx/opinion/2025/05/13/si-tan-solo-hubiera-sabido/).
 
@@ -51,16 +56,15 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 #### Crime, Police, and Illicit Drugs
 
+* Marijuana Legalization and Cross-Country Violence Dynamics. (With [Juan C Angulo](https://sites.google.com/view/juancangulo)). 
 
-* The Politics of Crime Prevention: Evidence From Colombia. [Working Paper here](https://doi.org/10.31219/osf.io/znyq5_v3).  *Under-review.* 
+* When Do Citizens Reject Tough-on-Crime Measures? Evidence from a Survey Experiment in Brazil. [Pre-Analysis Plan Here](https://osf.io/9yu24).
 
-
-* When Do Citizens Reject Tough-on-Crime Measures? Evidence from a Survey Experiment in Brazil. [Pre-Analysis Plan Here](https://osf.io/9yu24)
-
+* When Is Crime Trending? Evidence from Latin America. (With [Giancarlo Visconti](https://www.giancarlovisconti.com/) and [Yuri Saldarriaga](https://gvpt.umd.edu/gradprofile/saldarriaga/yuri)). 
 
 #### Climate Disasters Politics and Policy
 
-* Climate Disasters, Deservingness, and Public Opinion about Government Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/9qesu)
+* Climate Disasters, Deservingness, and Public Opinion about Government Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/9qesu).
 
 
 * The (In)visibility of Race in Colombia’s Climate Disaster Assistance. (With [Isabella Alcañiz](http://gvptsites.umd.edu/alcaniz/)) [Pre-analysis plan here](https://osf.io/6ty4k) and [Poster here](https://www.dropbox.com/s/jeqziqslw5vk8dk/Poster%20-%20climate%20disasters%20and%20race.pptx.pdf?dl=0). *Working Paper*
@@ -68,7 +72,6 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 * Weathering the Ballot Box:Retrospective Voting and Climate Disasters in Colombia. [Working Paper here](https://osf.io/preprints/osf/nfgmd_v1).
 
-* Who should guide climate policy? Public opinion evidence from Latin America. (With [Kathleen Gallagher Cunningham](https://gvpt.umd.edu/facultyprofile/cunningham/kathleen-gallagher) and [Flavia Batista](https://gvpt.umd.edu/gradprofile/batista-da-silva/flavia)). *Submitted.* 
 
 
 
