@@ -17,9 +17,13 @@ This section includes databases, replication files, and code that I have created
 
 * Replication file for [Gelvez, J. D. (2025). Predicting Police and Military Violence: Evidence from Colombia and Mexico Using Machine Learning Models](https://www.nature.com/articles/s41599-025-04967-w) is available [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGBZJ9O&version=DRAFT). 
 
-* Database on States and Institutions of Governance in Latin America (SIGLA) for more than 20 countries across the region is [available here](https://sigla.georgetown.domains/gateway/).
+* Replication file for [Gelvez, J. D. and Angulo, J.C (2025). Public Opinion on Forced Eradication: The Role of Collective Dissent and Race in Colombia](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/public-opinion-on-forced-eradication-the-role-of-collective-dissent-and-race-in-colombia/A8DE1349080A485C05EF1AFEA15A2A4A?utm_date=20251030&utm_id=1761813743&utm_campaign=JPS,Open%20Access&utm_source=twitter&utm_medium=social&utm_content) is available [here]( https://doi.org/10.7910/DVN/TUIHY0). 
+
 
 * Replication file for [Gelvez, J. D., Mantilla, C., & Nieto, M. P. (2025). Rewards, Sanctions, and Trust in the Police: Evidence from Colombia.](https://doi.org/10.1080/10439463.2025.2576824) is available [here]([Supplemental Material](https://www.tandfonline.com/doi/suppl/10.1080/10439463.2025.2576824?scroll=top))
+
+* Database on States and Institutions of Governance in Latin America (SIGLA) for more than 20 countries across the region is [available here](https://sigla.georgetown.domains/gateway/).
+
 
 * Replication file for [Gelvez, J. D., & Johnson, M. (2023). Los nadies y las nadies: The Effect of Peacebuilding on Political Behavior in Colombia.](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/los-nadies-y-las-nadies-the-effect-of-peacebuilding-on-political-behavior-in-colombia/055EF9BF86DFA9C71BF96B437E1557D0?utm_source=hootsuite&utm_medium=twitter&utm_campaign=LAP_Nov23) is available [here](https://github.com/juangelvezf/The-Nobodies). 
 
