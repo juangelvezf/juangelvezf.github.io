@@ -26,8 +26,6 @@ pagetitle: "Teaching - Juan David Gelvez"
 
 * **Public Policy** <br>
   Graduated Students, 2020 and 2021 <br>
-  [Syllabus and slides](https://www.dropbox.com/sh/lhta1m6ct1icf6d/AADpVpNz9QotErNk47FidRsea?dl=0)
-
 
 #### Teaching assistant at Universidad de Los Andes, Colombia
 
@@ -74,7 +72,7 @@ When asked, “What about the course and/or instruction most enhanced your learn
 
 #### Juan David Gelvez
 
-Ph.D. student at The University of Maryland, College Park.
+Ph.D. Candidate at The University of Maryland, College Park.
 
 <!-- Location -->
 <a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
