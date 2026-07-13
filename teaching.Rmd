@@ -16,9 +16,6 @@ pagetitle: "Teaching - Juan David Gelvez"
 
 #### Instructor of record at the University of Maryland
 
-* **Scope and Methods for Political Science Research**  <br>
-  Undergraduate, 2026 <br>
-  
 * **Introduction to Environmental Politics**  <br>
   Undergraduate, 2025 <br>
 
@@ -72,13 +69,14 @@ When asked, “What about the course and/or instruction most enhanced your learn
 
 #### Juan David Gelvez
 
-Ph.D. Candidate at The University of Maryland, College Park.
+Research Fellow at GIGA
 
 <!-- Location -->
-<a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
+<a href="https://www.google.com/maps/place/Hamburg,+Germany/data=!4m2!3m1!1s0x47b161837e1813b9:0x4263df27bd63aa0?sa=X&ved=1t:242&ictx=111" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Hamburg, Germany.</a>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvez@giga-hamburg.de </img></p>
+
 
 <!-- Correo -->
 <p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvezf@gmail.com </img></p>

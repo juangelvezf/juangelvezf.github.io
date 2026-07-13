@@ -8,19 +8,19 @@ pagetitle: "Sobre mí - Juan David Gelvez"
 <div class="col-sm-4">
 
 <!-- Foto completa -->
-<img src="./images/profile1.png" class="center" alt="drawing" width="250" height="250"/>
+<img src="./images/profile3.png" class="center" alt="drawing" width="250" height="250"/>
 
 #### Juan David Gelvez
 
 <div style="text-align: left">
-Ph.D. Candidate at the University of Maryland.
+Research Fellow at GIGA
 </div>
 
 <!-- Location -->
-<a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
+<a href="https://www.google.com/maps/place/Hamburg,+Germany/data=!4m2!3m1!1s0x47b161837e1813b9:0x4263df27bd63aa0?sa=X&ved=1t:242&ictx=111" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Hamburg, Germany.</a>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvez@giga-hamburg.de </img></p>
 
 <!-- Correo -->
 <p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvezf@gmail.com </img></p>
@@ -44,33 +44,21 @@ Ph.D. Candidate at the University of Maryland.
 
 #### Sobre mí: 
 
-¡Bienvenida/o! Soy candidato a doctorado e investigador en el
-<a href="https://ilcss.umd.edu/">Interdisciplinary Laboratory of Computational Social Science (iLCSS)</a> en la Universidad de Maryland (UMD).
+¡Bienvenida/o!
 
-En mis investigaciones estudio comportamientos políticos y políticas públicas en América Latina. Mi investigación aborda temas relacionados con el crimen, las drogas ilícitas y los desastres climáticos. En particular, me especializo en el uso y desarrollo de métodos para inferencia causal a partir de datos experimentales, observacionales y modelos de aprendizaje automatizado.
+Soy investigador entrante (*research fellow*) en <a href="https://www.giga-hamburg.de/en">GIGA</a> — German Institute for Global and Area Studies — en Hamburgo.
 
-Mi trabajo ha sido publicado en *Nature:HSSC*, *Social Science Quarterly*, *Policing & Society*, *Latin American Politics and Society*, entre otras revistas.
+Completé mi doctorado en Ciencia Política en la Universidad de Maryland (UMD), donde fui investigador en el <a href="https://ilcss.umd.edu/">(iLCSS)</a>.
 
-He sido investigador (*doctoral fellow*) en la <a href="https://sigla.georgetown.domains/gateway/sigla-alumni/">Universidad de Georgetown</a>, consultor académico para el Banco Inter-Americano de Desarrollo, y formulador de política pública en el Departamento Nacional de Planeación. Nací y crecí en múltiples regiones de Colombia, donde obtuve una Maestría en Políticas Públicas y un pregrado en Gobierno y Asuntos Públicos en la <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
+Estudio comportamiento político y política pública, con un enfoque en América Latina. Mi investigación examina el crimen y las drogas ilícitas, y utilizo métodos para hacer inferencias causales a partir de datos experimentales y observacionales, así como enfoques de aprendizaje automático (*machine learning*).
 
+Mi trabajo ha sido publicado en *Political Studies*, *Nature:HSSC*, *Social Science Quarterly*, *Policing & Society*, *Latin American Politics and Society*, entre otras revistas.
 
 Mi hoja de vida (en español) se puede descargar <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_cv_esp.pdf">aquí</a>.
-You can find my CV (in English) <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_cv.pdf">here</a>.
 
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
-##### Contact me
-
-<p style="color:black">Department of Government and Politics, University of Maryland.
-
-3140 Tydings Hall, 7343 Preinkert Drive, College Park, MD 20742</p>
-
-<!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="17" height="17"> jgelvez@umd.edu </img></p>
-
-<!-- Tel -->
-<p style="color:black"> <img alt="Qries" src="./images/tel.png" width="17" height="17"> (+1) 2404130615 </img></p>
 
 </div> <!--- FIn del panel de la derecha --->
 

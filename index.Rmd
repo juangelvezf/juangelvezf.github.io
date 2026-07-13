@@ -8,19 +8,19 @@ pagetitle: "Home - Juan David Gelvez"
 <div class="col-sm-4">
 
 <!-- Foto completa -->
-<img src="./images/profile1.png" class="center" alt="drawing" width="250" height="250"/>
+<img src="./images/profile3.png" class="center" alt="drawing" width="250" height="250"/>
 
 #### Juan David Gelvez
 
-<div style="text-align: left">
-Ph.D. Candidate at the University of Maryland.
-</div>
+
+Research Fellow at GIGA
 
 <!-- Location -->
-<a href="https://www.google.com/maps/place/Washington+D.+C.,+Distrito+de+Columbia/@38.8938672,-77.0846157,12z/data=!3m1!4b1!4m5!3m4!1s0x89b7c6de5af6e45b:0xc2524522d4885d2a!8m2!3d38.9071923!4d-77.0368707" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Washington, DC.</a>
+<a href="https://www.google.com/maps/place/Hamburg,+Germany/data=!4m2!3m1!1s0x47b161837e1813b9:0x4263df27bd63aa0?sa=X&ved=1t:242&ictx=111" style="color:black;"> <img alt="Qries" src="./images/location.png" width="20" height="20">  Hamburg, Germany.</a>
 
 <!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> jgelvez@umd.edu </img></p>
+<p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvez@giga-hamburg.de </img></p>
+
 
 <!-- Correo -->
 <p style="color:black"><img alt="Qries" src="./images/correo.png" width="20" height="20"> juan.gelvezf@gmail.com </img></p>
@@ -44,34 +44,26 @@ Ph.D. Candidate at the University of Maryland.
 
 #### About me:
 
-Welcome! I am a Ph.D. Candidate and Researcher at <a href="https://ilcss.umd.edu/">Interdisciplinary Laboratory of Computational Social Science (iLCSS)</a> at the University of Maryland (UMD).
+Welcome!
 
-I study comparative political behavior and public policy with a focus on Latin America. My research examines crime, illicit drugs, and climate disasters, and I use and develop methods to draw causal inferences from experimental and observational data as well as machine learning approaches.
+I'm an incoming research fellow at <a href="https://www.giga-hamburg.de/en">GIGA</a> — the German Institute for Global and Area Studies — in Hamburg.
 
-My work has been published in *Nature:HSSC*, *Social Science Quarterly*, *Policing & Society*, *Latin American Politics and Society*, among other journals.
+I completed my Ph.D. in Government and Politics at the University of Maryland (UMD), where I was a researcher at <a href="https://ilcss.umd.edu/">(iLCSS)</a>.
 
-I have served as a research faculty (*doctoral fellow*) at <a href="https://sigla.georgetown.domains/gateway/sigla-alumni/">Georgetown University</a>, as a research consultant for the Inter-American Development Bank, and as a policymaker at Colombia’s National Planning Department. I was born and raised in Colombia, where I earned a Master’s in Public Policy and a B.S. in Government and Public Affairs from <a href="https://gobierno.uniandes.edu.co/">Universidad de los Andes</a>.
+I study political behavior and public policy with a focus on Latin America. My research examines crime and illicit drugs, and I use methods to draw causal inferences from experimental and observational data as well as machine learning approaches.
+
+My work has been published in *Political Studies*, *Nature:HSSC*, *Social Science Quarterly*, *Policing & Society*, *Latin American Politics and Society*, among other journals.
+
 
 
 
 You can find my CV (in English) <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_cv.pdf">here</a>.
 
-Mi hoja de vida (en español) se puede descargar <a href="https://juangelvezf.github.io/cv/Juan_Gelvez_cv_esp.pdf">aquí</a>.
 
 
 <br>  </br> <!--- Agrega lineas en blanco --->
 
-##### Contact me
 
-<p style="color:black">Department of Government and Politics, University of Maryland.
-
-3140 Tydings Hall, 7343 Preinkert Drive, College Park, MD 20742</p>
-
-<!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width="17" height="17"> jgelvez@umd.edu </img></p>
-
-<!-- Tel -->
-<p style="color:black"> <img alt="Qries" src="./images/tel.png" width="17" height="17"> (+1) 2404130615 </img></p>
 
 </div> <!--- FIn del panel de la derecha --->
 

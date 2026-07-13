@@ -1,36 +1,31 @@
-title: "Juan David Gelvez"  
+title: "Juan David Gelvez"
 name: "Juan David Gelvez"
 output_dir: "."
 
- 
 # Navegation bar
 navbar:
-  title: "Juan David Gelvez"  
-  type: inverse
+  title: "Juan David Gelvez"
+  type: default
   right:
     - text: "Home"
       icon: fa-home
       href: index.html
     - text: "Sobre mí"
       href: sobremi.html
-
     - text: "Research"
       href: research.html
     - text: "CV"
       href: cv/Juan_Gelvez_cv.pdf
-
     - text: "Teaching"
       href: teaching.html
-
     - text: "Databases"
       href: databases.html
 
-      
 output:
   html_document:
-    theme: spacelab
+    theme: readable
     mathjax: default
-    highlight: haddock
+    highlight: pygments
     css: css/style.css
     # Opcional: organiza las librerías usadas
     # lib_dir: "site_libs"

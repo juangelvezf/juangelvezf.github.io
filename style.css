@@ -1,0 +1,118 @@
+/* ==== Juan David Gelvez — site theme ==== */
+
+:root {
+  --accent: #2fa4e7;
+  --accent-dark: #1a75b3;
+  --ink: #2c3e50;
+  --muted: #6c7a89;
+  --card-bg: #f8fafc;
+  --card-border: #e2e8f0;
+}
+
+body {
+  color: var(--ink);
+  line-height: 1.65;
+  font-size: 14px;
+}
+
+/* Justify running text (About me, Sobre mí, Research, etc.) */
+.col-sm-8 p, .col-sm-9 p {
+  text-align: justify;
+}
+
+/* Navbar */
+.navbar-inverse {
+  background-color: var(--ink);
+  border-color: var(--ink);
+}
+.navbar-inverse .navbar-brand {
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  transition: color .15s ease;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: var(--accent);
+}
+
+/* Headings */
+h2, h3, h4, h5 {
+  color: var(--ink);
+  font-weight: 600;
+}
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 17px; }
+h5 { font-size: 15px; }
+h4 {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+.navbar { font-size: 13px; }
+
+/* Profile photo */
+img.center {
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  border: 4px solid var(--card-bg);
+  box-shadow: 0 0 0 1px var(--card-border);
+}
+
+/* Sidebar / contact panel */
+.col-sm-4, .col-sm-3 {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+
+/* Links */
+a {
+  color: var(--accent-dark);
+}
+a:hover, a:focus {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Social / contact rows: turn the icon+text lines into tidy pill-style rows */
+.col-sm-4 p a, .col-sm-3 p a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  padding: 4px 0;
+  transition: color .15s ease, transform .15s ease;
+}
+.col-sm-4 p a:hover, .col-sm-3 p a:hover {
+  color: var(--accent);
+  transform: translateX(2px);
+}
+.col-sm-4 img, .col-sm-3 img {
+  opacity: .85;
+}
+
+/* Body text column */
+.col-sm-8, .col-sm-9 {
+  padding-left: 28px;
+}
+
+/* Lists (research/databases) */
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+/* Blockquote-style student evaluation comments on Teaching page */
+em {
+  color: var(--muted);
+}
+
+/* Footer breathing room */
+.main-container {
+  padding-bottom: 40px;
+}
