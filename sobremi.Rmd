@@ -48,7 +48,7 @@ Research Fellow at GIGA
 
 Soy investigador entrante (*research fellow*) en <a href="https://www.giga-hamburg.de/en">GIGA</a> — German Institute for Global and Area Studies — en Hamburgo.
 
-Completé mi doctorado en Ciencia Política en la Universidad de Maryland (UMD), donde fui investigador en el <a href="https://ilcss.umd.edu/">(iLCSS)</a>.
+Completé mi doctorado en Ciencia Política en la Universidad de Maryland (UMD), donde fui investigador en el <a href="https://ilcss.umd.edu/">iLCSS</a>.
 
 Estudio comportamiento político y política pública, con un enfoque en América Latina. Mi investigación examina el crimen y las drogas ilícitas, y utilizo métodos para hacer inferencias causales a partir de datos experimentales y observacionales, así como enfoques de aprendizaje automático (*machine learning*).
 
