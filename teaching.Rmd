@@ -11,20 +11,20 @@ pagetitle: "Teaching - Juan David Gelvez"
 
 ## Teaching
 
-### Experience
+#### Experience
 
 
-#### Instructor of record at the University of Maryland
+##### Instructor of record at the University of Maryland
 
 * **Introduction to Environmental Politics**  <br>
   Undergraduate, 2025 <br>
 
-#### Lecturer at the Graduate School of the National Police, Colombia
+##### Lecturer at the Graduate School of the National Police, Colombia
 
 * **Public Policy** <br>
-  Graduated Students, 2020 and 2021 <br>
+  Graduate Students, 2020 and 2021 <br>
 
-#### Teaching assistant at Universidad de Los Andes, Colombia
+##### Teaching assistant at Universidad de Los Andes, Colombia
 
 * **Solutions to the problem of crime**  <br>
   Masters, 2019 <br>
