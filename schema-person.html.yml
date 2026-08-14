@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://juangelvezf.github.io/#person",
+  "name": "Juan David Gelvez",
+  "url": "https://juangelvezf.github.io/",
+"image": "https://juangelvezf.github.io/images/profile3.png",  
+"jobTitle": "Postdoctoral Researcher",
+  "description": "Political scientist studying crime, security, political behavior, and public policy in Latin America.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "German Institute for Global and Area Studies",
+    "alternateName": "GIGA",
+    "url": "https://www.giga-hamburg.de/"
+  },
+  "knowsAbout": [
+    "Political Science",
+    "Public Policy",
+    "Crime and Security",
+    "Political Behavior",
+    "Latin America",
+    "Causal Inference",
+    "Machine Learning"
+  ],
+  "sameAs": [
+    "https://orcid.org/0000-0001-7526-8384",
+    "https://scholar.google.com/citations?user=U9OqP_4AAAAJ&hl=en",
+    "https://gvpt.umd.edu/gradprofile/gelvez/juan-david",
+    "https://www.giga-hamburg.de/en/the-giga/team/gelvez-ferreira-juan-david"
+  ]
+}
+</script>
