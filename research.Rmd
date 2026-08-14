@@ -54,13 +54,27 @@ See the full list of my publications on [Google Scholar.](https://scholar.google
 
 ## Work in progress
 
+#### Computational Politics
+
+* Geolocated Polling-Station Panel of Colombian Presidential Elections with Linked Census Neighborhoods, 2006--2022. (With [Eduard Martinez](https://eduard-martinez.github.io/), [Manuela Muñoz](https://www.manuelamunoz.com/), Andrea Guerrero, and Laura Sinisterra)
+
+
+* How Structurally Predictable Is an Election? A Machine-Learning Approach to Territorial Electoral Alignment. (With Alejandro Cardiles, [Eduard Martinez](https://eduard-martinez.github.io/), and [Manuela Muñoz](https://www.manuelamunoz.com/))
+
+* Beyond the binary: LLM's and ordinal coding. (With [Oja Pathak ](https://gvpt.umd.edu/gradprofile/pathak/ojashwi), [Johanna Birnir](https://johannabirnir.com/), and others) 
+
+
 #### Crime, Police, and Illicit Drugs
 
 * Marijuana Legalization and Cross-Country Violence Dynamics. (With [Juan C Angulo](https://sites.google.com/view/juancangulo)). 
 
+* The Politics of Crime Coverage: Evidence from Latin America. (With [Giancarlo Visconti](https://www.giancarlovisconti.com/) and [Yuri Saldarriaga](https://gvpt.umd.edu/gradprofile/saldarriaga/yuri)). 
+
+* Narco-Terrorist Interdiction and Its Spillovers: U.S. Maritime Operations in the Caribbean (With [Omar Garcia-Ponce](https://www.omargarciaponce.com/)). 
+
 * When Do Citizens Reject Tough-on-Crime Measures? Evidence from a Survey Experiment in Brazil. [Pre-Analysis Plan Here](https://osf.io/9yu24).
 
-* When Is Crime Trending? Evidence from Latin America. (With [Giancarlo Visconti](https://www.giancarlovisconti.com/) and [Yuri Saldarriaga](https://gvpt.umd.edu/gradprofile/saldarriaga/yuri)). 
+
 
 #### Climate Disasters Politics and Policy
 
